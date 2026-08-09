@@ -275,6 +275,10 @@ PLACE_MENTION_PATTERNS = (
         r"(?P<place>[^，。！？,\s\n]{1,30})\s*(?:现在|此刻)\s*"
         r"(?:是|在)\s*凌晨\s*四点"
     ),
+    re.compile(
+        r"(?:我们)?(?P<place>[^，。！？,\n]{1,60}?)\s*"
+        r"(?:[（(][^）)\n]*[）)])?\s*的\s*凌晨\s*四点(?:见)?"
+    ),
 )
 
 
@@ -848,7 +852,8 @@ def command_apply_mentioned_location(args: argparse.Namespace) -> None:
         int(job["source"]["publishedTimestamp"]), timezone.utc
     )
     local_time = published_utc.astimezone(ZoneInfo(location["timezone"]))
-    if local_time.hour != 4:
+    local_time_mismatch = local_time.hour != 4
+    if local_time_mismatch and not args.allow_time_mismatch:
         raise PipelineError(
             "mentioned_location_not_four_am",
             f"{location['label']} is {local_time.isoformat()}, not 04:xx.",
@@ -862,6 +867,8 @@ def command_apply_mentioned_location(args: argparse.Namespace) -> None:
         "locationId": location["id"],
         "matchedAlias": alias,
     }
+    if local_time_mismatch:
+        job["mentionedLocation"]["localTimeMismatchAccepted"] = True
     job["background"] = None
     job.pop("candidateManifest", None)
     job.pop("locationFallback", None)
@@ -1106,8 +1113,14 @@ def command_validate(_: argparse.Namespace) -> None:
     for job in jobs:
         job_id = str(job.get("id") or "<missing-id>")
         local_value = job.get("location", {}).get("localTimeAtDynamic")
+        accepted_named_place_mismatch = bool(
+            (job.get("mentionedLocation") or {}).get("localTimeMismatchAccepted")
+        )
         try:
-            if datetime.fromisoformat(str(local_value)).hour != 4:
+            if (
+                datetime.fromisoformat(str(local_value)).hour != 4
+                and not accepted_named_place_mismatch
+            ):
                 errors.append(f"{job_id}: local time is not 04:xx")
         except ValueError:
             errors.append(f"{job_id}: invalid local time")
@@ -1197,6 +1210,11 @@ def build_parser() -> argparse.ArgumentParser:
     mention_parser.add_argument(
         "--location-id",
         help="Use this configured location when the alias cannot be resolved automatically",
+    )
+    mention_parser.add_argument(
+        "--allow-time-mismatch",
+        action="store_true",
+        help="Honor a confirmed named place even when the publication timestamp is not 04:xx there",
     )
     mention_parser.set_defaults(func=command_apply_mentioned_location)
 

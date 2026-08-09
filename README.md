@@ -12,9 +12,9 @@ The pipeline now separates deterministic code, Agent work, and human publication
 4. only approved jobs enter `data/posts.json`, which powers the feed-style site;
 5. no scheduled run stages, commits, or pushes Git changes.
 
-Character QA treats the two vertically stacked tear moles on her anatomical left cheek (viewer-right in a frontal view) as a required identity feature. Each image also uses exactly one neck accessory—red scarf or traffic-light pendant—selected independently of shot scale.
+Character QA treats the two vertically stacked tear moles on her anatomical left cheek (viewer-right in a frontal view) as a required identity feature. Her black pleated skirt is always an over-knee midi skirt with the hem clearly below the kneecaps in the upper-calf area, never knee-length or shorter. Each image also uses exactly one neck accessory—red scarf or traffic-light pendant—selected independently of shot scale; a pendant may be naturally occluded in a genuine side/back pose as long as no scarf or substitute accessory appears.
 
-Explicit phrases such as `现在是冰岛的凌晨四点` are matched against the aliases in `data/locations.json`. A resolved named place is authoritative: the background search stays there, prefers a real road sign, and may use a signless real street photo when no signed view is available. Unknown place names stop in `needs_location_resolution` instead of silently assigning another country.
+Explicit phrases such as `现在是冰岛的凌晨四点` and event-style phrases such as `我们法属波里尼西亚的甘比尔群岛……凌晨四点见` are matched against the aliases in `data/locations.json`. A resolved named place is authoritative: the background search stays there, prefers a real road sign, and may use a signless real street photo when no signed view is available. Unknown place names stop in `needs_location_resolution` instead of silently assigning another country. When an event-style mention conflicts with the publication timestamp, a confirmed place override must be recorded explicitly; the job must never be silently relocated to make the timestamp fit.
 
 The Bilibili monitor uses a persistent login at `~/.config/bilibili/cookies.json`. Create it once by scanning a QR code:
 

@@ -118,6 +118,24 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(mention["text"], "冰岛")
         self.assertEqual(mention["resolution"], "catalog_alias")
 
+    def test_country_name_and_event_style_place_mentions_resolve(self) -> None:
+        locations = pipeline.read_json(pipeline.LOCATIONS_PATH)["locations"]
+        cases = (
+            ("现在是加纳共和国的凌晨四点多哦？", "加纳共和国", "accra"),
+            (
+                "我们法属波里尼西亚的甘比尔群岛 （好长）的凌晨四点见+",
+                "法属波里尼西亚的甘比尔群岛",
+                "rikitea",
+            ),
+        )
+        for summary, expected_place, expected_location_id in cases:
+            with self.subTest(summary=summary):
+                place = pipeline.extract_mentioned_place(summary)
+                self.assertEqual(place, expected_place)
+                matched = pipeline.match_mentioned_location(place, locations)
+                self.assertIsNotNone(matched)
+                self.assertEqual(matched[0]["id"], expected_location_id)
+
     def test_unconfigured_place_mention_waits_for_resolution(self) -> None:
         locations = pipeline.read_json(pipeline.LOCATIONS_PATH)["locations"]
         dynamic = {

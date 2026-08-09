@@ -112,6 +112,30 @@
       "placementSide": "left",
       "neckAccessory": "traffic_light_pendant",
       "acceptedAt": "2026-08-09T06:10:18.843132Z"
+    },
+    {
+      "jobId": "bili-1232939034566721539",
+      "shotScale": "knee_up",
+      "poseFamily": "hold_warm_drink",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-09T08:17:11.618296Z"
+    },
+    {
+      "jobId": "bili-1234012909572456497",
+      "shotScale": "environmental_wide",
+      "poseFamily": "crossing_at_dawn",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T08:17:11.685127Z"
+    },
+    {
+      "jobId": "bili-1234175706002358279",
+      "shotScale": "full_body",
+      "poseFamily": "playful_balanced_step",
+      "placementSide": "left",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T08:17:11.751716Z"
     }
   ]
 }

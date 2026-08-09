@@ -3,7 +3,7 @@
   "jobs": [
     {
       "id": "bili-1232939034566721539",
-      "status": "pending_background",
+      "status": "approved",
       "createdAt": "2026-08-09T04:59:46.555496Z",
       "source": {
         "dynamicId": "1232939034566721539",
@@ -29,30 +29,119 @@
         "providers": [
           "panoramax-osm"
         ],
-        "localTimeAtDynamic": "2026-08-05T04:33:09+00:00"
+        "staticCandidates": [
+          {
+            "id": "commons-road-sign-east-legon",
+            "providerId": "wikimedia-commons",
+            "providerName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_sign_in_East_Legon.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Road_sign_in_East_Legon.jpg",
+            "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Road_sign_in_East_Legon.jpg",
+            "latitude": 5.6037,
+            "longitude": -0.187,
+            "capturedAt": "2020-03-09",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "creator": "JulianGrayscales",
+            "trafficSignDetections": 1,
+            "fieldOfView": null,
+            "reuseThumbnailAsImage": true
+          }
+        ],
+        "localTimeAtDynamic": "2026-08-05T04:33:09+00:00",
+        "selectionReason": "dynamic_mentioned_place"
       },
-      "background": null,
+      "background": {
+        "id": "wikimedia-commons-commons-road-sign-east-legon",
+        "file": "assets/backgrounds/bili-1232939034566721539-commons-.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "commons-road-sign-east-legon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_sign_in_East_Legon.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Road_sign_in_East_Legon.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "JulianGrayscales",
+        "location": "Accra, Ghana",
+        "timezone": "Africa/Accra",
+        "latitude": 5.6037,
+        "longitude": -0.187,
+        "capturedAt": "2020-03-09",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": true,
+        "signRequirementWaived": false,
+        "fieldOfView": null,
+        "viewSource": "provider_perspective_thumbnail"
+      },
       "generation": {
-        "promptVersion": "komichi-composite-v3-human-review",
-        "revision": 1,
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 3,
         "shotScale": "knee_up",
         "poseFamily": "hold_warm_drink",
         "expression": "playful sleepy smile",
         "placementSide": "left",
         "neckAccessory": "red_scarf"
       },
-      "output": null,
-      "agentQa": null,
-      "humanReview": {
-        "decision": null,
-        "decidedAt": null,
-        "notes": null
+      "output": {
+        "revision": 3,
+        "file": "assets/generated/bili-1232939034566721539-v3.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1232939034566721539-v3.png",
+        "generatedAt": "2026-08-09T08:15:35.531506Z"
       },
-      "history": []
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent preflight pass: authoritative real East Legon/Accra sign remains legible and unobstructed; 04:00 lighting is coherent; skirt hem clearly below both knees to upper calf; exactly one red scarf and no pendant; two vertically stacked tear moles on viewer-right cheek; two attached arms/hands plausibly hold cup with plausible visible fingers; two attached legs with natural crop; no duplicated, fused, floating, missing, or malformed limbs.",
+        "checkedAt": "2026-08-09T08:15:35.531506Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T08:17:11.618296Z",
+        "notes": "用户查看第3版后明确回复“提交，都提交”；批准阿克拉地点修正版。"
+      },
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1232939034566721539-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1232939034566721539-v1.png",
+            "generatedAt": "2026-08-09T07:44:31.887948Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "通过：Reykjavík 实拍街景、建筑及两块道路标志保持可见，04:33 蓝调清晰；人物左侧膝上构图，双臂双手完整且双手持杯抓握自然，双腿按膝上景别自然出画；两颗纵向泪痣、双发夹及仅红围巾符合设定，无吊坠、额外人物或新水印。",
+            "checkedAt": "2026-08-09T07:44:31.887948Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户要求把裙摆修正为参考图中的过膝中长裙：裙摆明确低于膝盖，落在上小腿区域；其余保持不变。",
+          "decidedAt": "2026-08-09T07:54:36.526818Z"
+        },
+        {
+          "output": {
+            "revision": 2,
+            "file": "assets/generated/bili-1232939034566721539-v2.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1232939034566721539-v2.png",
+            "generatedAt": "2026-08-09T08:00:57.638854Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "通过：裙摆已按参考图延长为明确过膝中长裙，落在膝盖以下的上小腿区域；原有格纹拼接、褶皱与红色饰边保持一致。持杯双手、泪痣、双发夹、红围巾、街景及道路标志保持正常。",
+            "checkedAt": "2026-08-09T08:00:57.638854Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户确认原图错误迁移出动态明确命名的加纳；必须在阿克拉真实背景重新生成。",
+          "decidedAt": "2026-08-09T08:09:09.945758Z"
+        }
+      ],
+      "updatedAt": "2026-08-09T08:17:11.618296Z",
+      "mentionedLocation": {
+        "text": "加纳共和国",
+        "resolution": "manual_catalog",
+        "locationId": "accra",
+        "matchedAlias": "accra"
+      }
     },
     {
       "id": "bili-1234012909572456497",
-      "status": "pending_background",
+      "status": "approved",
       "createdAt": "2026-08-09T04:59:46.559152Z",
       "source": {
         "dynamicId": "1234012909572456497",
@@ -64,23 +153,45 @@
         "summary": "去往大海的彼岸、去往天国。"
       },
       "location": {
-        "id": "johannesburg",
-        "label": "Johannesburg, South Africa",
-        "timezone": "Africa/Johannesburg",
-        "latitude": -26.2041,
-        "longitude": 28.0473,
+        "id": "paris",
+        "label": "Paris, France",
+        "timezone": "Europe/Paris",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
         "bbox": [
-          27.97,
-          -26.27,
-          28.13,
-          -26.13
+          2.25,
+          48.81,
+          2.42,
+          48.9
         ],
         "providers": [
+          "panoramax-ign",
           "panoramax-osm"
         ],
+        "staticCandidates": [],
         "localTimeAtDynamic": "2026-08-08T04:00:20+02:00"
       },
-      "background": null,
+      "background": {
+        "id": "panoramax-osm-92c82009-b096-4918-8157-3f23feca1c4e",
+        "file": "assets/backgrounds/bili-1234012909572456497-92c82009.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "92c82009-b096-4918-8157-3f23feca1c4e",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/92c82009-b096-4918-8157-3f23feca1c4e",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/92c82009-b096-4918-8157-3f23feca1c4e/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "benoitdd",
+        "location": "Paris, France",
+        "timezone": "Europe/Paris",
+        "latitude": 48.855403914,
+        "longitude": 2.334240448,
+        "capturedAt": "2025-06-24T09:02:37+00:00",
+        "trafficSignDetections": 4,
+        "signVisuallyConfirmed": true,
+        "signRequirementWaived": false,
+        "fieldOfView": 360,
+        "viewSource": "provider_perspective_thumbnail"
+      },
       "generation": {
         "promptVersion": "komichi-composite-v3-human-review",
         "revision": 1,
@@ -90,18 +201,34 @@
         "placementSide": "right",
         "neckAccessory": "traffic_light_pendant"
       },
-      "output": null,
-      "agentQa": null,
-      "humanReview": {
-        "decision": null,
-        "decidedAt": null,
-        "notes": null
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1234012909572456497-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234012909572456497-v1.png",
+        "generatedAt": "2026-08-09T08:00:57.713757Z"
       },
-      "history": []
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过（按用户确认的侧身规则）：裙摆已延长为膝下上小腿长度，步行姿势、两臂两手、两腿双脚、街景和交通标志保持正常；红绿灯吊坠因真实侧身角度自然遮挡，未出现围巾或替代颈饰。侧身远景的细小面部细节由用户目视接受。",
+        "checkedAt": "2026-08-09T08:00:57.713757Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T08:17:11.685127Z",
+        "notes": "用户此前确认三张都更新并正式发布；巴黎版无需再生成，随本批提交。"
+      },
+      "history": [],
+      "locationFallback": {
+        "from": "johannesburg",
+        "reason": "original_location_has_no_street_coverage",
+        "selectedAt": "2026-08-09T07:40:51.860220Z"
+      },
+      "candidateManifest": "data/candidates/bili-1234012909572456497.json",
+      "updatedAt": "2026-08-09T08:17:11.685127Z"
     },
     {
       "id": "bili-1234175706002358279",
-      "status": "pending_background",
+      "status": "approved",
       "createdAt": "2026-08-09T04:59:46.562250Z",
       "source": {
         "dynamicId": "1234175706002358279",
@@ -113,40 +240,130 @@
         "summary": "因舰长人数远超预期，和stf沟通后将在月底统一作图感谢舰长朋友们的支持，再视情况每次直播感谢一部分，再次感谢大家支持。周表、立绘、提问箱、置顶将在明天公开，舰长礼物宣图也会尽快制作完毕。 相对应的，四时小路将随机演唱一些喜欢的歌曲，敬请期待，我们法属波里尼西亚的甘比尔群岛 （好长）的凌晨四点见+"
       },
       "location": {
-        "id": "adamstown",
-        "label": "Adamstown, Pitcairn Islands",
-        "timezone": "Pacific/Pitcairn",
-        "latitude": -25.066,
-        "longitude": -130.1015,
+        "id": "rikitea",
+        "label": "Rikitea, Gambier Islands, French Polynesia",
+        "timezone": "Pacific/Gambier",
+        "latitude": -23.1228,
+        "longitude": -134.9692,
         "bbox": [
-          -130.13,
-          -25.09,
-          -130.08,
-          -25.04
+          -135.02,
+          -23.17,
+          -134.92,
+          -23.08
         ],
         "providers": [
           "panoramax-osm"
         ],
-        "localTimeAtDynamic": "2026-08-08T04:32:04-08:00"
+        "staticCandidates": [
+          {
+            "id": "commons-station-rikitea",
+            "providerId": "wikimedia-commons",
+            "providerName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Station.Rikitea.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Station.Rikitea.jpg",
+            "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Station.Rikitea.jpg",
+            "latitude": -23.1228,
+            "longitude": -134.9692,
+            "capturedAt": "2006-03-25",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "creator": "FRED",
+            "trafficSignDetections": 1,
+            "fieldOfView": null,
+            "reuseThumbnailAsImage": true
+          }
+        ],
+        "localTimeAtDynamic": "2026-08-08T03:32:04-09:00",
+        "selectionReason": "dynamic_mentioned_place"
       },
-      "background": null,
+      "background": {
+        "id": "wikimedia-commons-commons-station-rikitea",
+        "file": "assets/backgrounds/bili-1234175706002358279-commons-.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "commons-station-rikitea",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Station.Rikitea.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Station.Rikitea.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "creator": "FRED",
+        "location": "Rikitea, Gambier Islands, French Polynesia",
+        "timezone": "Pacific/Gambier",
+        "latitude": -23.1228,
+        "longitude": -134.9692,
+        "capturedAt": "2006-03-25",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": true,
+        "signRequirementWaived": false,
+        "fieldOfView": null,
+        "viewSource": "provider_perspective_thumbnail"
+      },
       "generation": {
-        "promptVersion": "komichi-composite-v3-human-review",
-        "revision": 1,
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 3,
         "shotScale": "full_body",
         "poseFamily": "playful_balanced_step",
         "expression": "curious bright smile",
         "placementSide": "left",
         "neckAccessory": "traffic_light_pendant"
       },
-      "output": null,
-      "agentQa": null,
-      "humanReview": {
-        "decision": null,
-        "decidedAt": null,
-        "notes": null
+      "output": {
+        "revision": 3,
+        "file": "assets/generated/bili-1234175706002358279-v3.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234175706002358279-v3.png",
+        "generatedAt": "2026-08-09T08:15:35.600771Z"
       },
-      "history": []
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent preflight pass: authoritative real Rikitea/Gambier station, ocean, road, and RIKITEA sign remain recognizable and unobstructed; pre-dawn lighting is coherent; full skirt hem is below both knees at upper calf; exactly one traffic-light pendant and no scarf; two vertically stacked tear moles on viewer-right cheek; exactly two attached arms/hands with plausible visible fingers and exactly two complete attached legs/feet in a stable step; no duplicated, fused, floating, missing, or malformed limbs.",
+        "checkedAt": "2026-08-09T08:15:35.600771Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T08:17:11.751716Z",
+        "notes": "用户查看第3版后明确回复“提交，都提交”；批准甘比尔群岛里基泰阿地点修正版。"
+      },
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1234175706002358279-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234175706002358279-v1.png",
+            "generatedAt": "2026-08-09T07:49:01.044432Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "通过：Anchorage 实拍停车区、建筑、自行车架及右上无障碍停车标志保持可见，04:32 蓝调清晰；人物左侧全身平衡迈步，两臂两手、两腿双脚完整分离，手指结构与单脚承重自然；两颗纵向泪痣、双发夹及清晰红黄绿吊坠符合设定，无围巾、额外人物或新水印。",
+            "checkedAt": "2026-08-09T07:49:01.044432Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户要求把裙摆修正为参考图中的过膝中长裙：裙摆明确低于膝盖，落在上小腿区域；其余保持不变。",
+          "decidedAt": "2026-08-09T07:54:36.593659Z"
+        },
+        {
+          "output": {
+            "revision": 2,
+            "file": "assets/generated/bili-1234175706002358279-v2.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234175706002358279-v2.png",
+            "generatedAt": "2026-08-09T08:00:57.787616Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "通过：裙摆已按参考图延长至膝下上小腿，抬腿动作中仍明确呈现过膝中长裙；两臂两手、两腿双脚、平衡与接地正常，泪痣、双发夹、红绿灯吊坠、街景及停车标志保持正确。",
+            "checkedAt": "2026-08-09T08:00:57.787616Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户确认原图错误迁移出动态明确命名的甘比尔群岛；必须在里基泰阿真实背景重新生成。",
+          "decidedAt": "2026-08-09T08:09:10.010938Z"
+        }
+      ],
+      "updatedAt": "2026-08-09T08:17:11.751716Z",
+      "mentionedLocation": {
+        "text": "法属波里尼西亚的甘比尔群岛",
+        "resolution": "manual_catalog",
+        "locationId": "rikitea",
+        "matchedAlias": "rikitea",
+        "localTimeMismatchAccepted": true
+      }
     },
     {
       "id": "bili-1232930534841122855",
