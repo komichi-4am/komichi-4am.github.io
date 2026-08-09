@@ -8,6 +8,7 @@ import stat
 import sys
 import tempfile
 import unittest
+import urllib.error
 from contextlib import redirect_stdout
 from datetime import datetime, timezone
 from pathlib import Path
@@ -73,6 +74,49 @@ class PipelineTests(unittest.TestCase):
                 pipeline.fetch_bilibili_dynamics(config)
             self.assertEqual(caught.exception.code, "bilibili_auth_missing")
 
+    def test_bilibili_network_request_retries_five_times_one_second_apart(self) -> None:
+        session = BilibiliSession.empty()
+        failure = urllib.error.URLError("dns unavailable")
+        with (
+            mock.patch.object(session.opener, "open", side_effect=failure) as open_request,
+            mock.patch("bilibili_session.time.sleep") as sleep,
+            self.assertRaises(BilibiliSessionError) as caught,
+        ):
+            session._request_bytes(
+                "https://api.bilibili.com/test",
+                label="Bilibili test request",
+                headers={},
+            )
+
+        self.assertEqual(caught.exception.code, "bilibili_network_error")
+        self.assertIn("after 6 attempts (5 retries)", str(caught.exception))
+        self.assertEqual(open_request.call_count, 6)
+        self.assertEqual(sleep.call_args_list, [mock.call(1.0)] * 5)
+
+    def test_bilibili_http_412_is_not_retried(self) -> None:
+        session = BilibiliSession.empty()
+        failure = urllib.error.HTTPError(
+            "https://api.bilibili.com/test",
+            412,
+            "Precondition Failed",
+            {},
+            io.BytesIO(b'{"message":"blocked"}'),
+        )
+        with (
+            mock.patch.object(session.opener, "open", side_effect=failure) as open_request,
+            mock.patch("bilibili_session.time.sleep") as sleep,
+            self.assertRaises(BilibiliSessionError) as caught,
+        ):
+            session._request_bytes(
+                "https://api.bilibili.com/test",
+                label="Bilibili test request",
+                headers={},
+            )
+
+        self.assertEqual(caught.exception.code, "bilibili_blocked")
+        self.assertEqual(open_request.call_count, 1)
+        sleep.assert_not_called()
+
     def test_bilibili_auth_and_risk_codes_have_specific_failures(self) -> None:
         with self.assertRaises(pipeline.PipelineError) as expired:
             pipeline.parse_bilibili_payload({"code": -101, "message": "账号未登录"})
@@ -80,6 +124,76 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaises(pipeline.PipelineError) as blocked:
             pipeline.parse_bilibili_payload({"code": -412, "message": "请求被拦截"})
         self.assertEqual(blocked.exception.code, "bilibili_blocked")
+
+    def test_auth_failure_runs_qr_recovery_then_retries_sync_fetch(self) -> None:
+        config = pipeline.read_json(pipeline.CONFIG_PATH)
+        recovered_dynamics = [{"dynamicId": "recovered"}]
+        with (
+            mock.patch.object(
+                pipeline,
+                "fetch_bilibili_dynamics",
+                side_effect=[
+                    pipeline.PipelineError(
+                        "bilibili_auth_expired", "Bilibili login has expired"
+                    ),
+                    recovered_dynamics,
+                ],
+            ) as fetch,
+            mock.patch.object(pipeline, "login_with_qr") as login,
+            redirect_stdout(io.StringIO()),
+        ):
+            result = pipeline.fetch_bilibili_dynamics_with_auth_recovery(config)
+
+        self.assertEqual(result, recovered_dynamics)
+        self.assertEqual(fetch.call_count, 2)
+        login.assert_called_once_with(
+            cookie_file=Path(config["bilibili"]["cookieFile"]).expanduser(),
+            qr_output=pipeline.DEFAULT_QR_OUTPUT,
+            timeout=180,
+            poll_interval=2.0,
+        )
+
+    def test_qr_recovery_failure_preserves_the_safe_error(self) -> None:
+        config = pipeline.read_json(pipeline.CONFIG_PATH)
+        with (
+            mock.patch.object(
+                pipeline,
+                "fetch_bilibili_dynamics",
+                side_effect=pipeline.PipelineError(
+                    "bilibili_auth_missing", "Bilibili login is not configured"
+                ),
+            ),
+            mock.patch.object(
+                pipeline,
+                "login_with_qr",
+                side_effect=BilibiliSessionError(
+                    "bilibili_qr_login_timeout", "Bilibili QR login timed out"
+                ),
+            ),
+            redirect_stdout(io.StringIO()),
+            self.assertRaises(pipeline.PipelineError) as caught,
+        ):
+            pipeline.fetch_bilibili_dynamics_with_auth_recovery(config)
+
+        self.assertEqual(caught.exception.code, "bilibili_qr_login_timeout")
+        self.assertEqual(str(caught.exception), "Bilibili QR login timed out")
+
+    def test_non_auth_failure_does_not_start_qr_recovery(self) -> None:
+        config = pipeline.read_json(pipeline.CONFIG_PATH)
+        with (
+            mock.patch.object(
+                pipeline,
+                "fetch_bilibili_dynamics",
+                side_effect=pipeline.PipelineError(
+                    "bilibili_network_error", "network unavailable"
+                ),
+            ),
+            mock.patch.object(pipeline, "login_with_qr") as login,
+            self.assertRaises(pipeline.PipelineError),
+        ):
+            pipeline.fetch_bilibili_dynamics_with_auth_recovery(config)
+
+        login.assert_not_called()
 
     def test_fixture_parsing(self) -> None:
         payload = pipeline.read_json(FIXTURE)
@@ -118,23 +232,22 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(mention["text"], "冰岛")
         self.assertEqual(mention["resolution"], "catalog_alias")
 
-    def test_country_name_and_event_style_place_mentions_resolve(self) -> None:
+    def test_country_name_resolves_but_event_preview_does_not(self) -> None:
         locations = pipeline.read_json(pipeline.LOCATIONS_PATH)["locations"]
-        cases = (
-            ("现在是加纳共和国的凌晨四点多哦？", "加纳共和国", "accra"),
-            (
-                "我们法属波里尼西亚的甘比尔群岛 （好长）的凌晨四点见+",
-                "法属波里尼西亚的甘比尔群岛",
-                "rikitea",
-            ),
-        )
-        for summary, expected_place, expected_location_id in cases:
-            with self.subTest(summary=summary):
-                place = pipeline.extract_mentioned_place(summary)
-                self.assertEqual(place, expected_place)
-                matched = pipeline.match_mentioned_location(place, locations)
-                self.assertIsNotNone(matched)
-                self.assertEqual(matched[0]["id"], expected_location_id)
+        place = pipeline.extract_mentioned_place("现在是加纳共和国的凌晨四点多哦？")
+        self.assertEqual(place, "加纳共和国")
+        matched = pipeline.match_mentioned_location(place, locations)
+        self.assertIsNotNone(matched)
+        self.assertEqual(matched[0]["id"], "accra")
+
+        preview = {
+            "dynamicId": "1234175706002358279",
+            "publishedTimestamp": 1786192324,
+            "summary": "我们法属波里尼西亚的甘比尔群岛 （好长）的凌晨四点见+",
+        }
+        location, mention = pipeline.choose_location_for_dynamic(preview, locations)
+        self.assertEqual(location["id"], "adamstown")
+        self.assertIsNone(mention)
 
     def test_unconfigured_place_mention_waits_for_resolution(self) -> None:
         locations = pipeline.read_json(pipeline.LOCATIONS_PATH)["locations"]
@@ -438,7 +551,11 @@ class PipelineTests(unittest.TestCase):
             with (
                 mock.patch.object(pipeline, "MONITOR_STATE_PATH", state_path),
                 mock.patch.object(pipeline, "JOBS_PATH", jobs_path),
-                mock.patch.object(pipeline, "fetch_bilibili_dynamics", side_effect=failure),
+                mock.patch.object(
+                    pipeline,
+                    "fetch_bilibili_dynamics_with_auth_recovery",
+                    side_effect=failure,
+                ),
                 self.assertRaises(pipeline.PipelineError),
             ):
                 pipeline.command_sync(args)

@@ -12,6 +12,7 @@ import http.cookiejar
 import json
 import os
 import tempfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -36,6 +37,8 @@ BROWSER_USER_AGENT = (
 BROWSER_SEC_CH_UA = (
     '"Chromium";v="148", "Google Chrome";v="148", "Not_A Brand";v="99"'
 )
+NETWORK_RETRY_COUNT = 5
+NETWORK_RETRY_DELAY_SECONDS = 1.0
 
 
 class BilibiliSessionError(RuntimeError):
@@ -181,7 +184,8 @@ class BilibiliSession:
                 )
             jar.set_cookie(_cookie_from_record(record))
         try:
-            resolved.chmod(0o600)
+            if (resolved.stat().st_mode & 0o777) != 0o600:
+                resolved.chmod(0o600)
         except OSError as exc:
             raise BilibiliSessionError(
                 "bilibili_cookie_permissions",
@@ -235,25 +239,34 @@ class BilibiliSession:
         headers: dict[str, str],
         timeout: int = 25,
     ) -> bytes:
-        request = urllib.request.Request(url, headers=headers)
-        try:
-            with self.opener.open(request, timeout=timeout) as response:
-                return response.read()
-        except urllib.error.HTTPError as exc:
+        for retry_number in range(NETWORK_RETRY_COUNT + 1):
+            request = urllib.request.Request(url, headers=headers)
             try:
-                body = exc.read().decode("utf-8", errors="replace")
-                payload = json.loads(body)
-                detail = str(payload.get("message") or payload.get("msg") or exc.reason)
-            except (json.JSONDecodeError, AttributeError, TypeError):
-                detail = str(exc.reason)
-            code = "bilibili_blocked" if exc.code == 412 else "bilibili_http_error"
-            raise BilibiliSessionError(
-                code, f"{label} failed with HTTP {exc.code}: {detail}"
-            ) from exc
-        except urllib.error.URLError as exc:
-            raise BilibiliSessionError(
-                "bilibili_network_error", f"{label} network error: {exc.reason}"
-            ) from exc
+                with self.opener.open(request, timeout=timeout) as response:
+                    return response.read()
+            except urllib.error.HTTPError as exc:
+                try:
+                    body = exc.read().decode("utf-8", errors="replace")
+                    payload = json.loads(body)
+                    detail = str(
+                        payload.get("message") or payload.get("msg") or exc.reason
+                    )
+                except (json.JSONDecodeError, AttributeError, TypeError):
+                    detail = str(exc.reason)
+                code = "bilibili_blocked" if exc.code == 412 else "bilibili_http_error"
+                raise BilibiliSessionError(
+                    code, f"{label} failed with HTTP {exc.code}: {detail}"
+                ) from exc
+            except urllib.error.URLError as exc:
+                if retry_number == NETWORK_RETRY_COUNT:
+                    raise BilibiliSessionError(
+                        "bilibili_network_error",
+                        f"{label} network error after {retry_number + 1} attempts "
+                        f"({NETWORK_RETRY_COUNT} retries): {exc.reason}",
+                    ) from exc
+                time.sleep(NETWORK_RETRY_DELAY_SECONDS)
+
+        raise AssertionError("unreachable")
 
     def get_json(
         self,

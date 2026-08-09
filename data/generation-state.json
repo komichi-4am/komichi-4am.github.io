@@ -136,6 +136,14 @@
       "placementSide": "left",
       "neckAccessory": "traffic_light_pendant",
       "acceptedAt": "2026-08-09T08:17:11.751716Z"
+    },
+    {
+      "jobId": "bili-1234175706002358279",
+      "shotScale": "full_body",
+      "poseFamily": "playful_balanced_step",
+      "placementSide": "left",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T08:54:43.941570Z"
     }
   ]
 }

@@ -25,6 +25,7 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
+from bilibili_login import DEFAULT_QR_OUTPUT, login_with_qr
 from bilibili_session import BilibiliSession, BilibiliSessionError
 
 
@@ -38,6 +39,11 @@ BACKGROUNDS_PATH = KOMICHI_ROOT / "data" / "backgrounds.json"
 CANDIDATE_DATA_DIR = KOMICHI_ROOT / "data" / "candidates"
 CANDIDATE_IMAGE_DIR = KOMICHI_ROOT / "assets" / "candidates"
 BACKGROUND_DIR = KOMICHI_ROOT / "assets" / "backgrounds"
+AUTH_RECOVERY_CODES = frozenset(
+    {"bilibili_auth_missing", "bilibili_auth_expired", "bilibili_blocked"}
+)
+AUTH_RECOVERY_TIMEOUT_SECONDS = 180
+AUTH_RECOVERY_POLL_INTERVAL_SECONDS = 2.0
 
 
 class PipelineError(RuntimeError):
@@ -183,7 +189,7 @@ def parse_bilibili_payload(payload: dict[str, Any]) -> tuple[list[dict[str, Any]
             raise PipelineError(
                 "bilibili_blocked",
                 "Bilibili rejected the authenticated feed request with code -412. "
-                "The workflow stopped without retrying or advancing the monitor cursor.",
+                "QR authentication recovery is required; the monitor cursor was not advanced.",
             )
         raise PipelineError("bilibili_error", f"Bilibili error {code}: {message}")
     data = payload.get("data") or {}
@@ -248,6 +254,44 @@ def fetch_bilibili_dynamics(
     return [normalize_dynamic(item) for item in all_items]
 
 
+def fetch_bilibili_dynamics_with_auth_recovery(
+    config: dict[str, Any], feed_file: Path | None = None
+) -> list[dict[str, Any]]:
+    try:
+        return fetch_bilibili_dynamics(config, feed_file)
+    except PipelineError as exc:
+        if feed_file is not None or exc.code not in AUTH_RECOVERY_CODES:
+            raise
+        trigger_code = exc.code
+
+    cookie_path = Path(
+        config["bilibili"].get("cookieFile", "~/.config/bilibili/cookies.json")
+    ).expanduser()
+    print(
+        json.dumps(
+            {
+                "status": "bilibili_auth_recovery_started",
+                "triggerCode": trigger_code,
+                "cookieFile": str(cookie_path),
+                "cookieValuesPrinted": False,
+            },
+            ensure_ascii=False,
+        ),
+        flush=True,
+    )
+    try:
+        login_with_qr(
+            cookie_file=cookie_path,
+            qr_output=DEFAULT_QR_OUTPUT,
+            timeout=AUTH_RECOVERY_TIMEOUT_SECONDS,
+            poll_interval=AUTH_RECOVERY_POLL_INTERVAL_SECONDS,
+        )
+    except BilibiliSessionError as exc:
+        raise PipelineError(exc.code, str(exc)) from exc
+
+    return fetch_bilibili_dynamics(config, feed_file)
+
+
 def choose_four_am_location(
     dynamic_id: str, published_ts: int, locations: list[dict[str, Any]]
 ) -> dict[str, Any]:
@@ -274,10 +318,6 @@ PLACE_MENTION_PATTERNS = (
     re.compile(
         r"(?P<place>[^，。！？,\s\n]{1,30})\s*(?:现在|此刻)\s*"
         r"(?:是|在)\s*凌晨\s*四点"
-    ),
-    re.compile(
-        r"(?:我们)?(?P<place>[^，。！？,\n]{1,60}?)\s*"
-        r"(?:[（(][^）)\n]*[）)])?\s*的\s*凌晨\s*四点(?:见)?"
     ),
 )
 
@@ -471,7 +511,7 @@ def command_sync(args: argparse.Namespace) -> None:
     jobs_doc = read_json(JOBS_PATH)
     locations = read_json(LOCATIONS_PATH).get("locations") or []
     try:
-        dynamics = fetch_bilibili_dynamics(config, args.feed_file)
+        dynamics = fetch_bilibili_dynamics_with_auth_recovery(config, args.feed_file)
     except PipelineError as exc:
         state["lastError"] = {"at": utc_now(), "code": exc.code, "message": str(exc)}
         write_json(MONITOR_STATE_PATH, state)
@@ -529,7 +569,7 @@ def command_backfill_missing(args: argparse.Namespace) -> None:
     jobs_doc = read_json(JOBS_PATH)
     locations = read_json(LOCATIONS_PATH).get("locations") or []
     try:
-        dynamics = fetch_bilibili_dynamics(config, args.feed_file)
+        dynamics = fetch_bilibili_dynamics_with_auth_recovery(config, args.feed_file)
     except PipelineError as exc:
         state["lastError"] = {"at": utc_now(), "code": exc.code, "message": str(exc)}
         write_json(MONITOR_STATE_PATH, state)
@@ -852,8 +892,7 @@ def command_apply_mentioned_location(args: argparse.Namespace) -> None:
         int(job["source"]["publishedTimestamp"]), timezone.utc
     )
     local_time = published_utc.astimezone(ZoneInfo(location["timezone"]))
-    local_time_mismatch = local_time.hour != 4
-    if local_time_mismatch and not args.allow_time_mismatch:
+    if local_time.hour != 4:
         raise PipelineError(
             "mentioned_location_not_four_am",
             f"{location['label']} is {local_time.isoformat()}, not 04:xx.",
@@ -867,8 +906,6 @@ def command_apply_mentioned_location(args: argparse.Namespace) -> None:
         "locationId": location["id"],
         "matchedAlias": alias,
     }
-    if local_time_mismatch:
-        job["mentionedLocation"]["localTimeMismatchAccepted"] = True
     job["background"] = None
     job.pop("candidateManifest", None)
     job.pop("locationFallback", None)
@@ -883,6 +920,43 @@ def command_apply_mentioned_location(args: argparse.Namespace) -> None:
                 "status": job["status"],
                 "mentionedPlace": place,
                 "location": job["location"],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+
+
+def command_reset_timestamp_location(args: argparse.Namespace) -> None:
+    jobs_doc = read_json(JOBS_PATH)
+    locations = read_json(LOCATIONS_PATH).get("locations") or []
+    job = find_job(jobs_doc, args.job_id)
+    if job.get("status") == "approved":
+        raise PipelineError(
+            "approved_job_requires_regeneration",
+            "Move the approved job into regeneration before resetting its location.",
+        )
+    snapshot = choose_four_am_location(
+        job["source"]["dynamicId"],
+        int(job["source"]["publishedTimestamp"]),
+        locations,
+    )
+    job["location"] = snapshot
+    job.pop("mentionedLocation", None)
+    job["background"] = None
+    job.pop("candidateManifest", None)
+    job.pop("locationFallback", None)
+    job["status"] = "pending_background"
+    job["generation"]["promptVersion"] = "komichi-composite-v5-timestamp-location"
+    job["updatedAt"] = utc_now()
+    write_json(JOBS_PATH, jobs_doc)
+    print(
+        json.dumps(
+            {
+                "jobId": job["id"],
+                "status": job["status"],
+                "location": job["location"],
+                "mentionedLocation": None,
             },
             ensure_ascii=False,
             indent=2,
@@ -1113,14 +1187,8 @@ def command_validate(_: argparse.Namespace) -> None:
     for job in jobs:
         job_id = str(job.get("id") or "<missing-id>")
         local_value = job.get("location", {}).get("localTimeAtDynamic")
-        accepted_named_place_mismatch = bool(
-            (job.get("mentionedLocation") or {}).get("localTimeMismatchAccepted")
-        )
         try:
-            if (
-                datetime.fromisoformat(str(local_value)).hour != 4
-                and not accepted_named_place_mismatch
-            ):
+            if datetime.fromisoformat(str(local_value)).hour != 4:
                 errors.append(f"{job_id}: local time is not 04:xx")
         except ValueError:
             errors.append(f"{job_id}: invalid local time")
@@ -1211,12 +1279,14 @@ def build_parser() -> argparse.ArgumentParser:
         "--location-id",
         help="Use this configured location when the alias cannot be resolved automatically",
     )
-    mention_parser.add_argument(
-        "--allow-time-mismatch",
-        action="store_true",
-        help="Honor a confirmed named place even when the publication timestamp is not 04:xx there",
-    )
     mention_parser.set_defaults(func=command_apply_mentioned_location)
+
+    reset_location_parser = subparsers.add_parser(
+        "reset-timestamp-location",
+        help="Discard a mistaken place mention and restore deterministic 04:xx selection",
+    )
+    reset_location_parser.add_argument("job_id")
+    reset_location_parser.set_defaults(func=command_reset_timestamp_location)
 
     select_parser = subparsers.add_parser("select-background", help="Select a visually reviewed candidate")
     select_parser.add_argument("job_id")

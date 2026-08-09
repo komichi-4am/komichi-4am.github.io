@@ -84,11 +84,22 @@ def render_qr_png(value: str, output: Path) -> str:
     )
 
 
-def command_login(args: argparse.Namespace) -> None:
+def login_with_qr(
+    *,
+    cookie_file: Path,
+    qr_output: Path,
+    timeout: int,
+    poll_interval: float,
+) -> None:
     session = BilibiliSession.empty()
     login_url, key = generate_qr_challenge(session)
-    renderer = render_qr_png(login_url, args.qr_output)
-    qr_path = args.qr_output.expanduser().resolve()
+    try:
+        renderer = render_qr_png(login_url, qr_output)
+    except subprocess.CalledProcessError as exc:
+        raise BilibiliSessionError(
+            "qr_renderer_failed", "QR rendering failed"
+        ) from exc
+    qr_path = qr_output.expanduser().resolve()
     print(
         json.dumps(
             {
@@ -103,7 +114,7 @@ def command_login(args: argparse.Namespace) -> None:
         flush=True,
     )
 
-    deadline = time.monotonic() + args.timeout
+    deadline = time.monotonic() + timeout
     previous_status: str | None = None
     while time.monotonic() < deadline:
         status, message = poll_qr_challenge(session, key)
@@ -116,13 +127,13 @@ def command_login(args: argparse.Namespace) -> None:
         if status == "success":
             account = session.check_login()
             session.refresh_home_session()
-            session.save(args.cookie_file)
+            session.save(cookie_file)
             print(
                 json.dumps(
                     {
                         "status": "saved",
                         "account": account,
-                        "cookieFile": str(args.cookie_file.expanduser()),
+                        "cookieFile": str(cookie_file.expanduser()),
                         "cookieValuesPrinted": False,
                     },
                     ensure_ascii=False,
@@ -132,9 +143,18 @@ def command_login(args: argparse.Namespace) -> None:
             return
         if status in {"expired", "failed"}:
             raise BilibiliSessionError("bilibili_qr_login_failed", message)
-        time.sleep(args.poll_interval)
+        time.sleep(poll_interval)
     raise BilibiliSessionError(
         "bilibili_qr_login_timeout", "Bilibili QR login timed out; run the command again"
+    )
+
+
+def command_login(args: argparse.Namespace) -> None:
+    login_with_qr(
+        cookie_file=args.cookie_file,
+        qr_output=args.qr_output,
+        timeout=args.timeout,
+        poll_interval=args.poll_interval,
     )
 
 

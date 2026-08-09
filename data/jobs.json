@@ -240,66 +240,47 @@
         "summary": "因舰长人数远超预期，和stf沟通后将在月底统一作图感谢舰长朋友们的支持，再视情况每次直播感谢一部分，再次感谢大家支持。周表、立绘、提问箱、置顶将在明天公开，舰长礼物宣图也会尽快制作完毕。 相对应的，四时小路将随机演唱一些喜欢的歌曲，敬请期待，我们法属波里尼西亚的甘比尔群岛 （好长）的凌晨四点见+"
       },
       "location": {
-        "id": "rikitea",
-        "label": "Rikitea, Gambier Islands, French Polynesia",
-        "timezone": "Pacific/Gambier",
-        "latitude": -23.1228,
-        "longitude": -134.9692,
+        "id": "anchorage",
+        "label": "Anchorage, Alaska, USA",
+        "timezone": "America/Anchorage",
+        "latitude": 61.2181,
+        "longitude": -149.9003,
         "bbox": [
-          -135.02,
-          -23.17,
-          -134.92,
-          -23.08
+          -150.02,
+          61.13,
+          -149.78,
+          61.3
         ],
         "providers": [
           "panoramax-osm"
         ],
-        "staticCandidates": [
-          {
-            "id": "commons-station-rikitea",
-            "providerId": "wikimedia-commons",
-            "providerName": "Wikimedia Commons",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Station.Rikitea.jpg",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Station.Rikitea.jpg",
-            "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Station.Rikitea.jpg",
-            "latitude": -23.1228,
-            "longitude": -134.9692,
-            "capturedAt": "2006-03-25",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-            "creator": "FRED",
-            "trafficSignDetections": 1,
-            "fieldOfView": null,
-            "reuseThumbnailAsImage": true
-          }
-        ],
-        "localTimeAtDynamic": "2026-08-08T03:32:04-09:00",
-        "selectionReason": "dynamic_mentioned_place"
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-08T04:32:04-08:00"
       },
       "background": {
-        "id": "wikimedia-commons-commons-station-rikitea",
-        "file": "assets/backgrounds/bili-1234175706002358279-commons-.jpg",
-        "provider": "Wikimedia Commons",
-        "sourceId": "commons-station-rikitea",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Station.Rikitea.jpg",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Station.Rikitea.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "creator": "FRED",
-        "location": "Rikitea, Gambier Islands, French Polynesia",
-        "timezone": "Pacific/Gambier",
-        "latitude": -23.1228,
-        "longitude": -134.9692,
-        "capturedAt": "2006-03-25",
-        "trafficSignDetections": 1,
+        "id": "panoramax-osm-3f349858-128c-4fee-854f-6da0aff4b506",
+        "file": "assets/backgrounds/bili-1234175706002358279-3f349858.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "3f349858-128c-4fee-854f-6da0aff4b506",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/3f349858-128c-4fee-854f-6da0aff4b506",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/3f349858-128c-4fee-854f-6da0aff4b506/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "scrynksh",
+        "location": "Anchorage, Alaska, USA",
+        "timezone": "America/Anchorage",
+        "latitude": 61.142902778,
+        "longitude": -149.933005556,
+        "capturedAt": "2026-07-16T02:33:40+00:00",
+        "trafficSignDetections": 0,
         "signVisuallyConfirmed": true,
         "signRequirementWaived": false,
         "fieldOfView": null,
-        "viewSource": "provider_perspective_thumbnail"
+        "viewSource": "provider_image_asset"
       },
       "generation": {
-        "promptVersion": "komichi-composite-v4-place-first",
-        "revision": 3,
+        "promptVersion": "komichi-composite-v5-timestamp-location",
+        "revision": 5,
         "shotScale": "full_body",
         "poseFamily": "playful_balanced_step",
         "expression": "curious bright smile",
@@ -307,20 +288,20 @@
         "neckAccessory": "traffic_light_pendant"
       },
       "output": {
-        "revision": 3,
-        "file": "assets/generated/bili-1234175706002358279-v3.png",
-        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234175706002358279-v3.png",
-        "generatedAt": "2026-08-09T08:15:35.600771Z"
+        "revision": 5,
+        "file": "assets/generated/bili-1234175706002358279-v5.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234175706002358279-v5.png",
+        "generatedAt": "2026-08-09T08:51:10.085854Z"
       },
       "agentQa": {
         "status": "preflight_pass",
-        "notes": "Agent preflight pass: authoritative real Rikitea/Gambier station, ocean, road, and RIKITEA sign remain recognizable and unobstructed; pre-dawn lighting is coherent; full skirt hem is below both knees at upper calf; exactly one traffic-light pendant and no scarf; two vertically stacked tear moles on viewer-right cheek; exactly two attached arms/hands with plausible visible fingers and exactly two complete attached legs/feet in a stable step; no duplicated, fused, floating, missing, or malformed limbs.",
-        "checkedAt": "2026-08-09T08:15:35.600771Z"
+        "notes": "严格预检通过：围巾与红绿灯吊坠的颈部配饰槽选择为红绿灯吊坠，无围巾；腰间金色扣件与红白流苏是固定服装部件，已正确保留且不计入颈部配饰槽；两颗纵向泪痣清楚；双臂双手、可见手指、双腿双脚完整自然；裙摆明确过膝至小腿上部；安克雷奇实景与无障碍停车标志清晰；无文字叠加或水印。",
+        "checkedAt": "2026-08-09T08:51:10.085854Z"
       },
       "humanReview": {
         "decision": "approved",
-        "decidedAt": "2026-08-09T08:17:11.751716Z",
-        "notes": "用户查看第3版后明确回复“提交，都提交”；批准甘比尔群岛里基泰阿地点修正版。"
+        "decidedAt": "2026-08-09T08:54:43.941570Z",
+        "notes": "用户确认提交第5版；腰饰已恢复，围巾与红绿灯吊坠二选一规则已澄清。"
       },
       "history": [
         {
@@ -354,15 +335,45 @@
           "humanDecision": "regenerate",
           "humanNotes": "用户确认原图错误迁移出动态明确命名的甘比尔群岛；必须在里基泰阿真实背景重新生成。",
           "decidedAt": "2026-08-09T08:09:10.010938Z"
+        },
+        {
+          "output": {
+            "revision": 3,
+            "file": "assets/generated/bili-1234175706002358279-v3.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234175706002358279-v3.png",
+            "generatedAt": "2026-08-09T08:15:35.600771Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "Agent preflight pass: authoritative real Rikitea/Gambier station, ocean, road, and RIKITEA sign remain recognizable and unobstructed; pre-dawn lighting is coherent; full skirt hem is below both knees at upper calf; exactly one traffic-light pendant and no scarf; two vertically stacked tear moles on viewer-right cheek; exactly two attached arms/hands with plausible visible fingers and exactly two complete attached legs/feet in a stable step; no duplicated, fused, floating, missing, or malformed limbs.",
+            "checkedAt": "2026-08-09T08:15:35.600771Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户纠正：动态中的甘比尔群岛是未来直播预告，不是发动态时地点；按发布时间重新选择04:xx地点并生成。",
+          "decidedAt": "2026-08-09T08:35:39.137094Z"
+        },
+        {
+          "output": {
+            "revision": 4,
+            "file": "assets/generated/bili-1234175706002358279-v4.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234175706002358279-v4.png",
+            "generatedAt": "2026-08-09T08:42:09.441750Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "严格预检通过：两颗纵向泪痣清楚可见；唯一附加配饰为交通灯吊坠，腰间无多余挂饰；双臂双手、可见手指、双腿双脚完整自然；裙摆明确过膝至小腿上部；安克雷奇04:32同时间带回退合理，真实无障碍停车标志清晰；无文字叠加或水印。",
+            "checkedAt": "2026-08-09T08:42:09.441750Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户纠正：一件附加配饰仅指围巾与红绿灯吊坠二选一；腰饰是固定服装组成，必须恢复且不占颈部配饰槽。",
+          "decidedAt": "2026-08-09T08:46:47.930198Z"
         }
       ],
-      "updatedAt": "2026-08-09T08:17:11.751716Z",
-      "mentionedLocation": {
-        "text": "法属波里尼西亚的甘比尔群岛",
-        "resolution": "manual_catalog",
-        "locationId": "rikitea",
-        "matchedAlias": "rikitea",
-        "localTimeMismatchAccepted": true
+      "updatedAt": "2026-08-09T08:54:43.941570Z",
+      "locationFallback": {
+        "from": "adamstown",
+        "reason": "original_location_has_no_street_coverage",
+        "selectedAt": "2026-08-09T08:35:55.050288Z"
       }
     },
     {

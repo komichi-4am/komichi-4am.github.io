@@ -348,6 +348,48 @@
       "signRequirementWaived": false,
       "fieldOfView": null,
       "viewSource": "provider_perspective_thumbnail"
+    },
+    {
+      "id": "panoramax-osm-b8176c7a-ff9d-4016-afb3-02baf8901b9a",
+      "file": "assets/backgrounds/bili-1234175706002358279-b8176c7a.jpg",
+      "provider": "Panoramax OpenStreetMap",
+      "sourceId": "b8176c7a-ff9d-4016-afb3-02baf8901b9a",
+      "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/b8176c7a-ff9d-4016-afb3-02baf8901b9a",
+      "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/b8176c7a-ff9d-4016-afb3-02baf8901b9a/sd.jpg",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creator": "p4n-pics",
+      "location": "Anchorage, Alaska, USA",
+      "timezone": "America/Anchorage",
+      "latitude": 61.17298,
+      "longitude": -149.8689,
+      "capturedAt": "2024-07-15T20:00:00+00:00",
+      "trafficSignDetections": 1,
+      "signVisuallyConfirmed": false,
+      "signRequirementWaived": false,
+      "fieldOfView": null,
+      "viewSource": "provider_image_asset"
+    },
+    {
+      "id": "panoramax-osm-3f349858-128c-4fee-854f-6da0aff4b506",
+      "file": "assets/backgrounds/bili-1234175706002358279-3f349858.jpg",
+      "provider": "Panoramax OpenStreetMap",
+      "sourceId": "3f349858-128c-4fee-854f-6da0aff4b506",
+      "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/3f349858-128c-4fee-854f-6da0aff4b506",
+      "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/3f349858-128c-4fee-854f-6da0aff4b506/sd.jpg",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creator": "scrynksh",
+      "location": "Anchorage, Alaska, USA",
+      "timezone": "America/Anchorage",
+      "latitude": 61.142902778,
+      "longitude": -149.933005556,
+      "capturedAt": "2026-07-16T02:33:40+00:00",
+      "trafficSignDetections": 0,
+      "signVisuallyConfirmed": true,
+      "signRequirementWaived": false,
+      "fieldOfView": null,
+      "viewSource": "provider_image_asset"
     }
   ]
 }
