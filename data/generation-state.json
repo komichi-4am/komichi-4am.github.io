@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "recent": [
+    {
+      "jobId": "test-paris-fullbody",
+      "shotScale": "full_body",
+      "poseFamily": "walking_look_back",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-09T03:05:25Z"
+    },
+    {
+      "jobId": "test-paris-kneeup",
+      "shotScale": "knee_up",
+      "poseFamily": "point_to_sign",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-09T03:05:25Z"
+    },
+    {
+      "jobId": "test-paris-closeup",
+      "shotScale": "close_up",
+      "poseFamily": "peek_into_frame",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T03:05:25Z"
+    },
+    {
+      "jobId": "debug-paris-closeup-scarf-v2",
+      "shotScale": "close_up",
+      "poseFamily": "sleepy_peek",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-09T03:19:27.171Z"
+    },
+    {
+      "jobId": "bili-1232930534841122855",
+      "shotScale": "close_up",
+      "poseFamily": "peek_into_frame",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-09T05:54:11.847063Z"
+    },
+    {
+      "jobId": "bili-1232930594991636516",
+      "shotScale": "knee_up",
+      "poseFamily": "lean_around_signpost",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-09T05:54:11.966499Z"
+    },
+    {
+      "jobId": "bili-1233041117384015876",
+      "shotScale": "full_body",
+      "poseFamily": "walking_look_back",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T05:54:12.086871Z"
+    },
+    {
+      "jobId": "bili-1233053718794993670",
+      "shotScale": "waist_up",
+      "poseFamily": "curious_turn",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T05:54:12.208906Z"
+    },
+    {
+      "jobId": "bili-1233054337297547319",
+      "shotScale": "waist_up",
+      "poseFamily": "sleepy_wave",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T05:54:12.328868Z"
+    },
+    {
+      "jobId": "bili-1233313383955038211",
+      "shotScale": "waist_up",
+      "poseFamily": "curious_turn",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T05:54:12.449671Z"
+    },
+    {
+      "jobId": "bili-1233719331373711367",
+      "shotScale": "full_body",
+      "poseFamily": "tiptoe_read_sign",
+      "placementSide": "left",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T05:54:12.571445Z"
+    },
+    {
+      "jobId": "bili-1233813824910393349",
+      "shotScale": "waist_up",
+      "poseFamily": "curious_turn",
+      "placementSide": "right",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-09T05:54:12.695295Z"
+    },
+    {
+      "jobId": "bili-1233313383955038211",
+      "shotScale": "waist_up",
+      "poseFamily": "curious_turn",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T06:10:18.721874Z"
+    },
+    {
+      "jobId": "bili-1233719331373711367",
+      "shotScale": "full_body",
+      "poseFamily": "tiptoe_read_sign",
+      "placementSide": "left",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-09T06:10:18.843132Z"
+    }
+  ]
+}

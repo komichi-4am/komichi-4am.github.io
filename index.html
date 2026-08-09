@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f1115" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="四时小路在世界各地凌晨四点的街头留下的二次创作影像。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="四时小路 · 凌晨四点" />
+    <meta
+      property="og:description"
+      content="当四时小路发出动态，世界某处正好是凌晨四点。"
+    />
+    <link rel="canonical" href="https://komichi-4am.github.io/" />
+    <title>四时小路 · 凌晨四点</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#feed">跳到帖子</a>
+    <header class="site-header">
+      <div class="topbar">
+        <p>四时小路的凌晨四点</p>
+        <span id="feed-status" aria-live="polite">载入中</span>
+      </div>
+      <div class="header-inner">
+        <img
+          class="avatar"
+          src="assets/reference/komichi-bilibili-avatar.jpg"
+          alt="四时小路"
+          width="64"
+          height="64"
+        />
+        <div class="profile-copy">
+          <p class="eyebrow">KOMICHI AT 4 AM</p>
+          <h1>四时小路的凌晨四点</h1>
+          <p class="handle">@Komichi_4AM</p>
+          <p class="intro">
+            当四时小路更新Bilibili动态的时候，她可能在哪里？
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="feed-shell">
+      <div id="feed" class="feed" aria-live="polite">
+        <div class="loading" role="status">
+          <span class="loading-dot" aria-hidden="true"></span>
+          正在寻找凌晨四点……
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>非官方二创项目 · 含人工智能生成图片</p>
+      <p class="street-sources">
+        街景图片来源：<a
+          href="https://panoramax.openstreetmap.fr/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Panoramax ↗</a
+        >、<a
+          href="https://commons.wikimedia.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Wikimedia Commons ↗</a
+        >
+      </p>
+    </footer>
+
+    <template id="post-template">
+      <article class="post">
+        <img
+          class="post-avatar"
+          src="assets/reference/komichi-bilibili-avatar.jpg"
+          alt=""
+          width="46"
+          height="46"
+        />
+        <div class="post-content">
+          <div class="post-author">
+            <div class="author-line">
+              <strong>四时小路</strong>
+              <span>@Komichi_4AM</span>
+              <a class="dynamic-link" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+          </div>
+          <p class="post-summary"></p>
+          <figure>
+            <a class="image-link" target="_blank" rel="noopener noreferrer">
+              <img class="post-image" loading="lazy" decoding="async" alt="" />
+            </a>
+            <figcaption class="meta-line">
+              <time class="local-time"></time>
+              <span class="meta-separator" aria-hidden="true">·</span>
+              <span class="location-label"></span>
+              <span class="meta-separator" aria-hidden="true">·</span>
+              <a class="coordinate-link" target="_blank" rel="noreferrer"></a>
+            </figcaption>
+          </figure>
+        </div>
+      </article>
+    </template>
+
+    <noscript><p class="error">这个页面需要启用 JavaScript 才能读取帖子。</p></noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>

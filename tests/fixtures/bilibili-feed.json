@@ -1,0 +1,44 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "has_more": false,
+    "offset": "",
+    "items": [
+      {
+        "id_str": "200000000000000002",
+        "type": "DYNAMIC_TYPE_WORD",
+        "modules": {
+          "module_author": {
+            "pub_ts": 1768510800,
+            "pub_time": "2026年01月16日 04:00"
+          },
+          "module_dynamic": {
+            "major": {
+              "opus": {
+                "summary": {
+                  "text": "第二条测试动态"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id_str": "200000000000000001",
+        "type": "DYNAMIC_TYPE_WORD",
+        "modules": {
+          "module_author": {
+            "pub_ts": 1768447200,
+            "pub_time": "2026年01月15日 10:20"
+          },
+          "module_dynamic": {
+            "desc": {
+              "text": "第一条测试动态"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

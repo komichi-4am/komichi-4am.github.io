@@ -1,0 +1,864 @@
+{
+  "schemaVersion": 1,
+  "jobs": [
+    {
+      "id": "bili-1232939034566721539",
+      "status": "pending_background",
+      "createdAt": "2026-08-09T04:59:46.555496Z",
+      "source": {
+        "dynamicId": "1232939034566721539",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1232939034566721539",
+        "publishedTimestamp": 1785904389,
+        "publishedAtUtc": "2026-08-05T04:33:09Z",
+        "publishedAtBeijing": "2026-08-05T12:33:09+08:00",
+        "summary": "现在是加纳共和国的凌晨四点多哦？ 我是四时小路，很高兴认识你！"
+      },
+      "location": {
+        "id": "accra",
+        "label": "Accra, Ghana",
+        "timezone": "Africa/Accra",
+        "latitude": 5.6037,
+        "longitude": -0.187,
+        "bbox": [
+          -0.27,
+          5.54,
+          -0.1,
+          5.67
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "localTimeAtDynamic": "2026-08-05T04:33:09+00:00"
+      },
+      "background": null,
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "hold_warm_drink",
+        "expression": "playful sleepy smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": null,
+      "agentQa": null,
+      "humanReview": {
+        "decision": null,
+        "decidedAt": null,
+        "notes": null
+      },
+      "history": []
+    },
+    {
+      "id": "bili-1234012909572456497",
+      "status": "pending_background",
+      "createdAt": "2026-08-09T04:59:46.559152Z",
+      "source": {
+        "dynamicId": "1234012909572456497",
+        "type": "DYNAMIC_TYPE_AV",
+        "url": "https://www.bilibili.com/opus/1234012909572456497",
+        "publishedTimestamp": 1786154420,
+        "publishedAtUtc": "2026-08-08T02:00:20Z",
+        "publishedAtBeijing": "2026-08-08T10:00:20+08:00",
+        "summary": "去往大海的彼岸、去往天国。"
+      },
+      "location": {
+        "id": "johannesburg",
+        "label": "Johannesburg, South Africa",
+        "timezone": "Africa/Johannesburg",
+        "latitude": -26.2041,
+        "longitude": 28.0473,
+        "bbox": [
+          27.97,
+          -26.27,
+          28.13,
+          -26.13
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "localTimeAtDynamic": "2026-08-08T04:00:20+02:00"
+      },
+      "background": null,
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "crossing_at_dawn",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": null,
+      "agentQa": null,
+      "humanReview": {
+        "decision": null,
+        "decidedAt": null,
+        "notes": null
+      },
+      "history": []
+    },
+    {
+      "id": "bili-1234175706002358279",
+      "status": "pending_background",
+      "createdAt": "2026-08-09T04:59:46.562250Z",
+      "source": {
+        "dynamicId": "1234175706002358279",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1234175706002358279",
+        "publishedTimestamp": 1786192324,
+        "publishedAtUtc": "2026-08-08T12:32:04Z",
+        "publishedAtBeijing": "2026-08-08T20:32:04+08:00",
+        "summary": "因舰长人数远超预期，和stf沟通后将在月底统一作图感谢舰长朋友们的支持，再视情况每次直播感谢一部分，再次感谢大家支持。周表、立绘、提问箱、置顶将在明天公开，舰长礼物宣图也会尽快制作完毕。 相对应的，四时小路将随机演唱一些喜欢的歌曲，敬请期待，我们法属波里尼西亚的甘比尔群岛 （好长）的凌晨四点见+"
+      },
+      "location": {
+        "id": "adamstown",
+        "label": "Adamstown, Pitcairn Islands",
+        "timezone": "Pacific/Pitcairn",
+        "latitude": -25.066,
+        "longitude": -130.1015,
+        "bbox": [
+          -130.13,
+          -25.09,
+          -130.08,
+          -25.04
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "localTimeAtDynamic": "2026-08-08T04:32:04-08:00"
+      },
+      "background": null,
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "playful_balanced_step",
+        "expression": "curious bright smile",
+        "placementSide": "left",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": null,
+      "agentQa": null,
+      "humanReview": {
+        "decision": null,
+        "decidedAt": null,
+        "notes": null
+      },
+      "history": []
+    },
+    {
+      "id": "bili-1232930534841122855",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.238466Z",
+      "source": {
+        "dynamicId": "1232930534841122855",
+        "type": "DYNAMIC_TYPE_AV",
+        "url": "https://www.bilibili.com/opus/1232930534841122855",
+        "publishedTimestamp": 1785902410,
+        "publishedAtUtc": "2026-08-05T04:00:10Z",
+        "publishedAtBeijing": "2026-08-05T12:00:10+08:00",
+        "summary": "VirtuaReal新成员加入！"
+      },
+      "location": {
+        "id": "reykjavik",
+        "label": "Reykjavík, Iceland",
+        "timezone": "Atlantic/Reykjavik",
+        "latitude": 64.1466,
+        "longitude": -21.9426,
+        "bbox": [
+          -22.05,
+          64.08,
+          -21.75,
+          64.2
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-05T04:00:10+00:00"
+      },
+      "background": {
+        "id": "panoramax-osm-933e5a1e-ed4e-4675-ba9c-037558ae4717",
+        "file": "assets/backgrounds/bili-1232930534841122855-933e5a1e.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "933e5a1e-ed4e-4675-ba9c-037558ae4717",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/933e5a1e-ed4e-4675-ba9c-037558ae4717",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/933e5a1e-ed4e-4675-ba9c-037558ae4717/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Reykjavík, Iceland",
+        "timezone": "Atlantic/Reykjavik",
+        "latitude": 64.145343,
+        "longitude": -21.930347,
+        "capturedAt": "2023-10-15T12:00:00+00:00",
+        "trafficSignDetections": 2,
+        "signVisuallyConfirmed": false,
+        "fieldOfView": null
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "peek_into_frame",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1232930534841122855-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1232930534841122855-v1.png",
+        "generatedAt": "2026-08-09T05:25:29.970470Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过：真人街景保持实拍；蓝调清晰；二维人物为自然探身近景；可见手指结构正常，另一臂随近景自然出画；两颗纵向泪痣、两侧发夹和红围巾设定正确；无红绿灯吊坠。",
+        "checkedAt": "2026-08-09T05:25:29.970470Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T05:54:11.847063Z",
+        "notes": "用户已查看并确认问题不大，加入网页已发布数据。"
+      },
+      "history": [],
+      "locationFallback": {
+        "from": "accra",
+        "reason": "original_location_has_no_street_coverage",
+        "selectedAt": "2026-08-09T05:16:44.825140Z"
+      },
+      "updatedAt": "2026-08-09T05:54:11.847063Z"
+    },
+    {
+      "id": "bili-1232930594991636516",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.241380Z",
+      "source": {
+        "dynamicId": "1232930594991636516",
+        "type": "DYNAMIC_TYPE_AV",
+        "url": "https://www.bilibili.com/opus/1232930594991636516",
+        "publishedTimestamp": 1785902424,
+        "publishedAtUtc": "2026-08-05T04:00:24Z",
+        "publishedAtBeijing": "2026-08-05T12:00:24+08:00",
+        "summary": "偶尔也想尝试从「正道」偏离一步对吧？"
+      },
+      "location": {
+        "id": "dakar",
+        "label": "Dakar, Senegal",
+        "timezone": "Africa/Dakar",
+        "latitude": 14.7167,
+        "longitude": -17.4677,
+        "bbox": [
+          -17.55,
+          14.62,
+          -17.32,
+          14.82
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-05T04:00:24+00:00"
+      },
+      "background": {
+        "id": "panoramax-osm-810cb84b-61a7-4dad-b8ad-75fb7850c2e4",
+        "file": "assets/backgrounds/bili-1232930594991636516-810cb84b.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "810cb84b-61a7-4dad-b8ad-75fb7850c2e4",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/810cb84b-61a7-4dad-b8ad-75fb7850c2e4",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/810cb84b-61a7-4dad-b8ad-75fb7850c2e4/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "overflorian",
+        "location": "Dakar, Senegal",
+        "timezone": "Africa/Dakar",
+        "latitude": 14.69598293,
+        "longitude": -17.45043516,
+        "capturedAt": "2026-07-09T15:07:35.541233+00:00",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": false,
+        "fieldOfView": 76
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "lean_around_signpost",
+        "expression": "playful sleepy smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1232930594991636516-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1232930594991636516-v1.png",
+        "generatedAt": "2026-08-09T05:27:48.333005Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过：Dakar 实拍公交站街景与导向标识保留；蓝调明亮；二维人物探柱动作自然；两臂两手完整、手指结构可读；两颗泪痣、发夹与红围巾正确；无吊坠。",
+        "checkedAt": "2026-08-09T05:27:48.333005Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T05:54:11.966499Z",
+        "notes": "用户已查看并确认问题不大，加入网页已发布数据。"
+      },
+      "history": [],
+      "locationFallback": {
+        "from": "reykjavik",
+        "reason": "explicit_covered_location_selection",
+        "selectedAt": "2026-08-09T05:20:54.952511Z"
+      },
+      "updatedAt": "2026-08-09T05:54:11.966499Z"
+    },
+    {
+      "id": "bili-1233041117384015876",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.243307Z",
+      "source": {
+        "dynamicId": "1233041117384015876",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1233041117384015876",
+        "publishedTimestamp": 1785928157,
+        "publishedAtUtc": "2026-08-05T11:09:17Z",
+        "publishedAtBeijing": "2026-08-05T19:09:17+08:00",
+        "summary": "大家的热情完全超乎想象……！ 之前不管是在深夜发传单也好，还是入侵电子设备唱歌也好，都从来没有被这么多人关注过，所以竟然有点不太适应><见谅见谅！ 收到了众多的私信，尽可能回复了，有一些疑问会在首播解答，感谢大家的支持+"
+      },
+      "location": {
+        "id": "phoenix",
+        "label": "Phoenix, Arizona, USA",
+        "timezone": "America/Phoenix",
+        "latitude": 33.4484,
+        "longitude": -112.074,
+        "bbox": [
+          -112.17,
+          33.36,
+          -111.98,
+          33.54
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "localTimeAtDynamic": "2026-08-05T04:09:17-07:00"
+      },
+      "background": {
+        "id": "panoramax-osm-3dcdaad0-990f-4594-b4e2-3b575a1a1a9e",
+        "file": "assets/backgrounds/bili-1233041117384015876-3dcdaad0.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "3dcdaad0-990f-4594-b4e2-3b575a1a1a9e",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/3dcdaad0-990f-4594-b4e2-3b575a1a1a9e",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/3dcdaad0-990f-4594-b4e2-3b575a1a1a9e/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "abellao",
+        "location": "Phoenix, Arizona, USA",
+        "timezone": "America/Phoenix",
+        "latitude": 33.399508333,
+        "longitude": -112.100113889,
+        "capturedAt": "2024-08-14T02:25:39.123000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": true,
+        "fieldOfView": null
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "walking_look_back",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1233041117384015876-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233041117384015876-v1.png",
+        "generatedAt": "2026-08-09T05:29:13.030505Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过（远景细节请人工复核）：Phoenix 实拍道路与路牌保留，蓝调明亮；人物全身与两臂两腿完整，步态自然；无围巾，黑色颈圈已保留，红绿灯吊坠因全身远景较小；泪痣与发夹建议放大复核。",
+        "checkedAt": "2026-08-09T05:29:13.030505Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T05:54:12.086871Z",
+        "notes": "用户已查看并确认问题不大，加入网页已发布数据。"
+      },
+      "history": [],
+      "candidateManifest": "data/candidates/bili-1233041117384015876.json",
+      "updatedAt": "2026-08-09T05:54:12.086871Z"
+    },
+    {
+      "id": "bili-1233053718794993670",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.245272Z",
+      "source": {
+        "dynamicId": "1233053718794993670",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1233053718794993670",
+        "publishedTimestamp": 1785931091,
+        "publishedAtUtc": "2026-08-05T11:58:11Z",
+        "publishedAtBeijing": "2026-08-05T19:58:11+08:00",
+        "summary": "二创tag是： #四时小路的新传单# 目前二创的注意事项是全年龄向、无不良影响即可，再次感谢大家的热情><"
+      },
+      "location": {
+        "id": "los-angeles",
+        "label": "Los Angeles, California, USA",
+        "timezone": "America/Los_Angeles",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "bbox": [
+          -118.36,
+          33.97,
+          -118.13,
+          34.13
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "localTimeAtDynamic": "2026-08-05T04:58:11-07:00"
+      },
+      "background": {
+        "id": "panoramax-osm-26bcd31e-d3c5-4eac-908b-2f49c9a2ef2c",
+        "file": "assets/backgrounds/bili-1233053718794993670-26bcd31e.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "26bcd31e-d3c5-4eac-908b-2f49c9a2ef2c",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/26bcd31e-d3c5-4eac-908b-2f49c9a2ef2c",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/26bcd31e-d3c5-4eac-908b-2f49c9a2ef2c/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Los Angeles, California, USA",
+        "timezone": "America/Los_Angeles",
+        "latitude": 34.11156,
+        "longitude": -118.1777,
+        "capturedAt": "2023-01-22T20:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": true,
+        "fieldOfView": null
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "curious_turn",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1233053718794993670-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233053718794993670-v1.png",
+        "generatedAt": "2026-08-09T05:31:28.112831Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过：洛杉矶实拍公园道路与路牌保留；蓝调有晨光层次；人物转身眺望的半身动作自然；双臂双手完整；两颗纵向泪痣、发夹及红绿灯吊坠正确，无围巾。",
+        "checkedAt": "2026-08-09T05:31:28.112831Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T05:54:12.208906Z",
+        "notes": "用户已查看并确认问题不大，加入网页已发布数据。"
+      },
+      "history": [],
+      "candidateManifest": "data/candidates/bili-1233053718794993670.json",
+      "updatedAt": "2026-08-09T05:54:12.208906Z"
+    },
+    {
+      "id": "bili-1233054337297547319",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.247013Z",
+      "source": {
+        "dynamicId": "1233054337297547319",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1233054337297547319",
+        "publishedTimestamp": 1785931235,
+        "publishedAtUtc": "2026-08-05T12:00:35Z",
+        "publishedAtBeijing": "2026-08-05T20:00:35+08:00",
+        "summary": "世界上最快的二创出现了吗+大家都被外星人抓走了，观看30s广告解救287！"
+      },
+      "location": {
+        "id": "anchorage",
+        "label": "Anchorage, Alaska, USA",
+        "timezone": "America/Anchorage",
+        "latitude": 61.2181,
+        "longitude": -149.9003,
+        "bbox": [
+          -150.02,
+          61.13,
+          -149.78,
+          61.3
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-05T04:00:35-08:00"
+      },
+      "background": {
+        "id": "panoramax-osm-0632fc94-bcd1-4e87-a8ea-a1ce908cbc0a",
+        "file": "assets/backgrounds/bili-1233054337297547319-0632fc94.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "0632fc94-bcd1-4e87-a8ea-a1ce908cbc0a",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/0632fc94-bcd1-4e87-a8ea-a1ce908cbc0a",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/0632fc94-bcd1-4e87-a8ea-a1ce908cbc0a/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "scrynksh",
+        "location": "Anchorage, Alaska, USA",
+        "timezone": "America/Anchorage",
+        "latitude": 61.147177778,
+        "longitude": -149.874883333,
+        "capturedAt": "2026-06-20T01:53:12+00:00",
+        "trafficSignDetections": 2,
+        "signVisuallyConfirmed": false,
+        "fieldOfView": null
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "sleepy_wave",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1233054337297547319-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233054337297547319-v1.png",
+        "generatedAt": "2026-08-09T05:31:28.241264Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过：Anchorage 实拍停车场与禁停牌清晰；蓝调明亮；挥手与理发动作自然，双臂双手和手指完整；两颗纵向泪痣、发夹、红绿灯吊坠正确，无围巾。",
+        "checkedAt": "2026-08-09T05:31:28.241264Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T05:54:12.328868Z",
+        "notes": "用户已查看并确认问题不大，加入网页已发布数据。"
+      },
+      "history": [],
+      "locationFallback": {
+        "from": "adamstown",
+        "reason": "original_location_has_no_street_coverage",
+        "selectedAt": "2026-08-09T05:17:02.881861Z"
+      },
+      "updatedAt": "2026-08-09T05:54:12.328868Z"
+    },
+    {
+      "id": "bili-1233313383955038211",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.248792Z",
+      "source": {
+        "dynamicId": "1233313383955038211",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1233313383955038211",
+        "publishedTimestamp": 1785991549,
+        "publishedAtUtc": "2026-08-06T04:45:49Z",
+        "publishedAtBeijing": "2026-08-06T12:45:49+08:00",
+        "summary": "现在是冰岛的凌晨四点多，小路正在规划明天要入侵的电子设备。 如果害怕的话，记得在明天八点半关掉所有电子设备+"
+      },
+      "location": {
+        "id": "reykjavik",
+        "label": "Reykjavík, Iceland",
+        "timezone": "Atlantic/Reykjavik",
+        "latitude": 64.1466,
+        "longitude": -21.9426,
+        "bbox": [
+          -22.05,
+          64.08,
+          -21.75,
+          64.2
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-06T04:45:49+00:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-osm-9cd1ea58-e30c-420e-86f2-b5178e6ed388",
+        "file": "assets/backgrounds/bili-1233313383955038211-9cd1ea58.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "9cd1ea58-e30c-420e-86f2-b5178e6ed388",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/9cd1ea58-e30c-420e-86f2-b5178e6ed388",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/9cd1ea58-e30c-420e-86f2-b5178e6ed388/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Reykjavík, Iceland",
+        "timezone": "Atlantic/Reykjavik",
+        "latitude": 64.141906,
+        "longitude": -21.925634,
+        "capturedAt": "2019-06-07T12:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 2,
+        "shotScale": "waist_up",
+        "poseFamily": "curious_turn",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 2,
+        "file": "assets/generated/bili-1233313383955038211-v2.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233313383955038211-v2.png",
+        "generatedAt": "2026-08-09T06:10:18.474556Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过：已改用动态明确提及的 Reykjavík, Iceland 实拍背景；无独立可用路牌候选，按地点优先规则使用当地地标街景；04:45 蓝调清晰；二维人物双臂双手完整，两颗纵向泪痣、双发夹和红绿灯吊坠正确，无围巾。",
+        "checkedAt": "2026-08-09T06:10:18.474556Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T06:10:18.721874Z",
+        "notes": "用户明确要求本批地点修正版跳过人工审核并直接更新网页；Agent 预检通过。"
+      },
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1233313383955038211-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233313383955038211-v1.png",
+            "generatedAt": "2026-08-09T05:33:37.105416Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "通过：Ponta Delgada 实拍道路与一行箭头牌完整；蓝调有清晰晨光；转身指路动作自然，双臂双手及手指完整；两颗泪痣、双发夹和红绿灯吊坠清楚，无围巾。",
+            "checkedAt": "2026-08-09T05:33:37.105416Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "动态明确提及冰岛；按用户要求改用冰岛当地街景并直接更新网页。",
+          "decidedAt": "2026-08-09T06:05:17.543040Z"
+        }
+      ],
+      "updatedAt": "2026-08-09T06:10:18.721874Z",
+      "mentionedLocation": {
+        "text": "冰岛",
+        "resolution": "catalog_alias",
+        "locationId": "reykjavik",
+        "matchedAlias": "冰岛"
+      }
+    },
+    {
+      "id": "bili-1233719331373711367",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.250723Z",
+      "source": {
+        "dynamicId": "1233719331373711367",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1233719331373711367",
+        "publishedTimestamp": 1786086066,
+        "publishedAtUtc": "2026-08-07T07:01:06Z",
+        "publishedAtBeijing": "2026-08-07T15:01:06+08:00",
+        "summary": "现在是乌拉圭的凌晨四点，小路正在严肃练习今天要唱的歌曲。 小路加油+"
+      },
+      "location": {
+        "id": "montevideo",
+        "label": "Montevideo, Uruguay",
+        "timezone": "America/Montevideo",
+        "latitude": -34.9011,
+        "longitude": -56.1645,
+        "bbox": [
+          -56.3,
+          -34.95,
+          -56.05,
+          -34.75
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-07T04:01:06-03:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-osm-2afae896-3383-4752-8eef-7c96540cbcd4",
+        "file": "assets/backgrounds/bili-1233719331373711367-2afae896.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "2afae896-3383-4752-8eef-7c96540cbcd4",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/pictures/2afae896-3383-4752-8eef-7c96540cbcd4",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/2afae896-3383-4752-8eef-7c96540cbcd4/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Montevideo, Uruguay",
+        "timezone": "America/Montevideo",
+        "latitude": -34.909523,
+        "longitude": -56.207973,
+        "capturedAt": "2025-05-07T15:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": true,
+        "signRequirementWaived": false,
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 2,
+        "shotScale": "full_body",
+        "poseFamily": "tiptoe_read_sign",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 2,
+        "file": "assets/generated/bili-1233719331373711367-v2.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233719331373711367-v2.png",
+        "generatedAt": "2026-08-09T06:10:18.602851Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过：已改用动态明确提及的 Montevideo, Uruguay 实拍背景；停车与服务标识保留；04:01 蓝调清晰；全身唱歌动作自然，两臂两手两腿双脚完整，双发夹、泪痣与红绿灯吊坠符合设定，无围巾。",
+        "checkedAt": "2026-08-09T06:10:18.602851Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T06:10:18.843132Z",
+        "notes": "用户明确要求本批地点修正版跳过人工审核并直接更新网页；Agent 预检通过。"
+      },
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1233719331373711367-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233719331373711367-v1.png",
+            "generatedAt": "2026-08-09T05:33:37.231815Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "通过（远景面部细节请放大复核）：Cayenne 使用正常透视实拍而非全景展开图；蓝调明亮；全身踮步探牌动作自然，两臂两腿与双手双脚完整；无围巾，吊坠可见；泪痣与发夹因人物较小建议放大查看。",
+            "checkedAt": "2026-08-09T05:33:37.231815Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "动态明确提及乌拉圭；按用户要求改用乌拉圭当地街景并直接更新网页。",
+          "decidedAt": "2026-08-09T06:05:17.665803Z"
+        }
+      ],
+      "updatedAt": "2026-08-09T06:10:18.843132Z",
+      "mentionedLocation": {
+        "text": "乌拉圭",
+        "resolution": "catalog_alias",
+        "locationId": "montevideo",
+        "matchedAlias": "乌拉圭"
+      }
+    },
+    {
+      "id": "bili-1233813824910393349",
+      "status": "approved",
+      "createdAt": "2026-08-09T05:10:56.252447Z",
+      "source": {
+        "dynamicId": "1233813824910393349",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1233813824910393349",
+        "publishedTimestamp": 1786108067,
+        "publishedAtUtc": "2026-08-07T13:07:47Z",
+        "publishedAtBeijing": "2026-08-07T21:07:47+08:00",
+        "summary": "做最充足的准备拉最大的垮，四时小路的人生是一片旷野啊+"
+      },
+      "location": {
+        "id": "adak",
+        "label": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "latitude": 51.9032,
+        "longitude": -176.6222,
+        "bbox": [
+          -176.7,
+          51.84,
+          -176.54,
+          51.96
+        ],
+        "providers": [],
+        "staticCandidates": [
+          {
+            "id": "commons-adak-national-forest-16046920393",
+            "providerId": "wikimedia-commons",
+            "providerName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adak_National_Forest._Adak_Island,_Alaska_(16046920393).jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Adak_National_Forest._Adak_Island%2C_Alaska_%2816046920393%29.jpg/960px-Adak_National_Forest._Adak_Island%2C_Alaska_%2816046920393%29.jpg",
+            "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Adak_National_Forest._Adak_Island%2C_Alaska_%2816046920393%29.jpg/960px-Adak_National_Forest._Adak_Island%2C_Alaska_%2816046920393%29.jpg",
+            "latitude": 51.9032,
+            "longitude": -176.6222,
+            "capturedAt": "2015-01-02T11:39:00-10:00",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+            "creator": "Paxson Woelber",
+            "trafficSignDetections": 1,
+            "fieldOfView": null,
+            "reuseThumbnailAsImage": true
+          }
+        ],
+        "localTimeAtDynamic": "2026-08-07T04:07:47-09:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-commons-adak-national-forest-16046920393",
+        "file": "assets/backgrounds/bili-1233813824910393349-commons-.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "commons-adak-national-forest-16046920393",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adak_National_Forest._Adak_Island,_Alaska_(16046920393).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Adak_National_Forest._Adak_Island%2C_Alaska_%2816046920393%29.jpg/960px-Adak_National_Forest._Adak_Island%2C_Alaska_%2816046920393%29.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "creator": "Paxson Woelber",
+        "location": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "latitude": 51.9032,
+        "longitude": -176.6222,
+        "capturedAt": "2015-01-02T11:39:00-10:00",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": false,
+        "fieldOfView": null
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v3-human-review",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "curious_turn",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1233813824910393349-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1233813824910393349-v1.png",
+        "generatedAt": "2026-08-09T05:34:42.195943Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "通过：Adak 实拍环境和红色路牌保留且文字可读；蓝调清晰；回身指牌加 V 手势自然，双臂双手及手指结构完整；两颗纵向泪痣、双发夹和红围巾正确，无吊坠。",
+        "checkedAt": "2026-08-09T05:34:42.195943Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-09T05:54:12.695295Z",
+        "notes": "用户已查看并确认问题不大，加入网页已发布数据。"
+      },
+      "history": [],
+      "locationFallback": {
+        "from": "rikitea",
+        "reason": "explicit_covered_location_selection",
+        "selectedAt": "2026-08-09T05:21:31.031886Z"
+      },
+      "updatedAt": "2026-08-09T05:54:12.695295Z"
+    }
+  ]
+}

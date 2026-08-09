@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "bilibili": {
+    "uid": "1512246445",
+    "displayName": "四时小路Komichi",
+    "profileUrl": "https://space.bilibili.com/1512246445/dynamic",
+    "feedUrl": "https://api.bilibili.com/x/polymer/web-dynamic/v1/feed/space",
+    "cookieFile": "~/.config/bilibili/cookies.json",
+    "refreshSession": true,
+    "initialBackfill": "all",
+    "maxPages": 5
+  },
+  "streetView": {
+    "candidateLimit": 12,
+    "searchLimit": 50,
+    "requireTrafficSign": true,
+    "preferNonPanorama": true,
+    "providers": [
+      {
+        "id": "panoramax-ign",
+        "name": "Panoramax IGN",
+        "apiBaseUrl": "https://panoramax.ign.fr/api"
+      },
+      {
+        "id": "panoramax-osm",
+        "name": "Panoramax OpenStreetMap",
+        "apiBaseUrl": "https://panoramax.openstreetmap.fr/api"
+      }
+    ]
+  },
+  "generation": {
+    "maxPerRun": 3,
+    "promptVersion": "komichi-composite-v4-place-first",
+    "outputDirectory": "assets/generated"
+  }
+}

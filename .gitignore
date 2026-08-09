@@ -1,0 +1,4 @@
+assets/candidates/
+data/candidates/
+scripts/__pycache__/
+tests/__pycache__/

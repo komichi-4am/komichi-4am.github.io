@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "promptVersion": "komichi-composite-v2",
+  "jobs": [
+    {
+      "id": "test-paris-fullbody",
+      "status": "accepted",
+      "generatedWithPromptVersion": "komichi-composite-v1",
+      "backgroundId": "panoramax-paris-184bd4ec",
+      "shotScale": "full_body",
+      "poseFamily": "walking_look_back",
+      "expression": "playful sleepy smile",
+      "placementIntent": "foreground sidewalk, do not cover the blue-and-red parking sign",
+      "neckAccessory": "red_scarf",
+      "output": "test-paris-fullbody.png",
+      "outputPath": "assets/generated/test-paris-fullbody.png",
+      "generatedAt": "2026-08-09T03:05:25Z",
+      "qa": "Accepted. Strong identity and photographic contrast; action reads as a paused walking turn rather than an active stride."
+    },
+    {
+      "id": "test-paris-kneeup",
+      "status": "accepted",
+      "generatedWithPromptVersion": "komichi-composite-v1",
+      "backgroundId": "panoramax-paris-184bd4ec",
+      "shotScale": "knee_up",
+      "poseFamily": "point_to_sign",
+      "expression": "curious bright smile",
+      "placementIntent": "enter from the left foreground and point toward a visible road sign without blocking it",
+      "neckAccessory": "red_scarf",
+      "output": "test-paris-kneeup.png",
+      "outputPath": "assets/generated/test-paris-kneeup.png",
+      "generatedAt": "2026-08-09T03:05:25Z",
+      "qa": "Accepted. Knee-up framing, pointing gesture, hands, identity, and road-sign visibility all pass."
+    },
+    {
+      "id": "test-paris-closeup",
+      "status": "accepted",
+      "generatedWithPromptVersion": "komichi-composite-v1",
+      "backgroundId": "panoramax-paris-184bd4ec",
+      "shotScale": "close_up",
+      "poseFamily": "peek_into_frame",
+      "expression": "mischievous four-o'clock grin",
+      "placementIntent": "peek into the frame from the right edge while the street and signs remain readable",
+      "neckAccessory": "traffic_light_pendant",
+      "output": "test-paris-closeup.png",
+      "outputPath": "assets/generated/test-paris-closeup.png",
+      "generatedAt": "2026-08-09T03:05:25Z",
+      "qa": "Accepted under v1. Face identity, both hair clips, violet eyes, pendant, five-finger wave, and sign visibility pass; the new v2 two-mole gate was not applied."
+    },
+    {
+      "id": "debug-paris-fullbody-pendant-v2",
+      "status": "pending",
+      "backgroundId": "panoramax-paris-184bd4ec",
+      "shotScale": "full_body",
+      "poseFamily": "tiptoe_read_sign",
+      "expression": "playfully focused sleepy smile",
+      "placementIntent": "full figure on the left foreground, rising on tiptoes toward a road sign without covering it",
+      "neckAccessory": "traffic_light_pendant",
+      "neckAccessorySource": "regression_test_override",
+      "output": "debug-paris-fullbody-pendant-v2.png",
+      "attemptsInLastRun": 2,
+      "lastAttemptAt": "2026-08-09T03:19:27.171Z",
+      "qa": "Pending after one generation and one targeted retry. Full-body plus traffic-light pendant passed, but the two vertically stacked tear moles were not visibly preserved at the output resolution."
+    },
+    {
+      "id": "debug-paris-closeup-scarf-v2",
+      "status": "accepted",
+      "generatedWithPromptVersion": "komichi-composite-v2",
+      "backgroundId": "panoramax-paris-184bd4ec",
+      "shotScale": "close_up",
+      "poseFamily": "sleepy_peek",
+      "expression": "mischievous sleepy four-o'clock grin",
+      "placementIntent": "close portrait entering from the left edge while the street and principal road sign remain readable",
+      "neckAccessory": "red_scarf",
+      "neckAccessorySource": "regression_test_override",
+      "output": "debug-paris-closeup-scarf-v2.png",
+      "outputPath": "assets/generated/debug-paris-closeup-scarf-v2.png",
+      "generatedAt": "2026-08-09T03:19:27.171Z",
+      "qa": "Accepted under v2. Close-up plus red scarf passes; exactly two separate vertically stacked tear moles appear on her anatomical left/viewer-right cheek; no traffic-light pendant appears."
+    }
+  ]
+}

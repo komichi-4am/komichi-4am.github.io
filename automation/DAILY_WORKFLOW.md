@@ -1,0 +1,16 @@
+# Komichi daily workflow
+
+Run from `/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io`.
+
+1. Run `python3 scripts/pipeline.py sync`. The code loads the authenticated Bilibili session only from `~/.config/bilibili/cookies.json`, fetches unseen dynamics, detects explicit phrases naming a place whose local time is 04:xx, and otherwise chooses another 04:xx location. A named place always has priority.
+2. If the cookie file is missing, the login is expired, Bilibili returns HTTP/code `412`, or the request fails, stop immediately and report the exact error code. Do not retry, use Browser/Chrome as a fallback, scrape a visible page, invent dynamics, or advance the monitor cursor. Never show cookie contents in the conversation or copy them into the repository.
+3. Run `python3 scripts/pipeline.py status --json` and process at most three actionable jobs, oldest first. Actionable statuses are `needs_location_resolution`, `pending_background`, `needs_background_review`, and `pending_generation`.
+4. For `needs_location_resolution`, resolve the detected place to a representative real city in that named country/region, verify its IANA timezone and coordinates from reliable geographic sources, add it plus Chinese/English aliases to `data/locations.json`, then run `python3 scripts/pipeline.py apply-mentioned-location JOB_ID --location-id LOCATION_ID`. Never substitute an unrelated country.
+5. For a `pending_background` job, run `python3 scripts/pipeline.py prepare-background JOB_ID`. Prefer a non-360 Panoramax image with traffic-sign annotations. For a resolved place explicitly named in the dynamic, stay in that place; if no signed candidate exists, a signless real street photo is allowed. For an ordinary randomly selected place, the traffic-sign requirement remains. If manual selection is required for a named place, use `select-background JOB_ID CANDIDATE_ID --allow-without-sign`; otherwise use `--confirm-sign` only after visually seeing a real road or traffic sign. If no real street candidate exists in a named place, report the job rather than relocating it.
+6. Generate each image by following `automation/IMAGE_WORKFLOW.md` completely.
+7. Save a preflight-passing image with `python3 scripts/pipeline.py record-output JOB_ID PATH --qa "NOTES"`. This sets `awaiting_review`; it does not publish the post.
+8. If generation fails after one targeted retry, run `python3 scripts/pipeline.py record-failure JOB_ID --qa "NOTES"` and leave it pending.
+9. Never run `git add`, `git commit`, `git push`, or any equivalent publishing action.
+10. Return a concise Chinese report in the Scheduled conversation. For every generated result include the job id, absolute image path, metadata path, and Agent QA notes. End by asking the user to reply with either `提交 JOB_ID` or `重新生成 JOB_ID`.
+
+When the user responds, follow `automation/REVIEW_WORKFLOW.md`. No scheduled run may interpret silence as approval.
