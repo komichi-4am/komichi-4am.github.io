@@ -1087,6 +1087,275 @@
         "selectedAt": "2026-08-09T05:21:31.031886Z"
       },
       "updatedAt": "2026-08-09T05:54:12.695295Z"
+    },
+    {
+      "id": "bili-1234478234867859461",
+      "status": "approved",
+      "createdAt": "2026-08-10T02:57:59.253497Z",
+      "source": {
+        "dynamicId": "1234478234867859461",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1234478234867859461",
+        "publishedTimestamp": 1786262762,
+        "publishedAtUtc": "2026-08-09T08:06:02Z",
+        "publishedAtBeijing": "2026-08-09T16:06:02+08:00",
+        "summary": "承蒙大家厚爱，小路已经忙得起飞啦，预先准备的舰长礼物大概是不够用了，以及还有好多要学习的新东西。现在正在一边工作一边拍拍自己确认一下是不是现实…… 这样的奇迹是和小路泥一起创造的，未来我们可不可以再一起创造更多的奇迹呢，好期待+"
+      },
+      "location": {
+        "id": "ciudad-nueva-do-3509578",
+        "label": "Ciudad Nueva, Dominican Republic",
+        "timezone": "America/Santo_Domingo",
+        "latitude": 18.46707,
+        "longitude": -69.89339,
+        "bbox": [
+          -70.00737,
+          18.35896,
+          -69.77941,
+          18.57518
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-09T04:06:02-04:00"
+      },
+      "background": {
+        "id": "panoramax-meta-f39d17aa-d8bd-46f1-a20d-616cbdc22470",
+        "file": "assets/backgrounds/bili-1234478234867859461-f39d17aa.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "f39d17aa-d8bd-46f1-a20d-616cbdc22470",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/6e702976-580b-419c-8fb3-cf7bd364e6f8/items/f39d17aa-d8bd-46f1-a20d-616cbdc22470",
+        "imageUrl": "https://panoramax.mapcomplete.org/derivatives/f3/9d/17/aa/d8bd-46f1-a20d-616cbdc22470/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "mapcomplete, thomasbh38",
+        "location": "Ciudad Nueva, Dominican Republic",
+        "timezone": "America/Santo_Domingo",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2024-10-13T17:51:50.671000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": true,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 18.477361111,
+        "longitude": -69.884741667
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v5-timestamp-location",
+        "revision": 2,
+        "shotScale": "knee_up",
+        "poseFamily": "point_to_sign",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 2,
+        "file": "assets/generated/bili-1234478234867859461-v2.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234478234867859461-v2.png",
+        "generatedAt": "2026-08-10T05:17:57.884399Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass for v2 after user-reported bilateral-hand defect: regenerated fresh from the original Ciudad Nueva background; raised viewer-left limb is the anatomical RIGHT arm ending in a correctly oriented RIGHT hand with inward/image-right thumb, extended index, three curled fingers, and continuous wrist; lowered viewer-right limb is the anatomical LEFT arm ending in a correctly oriented LEFT hand with inward/image-left thumb and four relaxed fingers. The hands are opposite types, not two left or two right hands. Exactly two separate vertically stacked tear moles appear on the viewer-right cheek; red scarf is the only neck accessory; hair clips are on correct sides; both legs are attached with natural crop; skirt hem is below both knees at upper calf. The photographic street, bicycle, and P/BICICLETA sign remain legible and unobstructed in readable blue-hour light; no extra character, caption, border, or watermark.",
+        "checkedAt": "2026-08-10T05:17:57.884399Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-10T05:27:20.810420Z",
+        "notes": "用户明确要求三个待审任务全部发布。"
+      },
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1234478234867859461-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234478234867859461-v1.png",
+            "generatedAt": "2026-08-10T05:07:26.820675Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "Agent strict preflight pass after one targeted retry: real Ciudad Nueva street, bicycle, and blue P/BICICLETA sign remain photographic, legible, and unobstructed; readable lifted-shadow 04:06 blue-hour lighting; Komichi is 2D cel-shaded on image-right with the requested pointing pose; exactly one red scarf and no pendant/choker/necklace; exactly two small vertically stacked tear moles on the viewer-right cheek and no extra facial moles; yellow and blue hair clips remain on correct sides; both attached arms and hands are present with plausible fingers, both attached legs are present with a natural lower-frame crop, no missing/fused/duplicated/floating/truncated limbs; skirt hem is clearly below both knees at the upper calf; no added caption, border, watermark, or extra character.",
+            "checkedAt": "2026-08-10T05:07:26.820675Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户复核发现两只手都画成左手：抬起的右臂末端手掌左右方向错误。保留 v1，v2 必须从原始街景重新生成，并逐手验证拇指侧与前臂对应。",
+          "decidedAt": "2026-08-10T05:15:36.606002Z"
+        }
+      ],
+      "updatedAt": "2026-08-10T05:27:20.810420Z",
+      "candidateManifest": "data/candidates/bili-1234478234867859461.json"
+    },
+    {
+      "id": "bili-1234580674174779395",
+      "status": "approved",
+      "createdAt": "2026-08-10T02:57:59.255093Z",
+      "source": {
+        "dynamicId": "1234580674174779395",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1234580674174779395",
+        "publishedTimestamp": 1786286613,
+        "publishedAtUtc": "2026-08-09T14:43:33Z",
+        "publishedAtBeijing": "2026-08-09T22:43:33+08:00",
+        "summary": "小路是以JK身份活动中的都市传说，目标是成为“闪闪发光的主角”，请来见证小路的主角之路吧+ p4是提问箱，欢迎小路泥提问! 代表Emoji：⚠️ 🚦 代表字符：+（十字路） 生日：1月31日 小路日：4月16日 粉丝牌：小路泥 Tag：四时小路的新传单 8月舰礼：明信片（p5）+拍立得+吧唧（制作中） 8月提督礼：舰礼+印签明信片+亚克力砖（制作中） 制作完毕后会补充样图。"
+      },
+      "location": {
+        "id": "ewa-beach-us-5855051",
+        "label": "‘Ewa Beach, United States",
+        "timezone": "Pacific/Honolulu",
+        "latitude": 21.31556,
+        "longitude": -158.00722,
+        "bbox": [
+          -158.12327,
+          21.20745,
+          -157.89117,
+          21.42367
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-09T04:43:33-10:00"
+      },
+      "background": {
+        "id": "panoramax-meta-e69561d5-07ad-4b32-8a42-a8f2ac037ef4",
+        "file": "assets/backgrounds/bili-1234580674174779395-e69561d5.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "e69561d5-07ad-4b32-8a42-a8f2ac037ef4",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/a7cf963f-8d1c-4bac-9717-e3149f5f9fff/items/e69561d5-07ad-4b32-8a42-a8f2ac037ef4",
+        "imageUrl": "https://panoramax.mapcomplete.org/derivatives/e6/95/61/d5/07ad-4b32-8a42-a8f2ac037ef4/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "mapcomplete, Oahu_JimG",
+        "location": "‘Ewa Beach, United States",
+        "timezone": "Pacific/Honolulu",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2026-01-17T19:29:53+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 41,
+        "viewSource": "provider_image_asset",
+        "latitude": 21.326206832,
+        "longitude": -157.977316445
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v5-timestamp-location",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "sleepy_grin",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1234580674174779395-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234580674174779395-v1.png",
+        "generatedAt": "2026-08-10T05:19:20.585373Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: real ‘Ewa Beach utility pole, transformer, wires, trees, roof, and house remain photographic and unchanged; no road sign was invented, and metadata truthfully records sign_preference_fallback. The 04:43 scene reads as blue hour with a visible blue sky, pole, foliage, and house detail rather than a black night scene. Komichi is a close-up on image-right with both shoulders and both upper arms naturally present; forearms and hands continue outside the bottom crop, so no malformed, duplicated, reversed, floating, or same-sided hand appears. Exactly two separate vertically stacked tear moles are on the viewer-right cheek; hair clips are on correct sides; the traffic-light pendant is clear and is the only neck accessory, with no scarf or substitute. No added text, border, watermark, or extra character.",
+        "checkedAt": "2026-08-10T05:19:20.585373Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-10T05:27:20.941436Z",
+        "notes": "用户明确要求三个待审任务全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-10T05:27:20.941436Z",
+      "candidateManifest": "data/candidates/bili-1234580674174779395.json"
+    },
+    {
+      "id": "bili-1234722794642604036",
+      "status": "approved",
+      "createdAt": "2026-08-10T02:57:59.257008Z",
+      "source": {
+        "dynamicId": "1234722794642604036",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1234722794642604036",
+        "publishedTimestamp": 1786319703,
+        "publishedAtUtc": "2026-08-09T23:55:03Z",
+        "publishedAtBeijing": "2026-08-10T07:55:03+08:00",
+        "summary": "小路泥早安，第一次音乐电台已经简单准备完毕，静候大家来收听，作为新尝试如有不完善的地方也请多多担待啦。 我们亚美尼亚的凌晨4点见+"
+      },
+      "location": {
+        "id": "alipur-pk-1184644",
+        "label": "Alipur, Pakistan",
+        "timezone": "Asia/Karachi",
+        "latitude": 33.64894,
+        "longitude": 73.17787,
+        "bbox": [
+          73.048,
+          33.54083,
+          73.30774,
+          33.75705
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "localTimeAtDynamic": "2026-08-10T04:55:03+05:00"
+      },
+      "background": {
+        "id": "panoramax-meta-0ccb7d02-c32e-4966-a27a-7648a4ef54c1",
+        "file": "assets/backgrounds/bili-1234722794642604036-0ccb7d02.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "0ccb7d02-c32e-4966-a27a-7648a4ef54c1",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/986cc9ec-7f32-4d25-89e2-1f4a8d6ce96d/items/0ccb7d02-c32e-4966-a27a-7648a4ef54c1",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/0c/cb/7d/02/c32e-4966-a27a-7648a4ef54c1/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Alipur, Pakistan",
+        "timezone": "Asia/Karachi",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2024-12-21T07:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 33.742043,
+        "longitude": 73.081243
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v5-timestamp-location",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "sleepy_wave",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1234722794642604036-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234722794642604036-v1.png",
+        "generatedAt": "2026-08-10T05:22:40.456190Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass after one targeted tear-mole correction: real Alipur parking surface, painted lines, yellow van, all cars, trees, lamps, and power structure remain photographic and unchanged; no road sign was invented, and metadata records sign_preference_fallback. Readable 04:55 blue hour with lifted parking-lot detail and predawn horizon. The visible waving hand is the anatomical LEFT hand on viewer-right with inward/viewer-left thumb plus four distinct upright fingers, five digits total, and a continuous wrist/forearm; the anatomical RIGHT arm remains continuous and exits naturally through the bottom waist-up crop with its hand outside the image, so there is no duplicated, reversed, floating, or same-sided second hand. Exactly two separate vertically stacked tear moles are on the viewer-right cheek; hair clips are correct; red scarf is the only neck accessory; no extra character, caption, border, or watermark.",
+        "checkedAt": "2026-08-10T05:22:40.456190Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-10T05:27:21.065935Z",
+        "notes": "用户明确要求三个待审任务全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-10T05:27:21.065935Z",
+      "candidateManifest": "data/candidates/bili-1234722794642604036.json"
     }
   ]
 }
