@@ -25,6 +25,15 @@ function formatCoordinate(value) {
   return Number.isFinite(Number(value)) ? Number(value).toFixed(5) : "?";
 }
 
+function hasCoordinate(value) {
+  return value !== null && value !== "" && Number.isFinite(Number(value));
+}
+
+function hasDisplayableCoordinates(latitude, longitude) {
+  if (!hasCoordinate(latitude) || !hasCoordinate(longitude)) return false;
+  return Number(latitude) !== 0 || Number(longitude) !== 0;
+}
+
 function renderPost(post) {
   const node = template.content.cloneNode(true);
   const image = node.querySelector(".post-image");
@@ -34,8 +43,6 @@ function renderPost(post) {
   const coordinateLink = node.querySelector(".coordinate-link");
   const locationLabel = node.querySelector(".location-label");
   const localTime = node.querySelector(".local-time");
-  const latitude = formatCoordinate(post.latitude);
-  const longitude = formatCoordinate(post.longitude);
   const beijingTime = formatDate(post.publishedAtBeijing, "Asia/Shanghai");
 
   image.src = post.image;
@@ -54,8 +61,19 @@ function renderPost(post) {
   }
 
   summary.textContent = post.bilibiliSummary || "";
-  coordinateLink.textContent = `坐标 ${latitude}, ${longitude}`;
-  coordinateLink.href = `https://www.openstreetmap.org/?mlat=${encodeURIComponent(latitude)}&mlon=${encodeURIComponent(longitude)}#map=16/${encodeURIComponent(latitude)}/${encodeURIComponent(longitude)}`;
+  if (
+    post.coordinatesOmitted ||
+    !hasDisplayableCoordinates(post.latitude, post.longitude)
+  ) {
+    const separator = coordinateLink.previousElementSibling;
+    if (separator?.classList.contains("meta-separator")) separator.remove();
+    coordinateLink.remove();
+  } else {
+    const latitude = formatCoordinate(post.latitude);
+    const longitude = formatCoordinate(post.longitude);
+    coordinateLink.textContent = `坐标 ${latitude}, ${longitude}`;
+    coordinateLink.href = `https://www.openstreetmap.org/?mlat=${encodeURIComponent(latitude)}&mlon=${encodeURIComponent(longitude)}#map=16/${encodeURIComponent(latitude)}/${encodeURIComponent(longitude)}`;
+  }
   locationLabel.textContent = post.location || "地区未知";
   localTime.textContent = `当地时间 ${formatDate(post.localTime, post.timezone)}`;
   if (post.localTime) {
