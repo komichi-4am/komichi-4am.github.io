@@ -1356,6 +1356,265 @@
       "history": [],
       "updatedAt": "2026-08-10T05:27:21.065935Z",
       "candidateManifest": "data/candidates/bili-1234722794642604036.json"
+    },
+    {
+      "id": "bili-1234902895508324354",
+      "status": "approved",
+      "createdAt": "2026-08-11T12:02:25.239170Z",
+      "source": {
+        "dynamicId": "1234902895508324354",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1234902895508324354",
+        "publishedTimestamp": 1786361636,
+        "publishedAtUtc": "2026-08-10T11:33:56Z",
+        "publishedAtBeijing": "2026-08-10T19:33:56+08:00",
+        "summary": "＋⚠️今日音乐电台分享专辑🚦＋ Bialystocks同名专辑《ビアリストックス》 以及补充曲目:《言伝》《Over Now》 音乐电台的反响远超预期！感谢大家的喜欢！＋ PS：请大家注意不要去无关场合下刷小路或者＋号，请愉快地欣赏音乐！"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "mesa-us-5304391",
+        "label": "Mesa, United States",
+        "timezone": "America/Phoenix",
+        "latitude": 33.42227,
+        "longitude": -111.82264,
+        "bbox": [
+          -111.95217,
+          33.31416,
+          -111.69311,
+          33.53038
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-10T04:33:56-07:00"
+      },
+      "background": {
+        "id": "panoramax-meta-d2597f3b-ae1d-451c-883e-8aa2954eb5d8",
+        "file": "assets/backgrounds/bili-1234902895508324354-d2597f3b.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "d2597f3b-ae1d-451c-883e-8aa2954eb5d8",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/ca9bde32-a8af-4d83-a09a-66783d0b76da/items/d2597f3b-ae1d-451c-883e-8aa2954eb5d8",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/d2/59/7f/3b/ae1d-451c-883e-8aa2954eb5d8/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Jon Hanson",
+        "location": "Mesa, United States",
+        "timezone": "America/Phoenix",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-07-12T19:01:10+00:00",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 33.336017164,
+        "longitude": -111.75711992
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "playful_balanced_step",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1234902895508324354-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234902895508324354-v1.png",
+        "generatedAt": "2026-08-11T12:09:41.893702Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: real Mesa storefront, existing logos, curb, bicycle rack, and FIRE LANE NO PARKING sign remain photographic, legible, and unobstructed in readable blue-hour light. Full-body Komichi has exactly two separate vertically stacked tear moles on the viewer-right cheek, correct hair clips, red scarf as the only neck accessory, two continuous arms and hands with five plausible digits per visible hand, two attached legs and complete feet, natural grounded balance, and a skirt hem clearly below both knees at upper calf. No missing, fused, duplicated, floating, reversed, or unnaturally truncated limb; no extra character, caption, border, or watermark.",
+        "checkedAt": "2026-08-11T12:09:41.893702Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-11T12:22:01.460162Z",
+        "notes": "用户明确要求今天三张全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-11T12:22:01.460162Z"
+    },
+    {
+      "id": "bili-1234928519267483670",
+      "status": "approved",
+      "createdAt": "2026-08-11T12:02:25.242561Z",
+      "source": {
+        "dynamicId": "1234928519267483670",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1234928519267483670",
+        "publishedTimestamp": 1786367602,
+        "publishedAtUtc": "2026-08-10T13:13:22Z",
+        "publishedAtBeijing": "2026-08-10T21:13:22+08:00",
+        "summary": "小路泥请稍等……第一次遇到这种情况[灵魂出窍]＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "adak",
+        "label": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "latitude": 51.9032,
+        "longitude": -176.6222,
+        "bbox": [
+          -176.7,
+          51.84,
+          -176.54,
+          51.96
+        ],
+        "providers": [],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-adak-national-forest",
+          "static-adak-residences",
+          "static-adak-abandoned-homes",
+          "static-adak-playground",
+          "static-adak-city-panorama"
+        ],
+        "localTimeAtDynamic": "2026-08-10T04:13:22-09:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-adak-city-panorama",
+        "file": "assets/backgrounds/bili-1234928519267483670-static-a.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-adak-city-panorama",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_city_of_Adak,_Alaska_(47996644657).jpg",
+        "imageUrl": null,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "creator": "Paxson Woelber",
+        "location": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2019-05-01T10:30:00-10:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "sleepy_wave",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1234928519267483670-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234928519267483670-v1.png",
+        "generatedAt": "2026-08-11T12:09:42.017983Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: checked-in real Adak city panorama, roads, houses, coast, and mountains remain photographic and readable in lifted blue-hour light; no sign was invented and the static fallback remains truthful. Waist-up Komichi has exactly two separate vertically stacked tear moles on the viewer-right cheek, correct hair clips, a clearly visible traffic-light pendant as the only neck accessory, no scarf, two continuous arms, one anatomically plausible five-finger sleepy wave, and the other hand naturally continuing through the bottom waist crop. No missing, fused, duplicated, floating, reversed, or abrupt limb crop; no extra character, text, border, or watermark.",
+        "checkedAt": "2026-08-11T12:09:42.017983Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-11T12:22:01.541297Z",
+        "notes": "用户明确要求今天三张全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-11T12:22:01.541297Z"
+    },
+    {
+      "id": "bili-1234930640975036423",
+      "status": "approved",
+      "createdAt": "2026-08-11T12:02:25.245591Z",
+      "source": {
+        "dynamicId": "1234930640975036423",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1234930640975036423",
+        "publishedTimestamp": 1786368096,
+        "publishedAtUtc": "2026-08-10T13:21:36Z",
+        "publishedAtBeijing": "2026-08-10T21:21:36+08:00",
+        "summary": "抱歉大家，先紧急换成手机电台了，尽快重新开播+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "adak",
+        "label": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "latitude": 51.9032,
+        "longitude": -176.6222,
+        "bbox": [
+          -176.7,
+          51.84,
+          -176.54,
+          51.96
+        ],
+        "providers": [],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-adak-national-forest",
+          "static-adak-residences",
+          "static-adak-abandoned-homes",
+          "static-adak-playground",
+          "static-adak-city-panorama"
+        ],
+        "localTimeAtDynamic": "2026-08-10T04:21:36-09:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-adak-national-forest",
+        "file": "assets/backgrounds/bili-1234930640975036423-static-a.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-adak-national-forest",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adak_National_Forest._Adak_Island,_Alaska_(16046920393).jpg",
+        "imageUrl": null,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "creator": "Paxson Woelber",
+        "location": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2015-01-02T11:39:00-10:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "sleepy_grin",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1234930640975036423-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1234930640975036423-v1.png",
+        "generatedAt": "2026-08-11T12:09:42.139336Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: real Adak National Forest landscape and principal red sign remain photographic, fully legible, unaltered, and unobstructed in readable blue-hour light. Close-up Komichi has exactly two separate vertically stacked tear moles on the viewer-right cheek, correct hair clips, a visible traffic-light pendant as the only neck accessory, no scarf, and exactly two shoulders and two continuous upper arms with both forearms and hands naturally outside the bottom crop. No missing, fused, duplicated, floating, or abrupt anatomy; no extra character, added text, border, or watermark.",
+        "checkedAt": "2026-08-11T12:09:42.139336Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-11T12:22:01.618950Z",
+        "notes": "用户明确要求今天三张全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-11T12:22:01.618950Z"
     }
   ]
 }
