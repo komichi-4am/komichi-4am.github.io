@@ -1615,6 +1615,570 @@
       },
       "history": [],
       "updatedAt": "2026-08-11T12:22:01.618950Z"
+    },
+    {
+      "id": "bili-1235202082934358025",
+      "status": "approved",
+      "createdAt": "2026-08-11T12:02:25.252993Z",
+      "source": {
+        "dynamicId": "1235202082934358025",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1235202082934358025",
+        "publishedTimestamp": 1786431296,
+        "publishedAtUtc": "2026-08-11T06:54:56Z",
+        "publishedAtBeijing": "2026-08-11T14:54:56+08:00",
+        "summary": "现在是纽芬兰的凌晨四点多，不得不向小路泥公布一个坏消息…… 小路的战友笔电彻底坏了，已经和staff商量尽快购入新电脑。 原本的直播计划被打乱了肥肠抱歉，今天的直播先取消，后续安排待定，但是会尽快处理，也会跟大家实时汇报进展和直播安排的变动＋"
+      },
+      "mentionedLocation": {
+        "text": "纽芬兰",
+        "resolution": "manual_catalog",
+        "locationId": "st-johns-newfoundland",
+        "matchedAlias": "st-johns-newfoundland"
+      },
+      "location": {
+        "id": "st-johns-newfoundland",
+        "label": "St. John's, Newfoundland and Labrador, Canada",
+        "timezone": "America/St_Johns",
+        "latitude": 47.56494,
+        "longitude": -52.70931,
+        "bbox": [
+          -52.86953,
+          47.45684,
+          -52.54909,
+          47.67305
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-11T04:24:56-02:30",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-meta-04f86d58-7af1-43d7-b892-34d9ec2ddce3",
+        "file": "assets/backgrounds/bili-1235202082934358025-04f86d58.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "04f86d58-7af1-43d7-b892-34d9ec2ddce3",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/cea9a91c-124e-4c57-812d-18c939539eaf/items/04f86d58-7af1-43d7-b892-34d9ec2ddce3",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/04/f8/6d/58/7af1-43d7-b892-34d9ec2ddce3/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "St. John's, Newfoundland and Labrador, Canada",
+        "timezone": "America/St_Johns",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2023-06-18T14:30:00+00:00",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 47.52707,
+        "longitude": -52.82255
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "curious_turn",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1235202082934358025-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1235202082934358025-v1.png",
+        "generatedAt": "2026-08-13T12:10:33.729271Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: authoritative St. John's real street remains photographic in readable blue hour; the real left arrow sign and right-side signs are unaltered, visible, and unobstructed. Waist-up curious-turn Komichi is on image-right with exactly two separate vertically stacked tear moles on the viewer-right cheek, correct hair clips, red scarf as the only neck accessory, two continuous arms, one plausible fully visible hand with five digits, and the other hand naturally continuing through the bottom crop. No missing, fused, duplicated, floating, reversed, or abrupt anatomy; no invented sign, extra character, caption, border, or watermark.",
+        "checkedAt": "2026-08-13T12:10:33.729271Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T06:01:39.936284Z",
+        "notes": "用户明确全部通过并正式提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T06:01:39.936284Z"
+    },
+    {
+      "id": "bili-1235581414397706249",
+      "status": "approved",
+      "createdAt": "2026-08-13T12:03:27.880559Z",
+      "source": {
+        "dynamicId": "1235581414397706249",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1235581414397706249",
+        "publishedTimestamp": 1786519616,
+        "publishedAtUtc": "2026-08-12T07:26:56Z",
+        "publishedAtBeijing": "2026-08-12T15:26:56+08:00",
+        "summary": "现在是苏里南的凌晨四点多…… 小路在前辈们和staff们的帮助下获得了一台拼好机，感激之情无以言表。 为了能更好的放下电脑，也紧急购入了好一点的桌子。以及因为重装系统，还有大量的设置需要从头开始做，会比较费时间，明天开始大概也能恢复正常直播了，多亏了前辈们的帮忙。 围着相关事情忙了一天了，今晚的直播可能会比较粗暴简单，小路争取能够顺利开播（燃尽）＋"
+      },
+      "mentionedLocation": {
+        "text": "苏里南",
+        "resolution": "manual_catalog",
+        "locationId": "paramaribo-suriname",
+        "matchedAlias": "paramaribo-suriname"
+      },
+      "location": {
+        "id": "paramaribo-suriname",
+        "label": "Paramaribo, Suriname",
+        "timezone": "America/Paramaribo",
+        "latitude": 5.86638,
+        "longitude": -55.16682,
+        "bbox": [
+          -55.27549,
+          5.75827,
+          -55.05814,
+          5.97449
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [
+          {
+            "id": "commons-paramaribo-street-2008",
+            "providerId": "wikimedia-commons",
+            "providerName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paramaribo_street,_Suriname.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Paramaribo_street%2C_Suriname.jpg",
+            "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Paramaribo_street%2C_Suriname.jpg",
+            "localFile": "assets/candidates/bili-1235581414397706249/commons-paramaribo-street.jpg",
+            "placeLabel": "Paramaribo, Suriname",
+            "coordinatesOmitted": true,
+            "capturedAt": "2008-10-24",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+            "creator": "Ian Mackenzie",
+            "trafficSignDetections": 0,
+            "fieldOfView": null,
+            "reuseThumbnailAsImage": true
+          }
+        ],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-12T04:26:56-03:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "wikimedia-commons-commons-paramaribo-street-2008",
+        "file": "assets/backgrounds/bili-1235581414397706249-commons-.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "commons-paramaribo-street-2008",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paramaribo_street,_Suriname.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Paramaribo_street%2C_Suriname.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "creator": "Ian Mackenzie",
+        "location": "Paramaribo, Suriname",
+        "timezone": "America/Paramaribo",
+        "coordinatesOmitted": true,
+        "staticFallback": false,
+        "capturedAt": "2008-10-24",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "tiptoe_read_sign",
+        "expression": "curious bright smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1235581414397706249-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1235581414397706249-v1.png",
+        "generatedAt": "2026-08-14T05:38:48.029505Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: verified real Paramaribo street photo remains photographic and place-faithful under readable 04:26 blue-hour grading; buildings, vehicles, people already in the source, storefront text, overhead wires, and the far-right real traffic light remain intact and unobstructed, with no invented sign. Full-body Komichi on image-left has exactly two separate vertically stacked viewer-right tear moles, correct hair clips, red scarf as the only neck accessory with no pendant/choker/necklace, canonical waist tassel cluster, and an upper-calf below-knee skirt. Exactly two continuous arms, two attached visible hands with plausible five-finger structure, two legs, and two complete grounded feet/shoes in a balanced slight-tiptoe pose; no missing, fused, duplicated, floating, reversed, or truncated anatomy. No extra generated character, caption, frame, or watermark.",
+        "checkedAt": "2026-08-14T05:38:48.029505Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T06:01:40.046664Z",
+        "notes": "用户明确全部通过并正式提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T06:01:40.046664Z"
+    },
+    {
+      "id": "bili-1235651164699099160",
+      "status": "approved",
+      "createdAt": "2026-08-13T12:03:27.883768Z",
+      "source": {
+        "dynamicId": "1235651164699099160",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1235651164699099160",
+        "publishedTimestamp": 1786535856,
+        "publishedAtUtc": "2026-08-12T11:57:36Z",
+        "publishedAtBeijing": "2026-08-12T19:57:36+08:00",
+        "summary": "obs还在缓慢下载中，今晚的直播可能需要推迟半小时在开始，因为机架要晚一点才有空重新调试所以唱歌换到明天早台，今天来回复一部分提问！看到了好感动的提问，迫不及待和大家聊一聊了＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "chula-vista-us-5336899",
+        "label": "Chula Vista, United States",
+        "timezone": "America/Los_Angeles",
+        "latitude": 32.64005,
+        "longitude": -117.0842,
+        "bbox": [
+          -117.21258,
+          32.53194,
+          -116.95582,
+          32.74816
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-12T04:57:36-07:00"
+      },
+      "background": {
+        "id": "panoramax-meta-bfeff05d-b9c0-44f6-a4c4-c238a81b4245",
+        "file": "assets/backgrounds/bili-1235651164699099160-bfeff05d.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "bfeff05d-b9c0-44f6-a4c4-c238a81b4245",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/08513ffb-0add-415c-8c41-b78be99b8a9f/items/bfeff05d-b9c0-44f6-a4c4-c238a81b4245",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/bf/ef/f0/5d/b9c0-44f6-a4c4-c238a81b4245/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Chula Vista, United States",
+        "timezone": "America/Los_Angeles",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2024-11-19T20:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 32.719798,
+        "longitude": -117.173434
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "hold_scarf_in_breeze",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1235651164699099160-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1235651164699099160-v1.png",
+        "generatedAt": "2026-08-14T04:14:08.292884Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass on fresh rerun: real Chula Vista harbor, ship, rigging, flag, utility box, vehicles, palms, building, curb, and parking lines remain photographic and readable in blue-hour light; no traffic sign was invented. Waist-up Komichi on image-right has exactly two separate vertically stacked viewer-right tear moles, correct hair clips, red scarf as the only neck accessory with no pendant/choker/necklace, two continuous arms and opposite anatomically plausible scarf-holding hands with five plausible digits each, and the canonical waist tassel cluster correctly retained. No missing, fused, duplicated, floating, reversed, or truncated anatomy; no extra character, caption, frame, or watermark.",
+        "checkedAt": "2026-08-14T04:14:08.292884Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T06:01:40.140264Z",
+        "notes": "用户明确全部通过并正式提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T06:01:40.140264Z"
+    },
+    {
+      "id": "bili-1235947251160842273",
+      "status": "approved",
+      "createdAt": "2026-08-13T12:03:27.890897Z",
+      "source": {
+        "dynamicId": "1235947251160842273",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1235947251160842273",
+        "publishedTimestamp": 1786604794,
+        "publishedAtUtc": "2026-08-13T07:06:34Z",
+        "publishedAtBeijing": "2026-08-13T15:06:34+08:00",
+        "summary": "现在是阿根廷的凌晨四点。 小路正在勤奋工作，要发的传单、要唱的歌、要去的地方，好忙好忙…… 提督礼物改to签的事已经和staff沟通好了，明信片也会增加一点工艺！电脑也在逐步适应中，重装系统丢失掉很多数据在慢慢调整。 以及明天就要第一次和大家一起玩游戏了，期待＋"
+      },
+      "mentionedLocation": {
+        "text": "阿根廷",
+        "resolution": "manual_catalog",
+        "locationId": "buenos-aires-argentina",
+        "matchedAlias": "buenos-aires-argentina"
+      },
+      "location": {
+        "id": "buenos-aires-argentina",
+        "label": "Buenos Aires, Argentina",
+        "timezone": "America/Argentina/Buenos_Aires",
+        "latitude": -34.61315,
+        "longitude": -58.37723,
+        "bbox": [
+          -58.50859,
+          -34.72126,
+          -58.24587,
+          -34.50504
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [
+          {
+            "id": "commons-buenos-aires-bikeway",
+            "providerId": "wikimedia-commons",
+            "providerName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avenida_con_bicisenda_en_ba.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Avenida_con_bicisenda_en_ba.jpg",
+            "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Avenida_con_bicisenda_en_ba.jpg",
+            "localFile": "assets/candidates/bili-1235947251160842273/commons-buenos-aires-bikeway.jpg",
+            "placeLabel": "Buenos Aires, Argentina",
+            "coordinatesOmitted": true,
+            "capturedAt": "2011-11",
+            "license": "CC BY 2.5 AR",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.5/ar/deed.en",
+            "creator": "Gobierno de la Ciudad Autónoma de Buenos Aires",
+            "trafficSignDetections": 1,
+            "fieldOfView": null,
+            "reuseThumbnailAsImage": true
+          }
+        ],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-13T04:06:34-03:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "wikimedia-commons-commons-buenos-aires-bikeway",
+        "file": "assets/backgrounds/bili-1235947251160842273-commons-.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "commons-buenos-aires-bikeway",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avenida_con_bicisenda_en_ba.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Avenida_con_bicisenda_en_ba.jpg",
+        "license": "CC BY 2.5 AR",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5/ar/deed.en",
+        "creator": "Gobierno de la Ciudad Autónoma de Buenos Aires",
+        "location": "Buenos Aires, Argentina",
+        "timezone": "America/Argentina/Buenos_Aires",
+        "coordinatesOmitted": true,
+        "staticFallback": false,
+        "capturedAt": "2011-11",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "tiptoe_read_sign",
+        "expression": "playful sleepy smile",
+        "placementSide": "left",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1235947251160842273-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1235947251160842273-v1.png",
+        "generatedAt": "2026-08-14T05:38:48.153151Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass on a higher-resolution verified Buenos Aires source: the real large bicycle road sign remains fully visible, unobstructed, and unchanged in shape, pictogram, color, size, and pole position; bicycle-lane arrows, markings, buildings, lamps, traffic lights, vehicles, and existing people remain photographic under readable 04:06 blue-hour grading, with no invented sign. Full-body Komichi below/right of the sign has exactly two separate vertically stacked viewer-right tear moles, correct hair clips, a small traffic-light pendant as the only neck accessory with no scarf/choker/second necklace, canonical waist tassel cluster, and an upper-calf below-knee skirt. Exactly two continuous arms, two attached visible hands with plausible pointing/lowered fingers, two legs, and two complete grounded feet/shoes in a balanced slight-tiptoe pose; no missing, fused, duplicated, floating, reversed, or truncated anatomy. No extra generated character, caption, frame, or watermark.",
+        "checkedAt": "2026-08-14T05:38:48.153151Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T06:01:40.233002Z",
+        "notes": "用户明确全部通过并正式提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T06:01:40.233002Z"
+    },
+    {
+      "id": "bili-1236036749648461825",
+      "status": "approved",
+      "createdAt": "2026-08-14T04:02:18.770469Z",
+      "source": {
+        "dynamicId": "1236036749648461825",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1236036749648461825",
+        "publishedTimestamp": 1786625632,
+        "publishedAtUtc": "2026-08-13T12:53:52Z",
+        "publishedAtBeijing": "2026-08-13T20:53:52+08:00",
+        "summary": "推荐一个视频给小路泥＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "elmendorf-air-force-base-us-8605012",
+        "label": "Elmendorf Air Force Base, United States",
+        "timezone": "America/Anchorage",
+        "latitude": 61.25703,
+        "longitude": -149.63139,
+        "bbox": [
+          -149.8562,
+          61.14892,
+          -149.40658,
+          61.36514
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-13T04:53:52-08:00"
+      },
+      "background": {
+        "id": "panoramax-meta-4667288f-98fa-4547-8efe-aa95efbe10fa",
+        "file": "assets/backgrounds/bili-1236036749648461825-4667288f.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "4667288f-98fa-4547-8efe-aa95efbe10fa",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/e9bcb8c0-8ade-4ac9-bc9f-cfa464221fd6/items/4667288f-98fa-4547-8efe-aa95efbe10fa",
+        "imageUrl": "https://panoramax.mapcomplete.org/derivatives/46/67/28/8f/98fa-4547-8efe-aa95efbe10fa/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "mapcomplete, scrynksh",
+        "location": "Elmendorf Air Force Base, United States",
+        "timezone": "America/Anchorage",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2024-06-15T19:36:54+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 61.2290285,
+        "longitude": -149.8545798
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "hold_warm_drink",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1236036749648461825-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236036749648461825-v1.png",
+        "generatedAt": "2026-08-14T05:22:10.097953Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass after one targeted retry: real Elmendorf apartment facade, door numbers 227/230 and 231/236, windows, bicycle rack, bicycle, lawn, sidewalk, and household objects remain photographic and readable under blue-hour grading; no traffic sign or new text was invented. Knee-up Komichi on image-right has exactly two separate vertically stacked viewer-right tear moles, reference-consistent hair ornaments without warning pictograms, red scarf as the only neck accessory, two continuous arms, and two attached anatomically plausible cup-holding hands with natural visible digits. Canonical waist tassel cluster retained. No missing, fused, duplicated, floating, reversed, or unnaturally truncated anatomy; no extra character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-14T05:22:10.097953Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T06:01:40.327536Z",
+        "notes": "用户明确全部通过并正式提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T06:01:40.327536Z"
+    },
+    {
+      "id": "bili-1236041383968505856",
+      "status": "approved",
+      "createdAt": "2026-08-14T04:02:18.773688Z",
+      "source": {
+        "dynamicId": "1236041383968505856",
+        "type": "DYNAMIC_TYPE_AV",
+        "url": "https://www.bilibili.com/opus/1236041383968505856",
+        "publishedTimestamp": 1786626711,
+        "publishedAtUtc": "2026-08-13T13:11:51Z",
+        "publishedAtBeijing": "2026-08-13T21:11:51+08:00",
+        "summary": "分享动态"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "adak",
+        "label": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "latitude": 51.9032,
+        "longitude": -176.6222,
+        "bbox": [
+          -176.7,
+          51.84,
+          -176.54,
+          51.96
+        ],
+        "providers": [],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-adak-national-forest",
+          "static-adak-residences",
+          "static-adak-abandoned-homes",
+          "static-adak-playground",
+          "static-adak-city-panorama"
+        ],
+        "localTimeAtDynamic": "2026-08-13T04:11:51-09:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-adak-residences",
+        "file": "assets/backgrounds/bili-1236041383968505856-static-a.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-adak-residences",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Residences_in_Adak._Adak_Island,_Aleutian_Islands,_Alaska_-_panoramio.jpg",
+        "imageUrl": null,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "creator": "Paxson Woelber",
+        "location": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2014-12-28",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "crossing_at_dawn",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1236041383968505856-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236041383968505856-v1.png",
+        "generatedAt": "2026-08-14T05:24:38.388281Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real snowy Adak residential panorama, roads, houses, utility elements, and mountain backdrop remain photographic and place-faithful under blue-hour grading; no sign or new text was invented. Environmental-wide Komichi on image-left has exactly two separate vertically stacked viewer-right tear moles, reference-consistent hair ornaments, a small traffic-light pendant as the only neck accessory with no scarf/choker/second necklace, canonical waist tassel cluster, and a below-knee skirt. Full-body crossing pose has exactly two continuous arms, two attached visible hands with plausible fingers, two naturally separated legs, and two complete grounded feet/shoes with contact shadow and footprints. No missing, fused, duplicated, floating, reversed, or truncated anatomy; no extra character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-14T05:24:38.388281Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T06:01:40.424403Z",
+        "notes": "用户明确全部通过并正式提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T06:01:40.424403Z"
     }
   ]
 }
