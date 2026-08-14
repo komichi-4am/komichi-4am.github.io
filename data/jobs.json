@@ -2179,6 +2179,180 @@
       },
       "history": [],
       "updatedAt": "2026-08-14T06:01:40.424403Z"
+    },
+    {
+      "id": "bili-1236298029723549736",
+      "status": "approved",
+      "createdAt": "2026-08-14T12:02:45.099430Z",
+      "source": {
+        "dynamicId": "1236298029723549736",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1236298029723549736",
+        "publishedTimestamp": 1786686466,
+        "publishedAtUtc": "2026-08-14T05:47:46Z",
+        "publishedAtBeijing": "2026-08-14T13:47:46+08:00",
+        "summary": "现在是佛得角的凌晨4点多。 小路在感慨为什么如此神秘的小视频在限流状态还能获得2w播放啊…… 总之晚上见，第一次和小路泥一起体验恐怖游戏，希望有路痴的小路不会迷路＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "tira-chapeu-cv-11103473",
+        "label": "Tira Chapeu, Cabo Verde",
+        "timezone": "Atlantic/Cape_Verde",
+        "latitude": 14.91389,
+        "longitude": -23.52278,
+        "bbox": [
+          -23.63466,
+          14.80578,
+          -23.4109,
+          15.022
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-14T04:47:46-01:00"
+      },
+      "background": {
+        "id": "panoramax-meta-6a5f71dc-1e2f-4705-9507-7c303f1aa599",
+        "file": "assets/backgrounds/bili-1236298029723549736-6a5f71dc.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "6a5f71dc-1e2f-4705-9507-7c303f1aa599",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/cfcada91-5d5b-49b9-9b47-c6a1e936f9e5/items/6a5f71dc-1e2f-4705-9507-7c303f1aa599",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/6a/5f/71/dc/1e2f-4705-9507-7c303f1aa599/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Pfabing",
+        "location": "Tira Chapeu, Cabo Verde",
+        "timezone": "Atlantic/Cape_Verde",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-02-01T17:33:42.662000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 72,
+        "viewSource": "provider_image_asset",
+        "latitude": 14.973463889,
+        "longitude": -23.458405556
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "curious_turn",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1236298029723549736-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236298029723549736-v1.png",
+        "generatedAt": "2026-08-14T12:09:44.298729Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: real Tira Chapeu/Cabo Verde coast, beach, hills, rocks, sea, shoreline, and footprints remain photographic and readable under lifted 04:47 blue-hour grading; metadata truthfully records sign_preference_fallback and no sign was invented. Waist-up back-facing curious-turn Komichi on image-left has exactly two separate vertically stacked viewer-right tear moles, correct hair clips, no scarf or substitute neck accessory; the selected traffic-light pendant is naturally hidden by the genuine back-facing torso, collar, neck, and hair geometry. The near arm is continuous and its anatomically plausible hand exits naturally through the lower frame; the far shoulder/arm is physically occluded by the turned body and hair. No missing-without-cause, fused, duplicated, floating, reversed, or abrupt anatomy; canonical waist tassel cluster retained; no extra character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-14T12:09:44.298729Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T16:55:03.313187Z",
+        "notes": "用户明确回复：全部通过，全部正式发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T16:55:03.313187Z"
+    },
+    {
+      "id": "bili-1236301328234315796",
+      "status": "approved",
+      "createdAt": "2026-08-14T12:02:45.104532Z",
+      "source": {
+        "dynamicId": "1236301328234315796",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1236301328234315796",
+        "publishedTimestamp": 1786687234,
+        "publishedAtUtc": "2026-08-14T06:00:34Z",
+        "publishedAtBeijing": "2026-08-14T14:00:34+08:00",
+        "summary": "可能在提到“一起玩”的时候产生了一点歧义，抱歉抱歉，完整表述应该是小路泥一起看小路玩＋[FGO_好耶]"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "fernando-noronha",
+        "label": "Fernando de Noronha, Brazil",
+        "timezone": "America/Noronha",
+        "latitude": -3.8547,
+        "longitude": -32.4233,
+        "bbox": [
+          -32.46,
+          -3.88,
+          -32.39,
+          -3.82
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-fernando-de-noronha-sancho",
+          "static-fernando-de-noronha-forte",
+          "static-fernando-de-noronha-porto",
+          "static-fernando-de-noronha-capela",
+          "static-fernando-de-noronha-vista-porto"
+        ],
+        "localTimeAtDynamic": "2026-08-14T04:00:34-02:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-fernando-de-noronha-porto",
+        "file": "assets/backgrounds/bili-1236301328234315796-static-f.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-fernando-de-noronha-porto",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:11_Porto_de_Santo_Ant%C3%B4nio_01.jpg",
+        "imageUrl": null,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Adelano Lázaro",
+        "location": "Fernando de Noronha, Brazil",
+        "timezone": "America/Noronha",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2015-11-04T08:43:22",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "small_wave_by_sign",
+        "expression": "curious bright smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1236301328234315796-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236301328234315796-v1.png",
+        "generatedAt": "2026-08-14T16:55:03.250439Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Human reviewer explicitly accepted this attached v1 as passing and authorized formal publication, overriding the prior Agent concern about environmental-wide tear-mole readability. The real Fernando de Noronha harbor and existing white sign remain preserved; full-body anatomy, visible fingers, red-scarf-only rule, below-knee skirt, grounded feet, and blue-hour treatment were previously confirmed.",
+        "checkedAt": "2026-08-14T16:55:03.250439Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-14T16:55:03.379719Z",
+        "notes": "用户明确回复：全部通过，全部正式发布；人工接受附件 v1，覆盖 Agent 对远景泪痣可读性的意见。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-14T16:55:03.379719Z"
     }
   ]
 }
