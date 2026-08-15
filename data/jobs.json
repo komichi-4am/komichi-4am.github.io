@@ -2095,7 +2095,7 @@
     },
     {
       "id": "bili-1236041383968505856",
-      "status": "approved",
+      "status": "pending_generation",
       "createdAt": "2026-08-14T04:02:18.773688Z",
       "source": {
         "dynamicId": "1236041383968505856",
@@ -2154,31 +2154,39 @@
       },
       "generation": {
         "promptVersion": "komichi-composite-v4-place-first",
-        "revision": 1,
+        "revision": 2,
         "shotScale": "environmental_wide",
         "poseFamily": "crossing_at_dawn",
         "expression": "mischievous four-o'clock grin",
         "placementSide": "left",
         "neckAccessory": "traffic_light_pendant"
       },
-      "output": {
-        "revision": 1,
-        "file": "assets/generated/bili-1236041383968505856-v1.png",
-        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236041383968505856-v1.png",
-        "generatedAt": "2026-08-14T05:24:38.388281Z"
-      },
-      "agentQa": {
-        "status": "preflight_pass",
-        "notes": "Agent strict preflight pass: the real snowy Adak residential panorama, roads, houses, utility elements, and mountain backdrop remain photographic and place-faithful under blue-hour grading; no sign or new text was invented. Environmental-wide Komichi on image-left has exactly two separate vertically stacked viewer-right tear moles, reference-consistent hair ornaments, a small traffic-light pendant as the only neck accessory with no scarf/choker/second necklace, canonical waist tassel cluster, and a below-knee skirt. Full-body crossing pose has exactly two continuous arms, two attached visible hands with plausible fingers, two naturally separated legs, and two complete grounded feet/shoes with contact shadow and footprints. No missing, fused, duplicated, floating, reversed, or truncated anatomy; no extra character, caption, frame, logo, or watermark.",
-        "checkedAt": "2026-08-14T05:24:38.388281Z"
-      },
+      "output": null,
+      "agentQa": null,
       "humanReview": {
-        "decision": "approved",
-        "decidedAt": "2026-08-14T06:01:40.424403Z",
-        "notes": "用户明确全部通过并正式提交"
+        "decision": "regenerate",
+        "decidedAt": "2026-08-15T13:04:35.458573Z",
+        "notes": "用户指出 v1 中人物相对建筑比例严重错误；保留 Adak 雪景背景不变，v2 改为四时小路半身像、半透明、明确悬浮在天空中，避免任何落地尺度关系。"
       },
-      "history": [],
-      "updatedAt": "2026-08-14T06:01:40.424403Z"
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1236041383968505856-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236041383968505856-v1.png",
+            "generatedAt": "2026-08-14T05:24:38.388281Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "Agent strict preflight pass: the real snowy Adak residential panorama, roads, houses, utility elements, and mountain backdrop remain photographic and place-faithful under blue-hour grading; no sign or new text was invented. Environmental-wide Komichi on image-left has exactly two separate vertically stacked viewer-right tear moles, reference-consistent hair ornaments, a small traffic-light pendant as the only neck accessory with no scarf/choker/second necklace, canonical waist tassel cluster, and a below-knee skirt. Full-body crossing pose has exactly two continuous arms, two attached visible hands with plausible fingers, two naturally separated legs, and two complete grounded feet/shoes with contact shadow and footprints. No missing, fused, duplicated, floating, reversed, or truncated anatomy; no extra character, caption, frame, logo, or watermark.",
+            "checkedAt": "2026-08-14T05:24:38.388281Z"
+          },
+          "humanDecision": "regenerate",
+          "humanNotes": "用户指出 v1 中人物相对建筑比例严重错误；保留 Adak 雪景背景不变，v2 改为四时小路半身像、半透明、明确悬浮在天空中，避免任何落地尺度关系。",
+          "decidedAt": "2026-08-15T13:04:35.458452Z"
+        }
+      ],
+      "updatedAt": "2026-08-15T13:04:35.458571Z"
     },
     {
       "id": "bili-1236298029723549736",

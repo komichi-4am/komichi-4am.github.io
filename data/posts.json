@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T16:55:03.379719Z",
+  "generatedAt": "2026-08-15T13:04:35.458770Z",
   "posts": [
     {
       "id": "bili-1236301328234315796",
@@ -49,30 +49,6 @@
       "poseFamily": "curious_turn",
       "neckAccessory": "traffic_light_pendant",
       "approvedAt": "2026-08-14T16:55:03.313187Z"
-    },
-    {
-      "id": "bili-1236041383968505856",
-      "image": "assets/generated/bili-1236041383968505856-v1.png",
-      "imageRevision": 1,
-      "bilibiliDynamicId": "1236041383968505856",
-      "bilibiliDynamicUrl": "https://www.bilibili.com/opus/1236041383968505856",
-      "bilibiliSummary": "分享动态",
-      "publishedAtBeijing": "2026-08-13T21:11:51+08:00",
-      "location": "Adak Island, Alaska, USA",
-      "localTime": "2026-08-13T04:11:51-09:00",
-      "timezone": "America/Adak",
-      "latitude": null,
-      "longitude": null,
-      "coordinatesOmitted": true,
-      "streetProvider": "Wikimedia Commons",
-      "streetCreator": "Paxson Woelber",
-      "streetSourceUrl": "https://commons.wikimedia.org/wiki/File:Residences_in_Adak._Adak_Island,_Aleutian_Islands,_Alaska_-_panoramio.jpg",
-      "streetLicense": "CC BY 3.0",
-      "streetLicenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-      "shotScale": "environmental_wide",
-      "poseFamily": "crossing_at_dawn",
-      "neckAccessory": "traffic_light_pendant",
-      "approvedAt": "2026-08-14T06:01:40.424403Z"
     },
     {
       "id": "bili-1236036749648461825",
