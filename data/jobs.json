@@ -2095,7 +2095,7 @@
     },
     {
       "id": "bili-1236041383968505856",
-      "status": "pending_generation",
+      "status": "approved",
       "createdAt": "2026-08-14T04:02:18.773688Z",
       "source": {
         "dynamicId": "1236041383968505856",
@@ -2161,12 +2161,21 @@
         "placementSide": "left",
         "neckAccessory": "traffic_light_pendant"
       },
-      "output": null,
-      "agentQa": null,
+      "output": {
+        "revision": 2,
+        "file": "assets/generated/bili-1236041383968505856-v2.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236041383968505856-v2.png",
+        "generatedAt": "2026-08-15T13:15:33.172174Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass for human-requested v2: the real Adak residential panorama, roads, houses, roofs, utility elements, and snowy mountain setting remain photographic and readable under lifted blue-hour grading; no sign or physical object was invented. Komichi is a deliberately semi-transparent waist-up apparition floating in the upper-left sky, clearly not standing on a road or building, resolving the rejected v1 scale problem. Face has correct hair clips and exactly two separate vertically stacked viewer-right tear moles. Traffic-light pendant is clearly visible as the only neck accessory, with no scarf or substitute. Exactly two continuous attached arms and two attached hands are visible; the raised wave and lower open hand each have five plausible fingers and correct orientation. The waist-up lower torso ends through a deliberate translucent fade, so legs/feet are outside the requested framing rather than missing. No fused, duplicated, floating-separate, reversed, or truncated upper-limb anatomy; no extra generated character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-15T13:15:33.172174Z"
+      },
       "humanReview": {
-        "decision": "regenerate",
-        "decidedAt": "2026-08-15T13:04:35.458573Z",
-        "notes": "用户指出 v1 中人物相对建筑比例严重错误；保留 Adak 雪景背景不变，v2 改为四时小路半身像、半透明、明确悬浮在天空中，避免任何落地尺度关系。"
+        "decision": "approved",
+        "decidedAt": "2026-08-15T13:18:46.855295Z",
+        "notes": "用户确认两张 awaiting_review 全部通过，全部提交。"
       },
       "history": [
         {
@@ -2186,7 +2195,7 @@
           "decidedAt": "2026-08-15T13:04:35.458452Z"
         }
       ],
-      "updatedAt": "2026-08-15T13:04:35.458571Z"
+      "updatedAt": "2026-08-15T13:18:46.855295Z"
     },
     {
       "id": "bili-1236298029723549736",
@@ -2361,6 +2370,95 @@
       },
       "history": [],
       "updatedAt": "2026-08-14T16:55:03.379719Z"
+    },
+    {
+      "id": "bili-1236467560667414529",
+      "status": "approved",
+      "createdAt": "2026-08-15T12:59:41.066092Z",
+      "source": {
+        "dynamicId": "1236467560667414529",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1236467560667414529",
+        "publishedTimestamp": 1786725938,
+        "publishedAtUtc": "2026-08-14T16:45:38Z",
+        "publishedAtBeijing": "2026-08-15T00:45:38+08:00",
+        "summary": "玩得好开心，又开始期待下周的绣湖了！ 明天上午玩一个欢乐休闲的小游戏，晚上再唱唱歌看看二创，还有魔女之家的解说。 小路泥晚安+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "suva",
+        "label": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "latitude": -18.1248,
+        "longitude": 178.4501,
+        "bbox": [
+          178.39,
+          -18.18,
+          178.51,
+          -18.07
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-suva-street-2017",
+          "static-suva-renwick-road",
+          "static-suva-cumming-street",
+          "static-suva-street-12",
+          "static-suva-street-46"
+        ],
+        "localTimeAtDynamic": "2026-08-15T04:45:38+12:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-suva-cumming-street",
+        "file": "assets/backgrounds/bili-1236467560667414529-static-s.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-suva-cumming-street",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cumming_Street_Suva_MatthiasSuessen-8146.jpg",
+        "imageUrl": null,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "creator": "Matthias Süßen",
+        "location": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2015-03-26",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "walking_look_back",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1236467560667414529-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236467560667414529-v1.png",
+        "generatedAt": "2026-08-15T13:05:22.331845Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: real Cumming Street, Suva photo remains photographic and readable under lifted 04:45 blue-hour grading; buildings, storefronts, vehicles, pedestrians, road markings, and existing NO ENTRY/no-parking signs remain visible and unobstructed, with no invented sign. Full-body walking-look-back Komichi on image-left has correct hair clips, exactly two separate vertically stacked viewer-right tear moles, red scarf as the only neck accessory with no pendant/choker/necklace, canonical waist tassel cluster, and an upper-calf below-knee skirt. Exactly two continuous arms, two attached visible hands with plausible fingers and correct left/right orientation, two attached legs, and two complete grounded feet/shoes with natural contact shadow. No missing, fused, duplicated, floating, reversed, hidden-without-cause, or truncated anatomy; no extra generated character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-15T13:05:22.331845Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-15T13:18:46.931784Z",
+        "notes": "用户确认两张 awaiting_review 全部通过，全部提交。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-15T13:18:46.931784Z"
     }
   ]
 }
