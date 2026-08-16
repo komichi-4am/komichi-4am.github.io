@@ -2459,6 +2459,271 @@
       },
       "history": [],
       "updatedAt": "2026-08-15T13:18:46.931784Z"
+    },
+    {
+      "id": "bili-1236831864120934400",
+      "status": "approved",
+      "createdAt": "2026-08-16T12:02:06.253309Z",
+      "source": {
+        "dynamicId": "1236831864120934400",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1236831864120934400",
+        "publishedTimestamp": 1786810759,
+        "publishedAtUtc": "2026-08-15T16:19:19Z",
+        "publishedAtBeijing": "2026-08-16T00:19:19+08:00",
+        "summary": "今天玩游戏唱歌看二创都很开心，没想到大家都很喜欢《八方来财》，下次还唱揽佬（毫无悔改之意）＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "suva",
+        "label": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "latitude": -18.1248,
+        "longitude": 178.4501,
+        "bbox": [
+          178.39,
+          -18.18,
+          178.51,
+          -18.07
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-suva-street-2017",
+          "static-suva-renwick-road",
+          "static-suva-cumming-street",
+          "static-suva-street-12",
+          "static-suva-street-46"
+        ],
+        "localTimeAtDynamic": "2026-08-16T04:19:19+12:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-suva-street-46",
+        "file": "assets/backgrounds/bili-1236831864120934400-static-s.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-suva-street-46",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suva,_Fiji_46.jpg",
+        "imageUrl": null,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Maksym Kozlenko",
+        "location": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2014-05-06T01:52:30",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "hold_scarf_in_breeze",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1236831864120934400-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1236831864120934400-v1.png",
+        "generatedAt": "2026-08-16T12:11:22.927611Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the checked-in real Cumming Street, Suva photograph remains photographic and readable under lifted 04:19 blue-hour grading; buildings, storefront signs, windows, vehicles, pedestrians, streetlight, curb, and road remain visible, and no traffic sign was invented for this truthful static signless fallback. Waist-up Komichi on image-right has correct hair clips, exactly two separate vertically stacked tear moles on the viewer-right cheek beneath the blue arrow clip and no extra facial moles, red scarf as the only neck accessory with no pendant/choker/necklace, canonical waist ornament visible, exactly two continuous arms and two attached scarf-holding hands with plausible five-finger structure, and a natural lower-frame waist crop. No missing, fused, duplicated, floating, reversed, same-sided, or abruptly truncated anatomy; no extra generated character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-16T12:11:22.927611Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-16T18:47:31.148028Z",
+        "notes": "用户明确确认这三张全部通过并要求全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-16T18:47:31.148028Z"
+    },
+    {
+      "id": "bili-1237067151003615234",
+      "status": "approved",
+      "createdAt": "2026-08-16T12:02:06.264449Z",
+      "source": {
+        "dynamicId": "1237067151003615234",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1237067151003615234",
+        "publishedTimestamp": 1786865541,
+        "publishedAtUtc": "2026-08-16T07:32:21Z",
+        "publishedAtBeijing": "2026-08-16T15:32:21+08:00",
+        "summary": "现在是乌拉圭的凌晨四点半，感谢堇宝做封面，今晚287可以一起捡垃圾啦，晚上见+"
+      },
+      "mentionedLocation": {
+        "text": "乌拉圭",
+        "resolution": "catalog_alias",
+        "locationId": "montevideo",
+        "matchedAlias": "乌拉圭"
+      },
+      "location": {
+        "id": "montevideo",
+        "label": "Montevideo, Uruguay",
+        "timezone": "America/Montevideo",
+        "latitude": -34.9011,
+        "longitude": -56.1645,
+        "bbox": [
+          -56.3,
+          -34.95,
+          -56.05,
+          -34.75
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-16T04:32:21-03:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-osm-9958d565-37e8-4caf-826b-92eb68d18b5d",
+        "file": "assets/backgrounds/bili-1237067151003615234-9958d565.jpg",
+        "provider": "Panoramax OpenStreetMap",
+        "sourceId": "9958d565-37e8-4caf-826b-92eb68d18b5d",
+        "sourceUrl": "https://panoramax.openstreetmap.fr/api/collections/164c6d03-34d5-4650-a61a-04f51bde4b63/items/9958d565-37e8-4caf-826b-92eb68d18b5d",
+        "imageUrl": "https://panoramax.openstreetmap.fr/api/pictures/9958d565-37e8-4caf-826b-92eb68d18b5d/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Montevideo, Uruguay",
+        "timezone": "America/Montevideo",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2023-05-10T15:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": -34.92922,
+        "longitude": -56.16009
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "peek_into_frame",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237067151003615234-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237067151003615234-v1.png",
+        "generatedAt": "2026-08-16T12:13:28.790275Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: authoritative Montevideo remains in place; the real waterfront, palm trees, paths, grass, parked vehicles, people, lamps, horizon, and clouds remain photographic and readable under lifted 04:32 blue-hour grading, with no traffic sign invented for the truthful sign-preference fallback. Close-up Komichi peeks from image-left with correct hair clips, exactly two separate vertically stacked tear moles on the viewer-right cheek beneath the blue arrow clip and no extra facial moles, and red scarf as the only neck accessory with no pendant/choker/necklace. Both shoulders and upper arms are continuous and plausible; forearms and hands lie naturally outside the lower close-up crop, with no missing-without-cause, fused, duplicated, floating, or abrupt anatomy. No extra generated character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-16T12:13:28.790275Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-16T18:47:31.210518Z",
+        "notes": "用户明确确认这三张全部通过并要求全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-16T18:47:31.210518Z"
+    },
+    {
+      "id": "bili-1237122465885323270",
+      "status": "approved",
+      "createdAt": "2026-08-16T12:02:06.272726Z",
+      "source": {
+        "dynamicId": "1237122465885323270",
+        "type": "DYNAMIC_TYPE_LIVE_RCMD",
+        "url": "https://www.bilibili.com/opus/1237122465885323270",
+        "publishedTimestamp": 1786878420,
+        "publishedAtUtc": "2026-08-16T11:07:00Z",
+        "publishedAtBeijing": "2026-08-16T19:07:00+08:00",
+        "summary": ""
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "surprise-us-5316428",
+        "label": "Surprise, United States",
+        "timezone": "America/Phoenix",
+        "latitude": 33.63059,
+        "longitude": -112.33322,
+        "bbox": [
+          -112.46306,
+          33.52248,
+          -112.20338,
+          33.7387
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-16T04:07:00-07:00"
+      },
+      "background": {
+        "id": "panoramax-meta-ada9c6fa-c7e4-4fe7-bcf2-3ed4e61ce6cd",
+        "file": "assets/backgrounds/bili-1237122465885323270-ada9c6fa.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "ada9c6fa-c7e4-4fe7-bcf2-3ed4e61ce6cd",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/0e4dc52f-5d48-481d-834f-6f8d57638ab4/items/ada9c6fa-c7e4-4fe7-bcf2-3ed4e61ce6cd",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/ad/a9/c6/fa/c7e4-4fe7-bcf2-3ed4e61ce6cd/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Surprise, United States",
+        "timezone": "America/Phoenix",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2023-07-28T19:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 33.637298,
+        "longitude": -112.305806
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "small_wave_by_sign",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237122465885323270-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237122465885323270-v1.png",
+        "generatedAt": "2026-08-16T12:22:17.164930Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real Surprise vehicle lot remains photographic and readable under lifted 04:07 blue-hour grading; the large Sunseeker RV, open door, existing branding/text, license plate, wheels, ladder, smaller RVs, building, red poles, pavement, power poles, pylons, wires, and existing EXIT ONLY sign remain visible and unobstructed, with no traffic sign invented. Environmental-wide full-body Komichi on image-right has correct hair clips, exactly two separate vertically stacked viewer-right tear moles beneath the blue arrow clip, a traffic-light pendant as the only neck accessory with no scarf/choker/second necklace, canonical waist ornament, and an upper-calf below-knee skirt. Exactly two continuous arms and attached hands are present; the wave has a plausible thumb plus four fingers and the lowered hand has plausible digits. Exactly two attached legs and two complete grounded feet/shoes have natural contact shadows. No missing, fused, duplicated, floating, reversed, hidden-without-cause, or truncated anatomy; no extra character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-16T12:22:17.164930Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-16T18:47:31.272575Z",
+        "notes": "用户明确确认这三张全部通过并要求全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-16T18:47:31.272575Z"
     }
   ]
 }
