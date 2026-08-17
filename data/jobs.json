@@ -2724,6 +2724,284 @@
       },
       "history": [],
       "updatedAt": "2026-08-16T18:47:31.272575Z"
+    },
+    {
+      "id": "bili-1237088789007958034",
+      "status": "rejected",
+      "createdAt": "2026-08-16T12:02:06.268736Z",
+      "source": {
+        "dynamicId": "1237088789007958034",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1237088789007958034",
+        "publishedTimestamp": 1786870579,
+        "publishedAtUtc": "2026-08-16T08:56:19Z",
+        "publishedAtBeijing": "2026-08-16T16:56:19+08:00",
+        "summary": "分享有能小路泥做的网站+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "ensanche-luperon-do-3505935",
+        "label": "Ensanche Luperón, Dominican Republic",
+        "timezone": "America/Santo_Domingo",
+        "latitude": 18.5,
+        "longitude": -69.9,
+        "bbox": [
+          -70.014,
+          18.39189,
+          -69.786,
+          18.60811
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-16T04:56:19-04:00"
+      },
+      "background": {
+        "id": "panoramax-meta-a416eee7-d5cd-4852-a41e-2ab99d6582e2",
+        "file": "assets/backgrounds/bili-1237088789007958034-a416eee7.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "a416eee7-d5cd-4852-a41e-2ab99d6582e2",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/14ea2dff-2d5f-4134-9a9c-0b7ff34d87aa/items/a416eee7-d5cd-4852-a41e-2ab99d6582e2",
+        "imageUrl": "https://panoramax.mapcomplete.org/derivatives/a4/16/ee/e7/d5cd-4852-a41e-2ab99d6582e2/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "mapcomplete, hugo_urbano",
+        "location": "Ensanche Luperón, Dominican Republic",
+        "timezone": "America/Santo_Domingo",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-07-27T18:09:55.311000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 69,
+        "viewSource": "provider_image_asset",
+        "latitude": 18.445411609,
+        "longitude": -69.947793791
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "hold_warm_drink",
+        "expression": "playful sleepy smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237088789007958034-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237088789007958034-v1.png",
+        "generatedAt": "2026-08-17T12:14:59.653606Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass after one targeted tear-mole correction: the real Ensanche Luperon park remains photographic and readable under lifted 04:56 blue-hour grading; both blue bicycle-repair panels, posts, cables, bicycle pictograms, logos, and chevrons remain visible and unobstructed, with no invented sign. Knee-up/three-quarter Komichi stays at image-left and is large enough for facial verification; exactly two separate dark tear moles are vertically stacked on the viewer-right cheek beneath the blue arrow clip, with none elsewhere. Red scarf is the only neck accessory; no pendant or substitute appears. Exactly two continuous arms and two attached hands plausibly hold one cup with readable fingers and correct orientations; the cup is not fused to the hands. Exactly two legs continue through a natural mid-calf lower crop, with feet outside the assigned framing. Skirt hem is clearly below both knees at upper calf; canonical waist ornament remains. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or abruptly truncated anatomy; no extra character, caption, frame, or watermark.",
+        "checkedAt": "2026-08-17T12:14:59.653606Z"
+      },
+      "humanReview": {
+        "decision": "rejected",
+        "decidedAt": "2026-08-17T20:10:08.584356Z",
+        "notes": "用户明确要求清掉该候选，不发布。"
+      },
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1237088789007958034-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237088789007958034-v1.png",
+            "generatedAt": "2026-08-17T12:14:59.653606Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "Agent strict preflight pass after one targeted tear-mole correction: the real Ensanche Luperon park remains photographic and readable under lifted 04:56 blue-hour grading; both blue bicycle-repair panels, posts, cables, bicycle pictograms, logos, and chevrons remain visible and unobstructed, with no invented sign. Knee-up/three-quarter Komichi stays at image-left and is large enough for facial verification; exactly two separate dark tear moles are vertically stacked on the viewer-right cheek beneath the blue arrow clip, with none elsewhere. Red scarf is the only neck accessory; no pendant or substitute appears. Exactly two continuous arms and two attached hands plausibly hold one cup with readable fingers and correct orientations; the cup is not fused to the hands. Exactly two legs continue through a natural mid-calf lower crop, with feet outside the assigned framing. Skirt hem is clearly below both knees at upper calf; canonical waist ornament remains. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or abruptly truncated anatomy; no extra character, caption, frame, or watermark.",
+            "checkedAt": "2026-08-17T12:14:59.653606Z"
+          },
+          "humanDecision": "rejected",
+          "humanNotes": "用户明确要求清掉该候选，不发布。",
+          "decidedAt": "2026-08-17T20:10:08.584289Z"
+        }
+      ],
+      "updatedAt": "2026-08-17T20:10:08.584356Z"
+    },
+    {
+      "id": "bili-1237179730683232256",
+      "status": "approved",
+      "createdAt": "2026-08-17T12:02:25.738719Z",
+      "source": {
+        "dynamicId": "1237179730683232256",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1237179730683232256",
+        "publishedTimestamp": 1786891753,
+        "publishedAtUtc": "2026-08-16T14:49:13Z",
+        "publishedAtBeijing": "2026-08-16T22:49:13+08:00",
+        "summary": "好喜欢287的大家，已经想下次一起玩了！希望大家也看得开心！ up主动态大表情上传中，审核没问题的话大概明天大家就能用上了+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "makakilo-city-us-5850554",
+        "label": "Makakilo City, United States",
+        "timezone": "Pacific/Honolulu",
+        "latitude": 21.34694,
+        "longitude": -158.08583,
+        "bbox": [
+          -158.2019,
+          21.23883,
+          -157.96976,
+          21.45505
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-16T04:49:13-10:00"
+      },
+      "background": {
+        "id": "panoramax-meta-e69561d5-07ad-4b32-8a42-a8f2ac037ef4",
+        "file": "assets/backgrounds/bili-1237179730683232256-e69561d5.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "e69561d5-07ad-4b32-8a42-a8f2ac037ef4",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/a7cf963f-8d1c-4bac-9717-e3149f5f9fff/items/e69561d5-07ad-4b32-8a42-a8f2ac037ef4",
+        "imageUrl": "https://panoramax.mapcomplete.org/derivatives/e6/95/61/d5/07ad-4b32-8a42-a8f2ac037ef4/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "mapcomplete, Oahu_JimG",
+        "location": "Makakilo City, United States",
+        "timezone": "Pacific/Honolulu",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2026-01-17T19:29:53+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 41,
+        "viewSource": "provider_image_asset",
+        "latitude": 21.326206832,
+        "longitude": -157.977316445
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "peek_into_frame",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237179730683232256-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237179730683232256-v1.png",
+        "generatedAt": "2026-08-17T12:16:53.891299Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real Makakilo City-area outdoor photograph remains photographic and readable under restrained 04:49 blue-hour grading; utility pole, transformer, insulators, wires, streetlight, trees, roof, building, and vehicle remain visible and unobstructed, and no sign was invented for the truthful sign-preference fallback. Close-up Komichi peeks from image-left with correct hair clips and exactly two separate dark tear moles vertically stacked on the viewer-right cheek beneath the blue arrow clip, with no extra facial marks. Red scarf is the only neck accessory; no pendant or substitute appears. Both shoulders and continuous upper arms are present; forearms and hands continue naturally outside the close-up lower crop, with no missing-without-cause, fused, duplicated, floating, reversed, same-sided, or abrupt anatomy. No extra character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-17T12:16:53.891299Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-17T20:10:08.369276Z",
+        "notes": "用户明确批准并要求发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-17T20:10:08.369276Z"
+    },
+    {
+      "id": "bili-1237316362143006727",
+      "status": "approved",
+      "createdAt": "2026-08-17T12:02:25.754195Z",
+      "source": {
+        "dynamicId": "1237316362143006727",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1237316362143006727",
+        "publishedTimestamp": 1786923565,
+        "publishedAtUtc": "2026-08-16T23:39:25Z",
+        "publishedAtBeijing": "2026-08-17T07:39:25+08:00",
+        "summary": "现在是乌兹别克斯坦的凌晨四点多。 音乐电台已准备就绪，这周也要从音乐开始，和小路泥们一起打起精神，努力度过新的一周+"
+      },
+      "mentionedLocation": {
+        "text": "乌兹别克斯坦",
+        "resolution": "manual_catalog",
+        "locationId": "tashkent-uzbekistan",
+        "matchedAlias": "tashkent-uzbekistan"
+      },
+      "location": {
+        "id": "tashkent-uzbekistan",
+        "label": "Tashkent, Uzbekistan",
+        "timezone": "Asia/Tashkent",
+        "latitude": 41.26465,
+        "longitude": 69.21627,
+        "bbox": [
+          69.08685,
+          41.15654,
+          69.34569,
+          41.37276
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-17T04:39:25+05:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-meta-f414e0a0-6efd-4164-b90c-7cbfa79deabf",
+        "file": "assets/backgrounds/bili-1237316362143006727-f414e0a0.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "f414e0a0-6efd-4164-b90c-7cbfa79deabf",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/93f57c68-48de-4895-812d-614d9eb8c552/items/f414e0a0-6efd-4164-b90c-7cbfa79deabf",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/f4/14/e0/a0/6efd-4164-b90c-7cbfa79deabf/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Tashkent, Uzbekistan",
+        "timezone": "Asia/Tashkent",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2024-03-12T07:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 41.256189,
+        "longitude": 69.194034
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "waist_up",
+        "poseFamily": "hold_scarf_in_breeze",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237316362143006727-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237316362143006727-v1.png",
+        "generatedAt": "2026-08-17T12:23:53.586402Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the dynamic's authoritative Uzbekistan place was resolved to Tashkent, Uzbekistan (Asia/Tashkent, 04:39 local) and was not relocated. The selected real Tashkent outdoor photo remains photographic and readable under restrained blue-hour grading; the white utility cabinet, concrete base, metal pipe/hose, valve, wet grass, vegetation, surface wear, and flowing water remain visible, with no invented sign and truthful sign-preference fallback metadata. Waist-up Komichi at image-right has correct hair clips and exactly two separate dark tear moles vertically stacked on the viewer-right cheek beneath the blue arrow clip, with none elsewhere. Red scarf is the only neck accessory; no pendant or substitute appears. Exactly two continuous arms and two attached hands hold separate scarf ends with plausible curled five-finger structure and correct orientations; fingers and scarf are not fused. Lower body leaves through a natural waist-up crop. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or abruptly truncated anatomy; no extra character, caption, frame, logo, or watermark.",
+        "checkedAt": "2026-08-17T12:23:53.586402Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-17T20:10:08.477055Z",
+        "notes": "用户明确批准并要求发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-17T20:10:08.477055Z"
     }
   ]
 }
