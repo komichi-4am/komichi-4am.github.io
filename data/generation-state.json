@@ -2,14 +2,6 @@
   "schemaVersion": 2,
   "recent": [
     {
-      "jobId": "bili-1234580674174779395",
-      "shotScale": "close_up",
-      "poseFamily": "sleepy_grin",
-      "placementSide": "right",
-      "neckAccessory": "traffic_light_pendant",
-      "acceptedAt": "2026-08-10T05:27:20.941436Z"
-    },
-    {
       "jobId": "bili-1234722794642604036",
       "shotScale": "waist_up",
       "poseFamily": "sleepy_wave",
@@ -160,6 +152,14 @@
       "placementSide": "right",
       "neckAccessory": "red_scarf",
       "acceptedAt": "2026-08-17T20:10:08.477055Z"
+    },
+    {
+      "jobId": "bili-1237806667060477957",
+      "shotScale": "environmental_wide",
+      "poseFamily": "small_wave_by_sign",
+      "placementSide": "right",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-18T12:52:06.351745Z"
     }
   ]
 }

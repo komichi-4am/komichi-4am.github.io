@@ -3002,6 +3002,199 @@
       },
       "history": [],
       "updatedAt": "2026-08-17T20:10:08.477055Z"
+    },
+    {
+      "id": "bili-1237219540705738756",
+      "status": "rejected",
+      "createdAt": "2026-08-17T12:02:25.744031Z",
+      "source": {
+        "dynamicId": "1237219540705738756",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1237219540705738756",
+        "publishedTimestamp": 1786901022,
+        "publishedAtUtc": "2026-08-16T17:23:42Z",
+        "publishedAtBeijing": "2026-08-17T01:23:42+08:00",
+        "summary": "接受来信用的提问箱拼尽全力没能打开，可能得明天再研究了，今天得快点睡了，小路泥们晚安+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "noumea-nc-2139521",
+        "label": "Nouméa, New Caledonia",
+        "timezone": "Pacific/Noumea",
+        "latitude": -22.27407,
+        "longitude": 166.44884,
+        "bbox": [
+          166.33201,
+          -22.38218,
+          166.56567,
+          -22.16596
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-17T04:23:42+11:00"
+      },
+      "background": {
+        "id": "panoramax-meta-c82ad973-88a3-4527-9a17-2b17377f1354",
+        "file": "assets/backgrounds/bili-1237219540705738756-c82ad973.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "c82ad973-88a3-4527-9a17-2b17377f1354",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/befafaf5-ecc6-48be-b6a3-ed7fbffcee4f/items/c82ad973-88a3-4527-9a17-2b17377f1354",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/c8/2a/d9/73/88a3-4527-9a17-2b17377f1354/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "motocultrice, ratzillas",
+        "location": "Nouméa, New Caledonia",
+        "timezone": "Pacific/Noumea",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2019-09-09T18:07:04+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 360,
+        "viewSource": "provider_perspective_thumbnail",
+        "latitude": -22.27792016,
+        "longitude": 166.44309594
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "playful_balanced_step",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237219540705738756-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237219540705738756-v1.png",
+        "generatedAt": "2026-08-18T12:12:06.353402Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real Noumea street remains photographic and readable under restrained 04:23 blue-hour grading; buildings, median, road and lane markings, cars, service van, storefronts, poles, trees, and existing readable elements remain visible and unobstructed, with no invented sign. Full-body 2D Komichi on image-right uses the prescribed playful balanced step and curious smile; exactly two separate dark tear moles are vertically stacked on the viewer-right cheek beneath the blue arrow clip, with none elsewhere. Red scarf is the only neck accessory; no pendant, choker, necklace, or substitute appears. The below-knee pleated skirt reaches upper calf and the canonical waist ornament remains. Exactly two continuous arms and two attached hands have plausible visible finger structure; exactly two attached legs and two complete shoes are present, with one foot grounded and the lifted foot naturally posed mid-step. No missing, fused, duplicated, floating, reversed, hidden-without-cause, or abruptly truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-18T12:12:06.353402Z"
+      },
+      "humanReview": {
+        "decision": "rejected",
+        "decidedAt": "2026-08-18T12:52:06.421339Z",
+        "notes": "用户认为人物比例不对，明确不要该候选。"
+      },
+      "history": [
+        {
+          "output": {
+            "revision": 1,
+            "file": "assets/generated/bili-1237219540705738756-v1.png",
+            "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237219540705738756-v1.png",
+            "generatedAt": "2026-08-18T12:12:06.353402Z"
+          },
+          "agentQa": {
+            "status": "preflight_pass",
+            "notes": "Agent strict preflight pass: the real Noumea street remains photographic and readable under restrained 04:23 blue-hour grading; buildings, median, road and lane markings, cars, service van, storefronts, poles, trees, and existing readable elements remain visible and unobstructed, with no invented sign. Full-body 2D Komichi on image-right uses the prescribed playful balanced step and curious smile; exactly two separate dark tear moles are vertically stacked on the viewer-right cheek beneath the blue arrow clip, with none elsewhere. Red scarf is the only neck accessory; no pendant, choker, necklace, or substitute appears. The below-knee pleated skirt reaches upper calf and the canonical waist ornament remains. Exactly two continuous arms and two attached hands have plausible visible finger structure; exactly two attached legs and two complete shoes are present, with one foot grounded and the lifted foot naturally posed mid-step. No missing, fused, duplicated, floating, reversed, hidden-without-cause, or abruptly truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+            "checkedAt": "2026-08-18T12:12:06.353402Z"
+          },
+          "humanDecision": "rejected",
+          "humanNotes": "用户认为人物比例不对，明确不要该候选。",
+          "decidedAt": "2026-08-18T12:52:06.421235Z"
+        }
+      ],
+      "updatedAt": "2026-08-18T12:52:06.421339Z"
+    },
+    {
+      "id": "bili-1237806667060477957",
+      "status": "approved",
+      "createdAt": "2026-08-18T12:03:31.601967Z",
+      "source": {
+        "dynamicId": "1237806667060477957",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1237806667060477957",
+        "publishedTimestamp": 1787037723,
+        "publishedAtUtc": "2026-08-18T07:22:03Z",
+        "publishedAtBeijing": "2026-08-18T15:22:03+08:00",
+        "summary": "现在是巴西东部的凌晨四点。 今天也有在努力工作[UP_1512246445_加班]小路泥也在努力嘛？ 晚上九点的样子考虑开个突击电台和大家闲聊一下，但是可能只聊一小时＋"
+      },
+      "mentionedLocation": {
+        "text": "巴西东部",
+        "resolution": "manual_catalog",
+        "locationId": "rio-de-janeiro-br-3451190",
+        "matchedAlias": "rio-de-janeiro-br-3451190"
+      },
+      "location": {
+        "id": "rio-de-janeiro-br-3451190",
+        "label": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo",
+        "latitude": -22.90642,
+        "longitude": -43.18223,
+        "bbox": [
+          -43.29959,
+          -23.01453,
+          -43.06487,
+          -22.79831
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-18T04:22:03-03:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-meta-fdaa0c24-c72c-47d9-ac66-0ad40afe62b7",
+        "file": "assets/backgrounds/bili-1237806667060477957-fdaa0c24.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "fdaa0c24-c72c-47d9-ac66-0ad40afe62b7",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/559b63ca-2321-44a2-ad19-fda10034f81d/items/fdaa0c24-c72c-47d9-ac66-0ad40afe62b7",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/fd/aa/0c/24/c72c-47d9-ac66-0ad40afe62b7/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Túllio, tulliomf",
+        "location": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2024-05-16T18:32:06.590000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": -22.917673611,
+        "longitude": -43.1835025
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "small_wave_by_sign",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237806667060477957-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237806667060477957-v1.png",
+        "generatedAt": "2026-08-18T12:20:48.135815Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the dynamic's authoritative 巴西东部 place was resolved to Rio de Janeiro, Brazil using GeoNames coordinates (-22.90642, -43.18223), IANA America/Sao_Paulo, and verified 04:22 local time; it was not relocated. The selected real Rio cobblestone lane remains photographic under restrained blue-hour grading; ivy wall, lattice vents, painted white arrow, drain, manhole covers, retaining wall, trees, and plants remain visible and unobstructed, with no invented traffic sign. Environmental-wide full-body 2D Komichi on image-right has correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, red scarf as the only neck accessory, canonical waist ornament, and a below-knee upper-calf skirt. Exactly two continuous arms and attached hands are present; the wave has a plausible thumb plus four fingers and the lowered hand has plausible digits. Exactly two legs and two complete grounded shoes have natural contact shadows. No missing, fused, duplicated, floating, reversed, hidden-without-cause, or truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-18T12:20:48.135815Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-18T12:52:06.351745Z",
+        "notes": "用户确认通过并发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-18T12:52:06.351745Z"
     }
   ]
 }

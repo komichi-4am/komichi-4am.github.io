@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T20:10:08.584356Z",
+  "generatedAt": "2026-08-18T12:52:06.421339Z",
   "posts": [
+    {
+      "id": "bili-1237806667060477957",
+      "image": "assets/generated/bili-1237806667060477957-v1.png",
+      "imageRevision": 1,
+      "bilibiliDynamicId": "1237806667060477957",
+      "bilibiliDynamicUrl": "https://www.bilibili.com/opus/1237806667060477957",
+      "bilibiliSummary": "现在是巴西东部的凌晨四点。 今天也有在努力工作[UP_1512246445_加班]小路泥也在努力嘛？ 晚上九点的样子考虑开个突击电台和大家闲聊一下，但是可能只聊一小时＋",
+      "publishedAtBeijing": "2026-08-18T15:22:03+08:00",
+      "location": "Rio de Janeiro, Brazil",
+      "localTime": "2026-08-18T04:22:03-03:00",
+      "timezone": "America/Sao_Paulo",
+      "latitude": -22.917673611,
+      "longitude": -43.1835025,
+      "coordinatesOmitted": false,
+      "streetProvider": "Panoramax Federated Catalog",
+      "streetCreator": "Túllio, tulliomf",
+      "streetSourceUrl": "https://api.panoramax.xyz/api/collections/559b63ca-2321-44a2-ad19-fda10034f81d/items/fdaa0c24-c72c-47d9-ac66-0ad40afe62b7",
+      "streetLicense": "CC-BY-SA-4.0",
+      "streetLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "shotScale": "environmental_wide",
+      "poseFamily": "small_wave_by_sign",
+      "neckAccessory": "red_scarf",
+      "approvedAt": "2026-08-18T12:52:06.351745Z"
+    },
     {
       "id": "bili-1237316362143006727",
       "image": "assets/generated/bili-1237316362143006727-v1.png",
