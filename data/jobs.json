@@ -3195,6 +3195,91 @@
       },
       "history": [],
       "updatedAt": "2026-08-18T12:52:06.351745Z"
+    },
+    {
+      "id": "bili-1237850346844323846",
+      "status": "approved",
+      "createdAt": "2026-08-18T12:03:31.606642Z",
+      "source": {
+        "dynamicId": "1237850346844323846",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1237850346844323846",
+        "publishedTimestamp": 1787047893,
+        "publishedAtUtc": "2026-08-18T10:11:33Z",
+        "publishedAtBeijing": "2026-08-18T18:11:33+08:00",
+        "summary": "四时小路也是好起来啦，冰火歌会办了这么多次了还是第一次这么正式地观看！周日来同步试听19-21点场的冰火歌会~ 当天会稍微提前30分钟左右开播先和大家聊聊天，再接着和小路泥一起看节目，好像也很惬意，准备一些零食点心一起欣赏吧（小路要去买咖啡果冻）＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "santiago-atitlan-gt-3589105",
+        "label": "Santiago Atitlán, Guatemala",
+        "timezone": "America/Guatemala",
+        "latitude": 14.63823,
+        "longitude": -91.22901,
+        "bbox": [
+          -91.34074,
+          14.53012,
+          -91.11728,
+          14.74634
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-18T04:11:33-06:00"
+      },
+      "background": {
+        "id": "panoramax-meta-6ce05fde-b424-431f-9ee1-9e4aac781a86",
+        "file": "assets/backgrounds/bili-1237850346844323846-6ce05fde.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "6ce05fde-b424-431f-9ee1-9e4aac781a86",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/e1c6eee8-3ce9-405c-b090-b02626a99e8c/items/6ce05fde-b424-431f-9ee1-9e4aac781a86",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/6c/e0/5f/de/b424-431f-9ee1-9e4aac781a86/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Santiago Atitlán, Guatemala",
+        "timezone": "America/Guatemala",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-04-11T18:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 14.734574,
+        "longitude": -91.158074
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "lean_around_signpost",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237850346844323846-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237850346844323846-v1.png",
+        "generatedAt": "2026-08-19T12:18:52.404369Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass after one targeted skirt-length correction: the real Santiago Atitlan lakeshore remains photographic and readable under restrained 04:11 blue-hour grading; both volcanoes, clouds, lake, shoreline, ground, white van and its existing markings/text, boat, and mast remain visible and unobstructed, with no invented sign. Knee-up/three-quarter 2D Komichi on image-right has correct hair clips and exactly two separate dark tear moles vertically stacked on the viewer-right cheek, with no extra facial marks. Red scarf is the only neck accessory; no pendant, choker, necklace, or substitute appears. Exactly two continuous arms and two attached hands are present; the scarf-holding hand has plausible curled digits and the lowered hand has plausible naturally overlapping fingers. Exactly two legs continue through the natural lower crop; the pleated skirt fully covers both knees and ends below them at upper calf. No missing, fused, duplicated, floating, reversed, hidden-without-cause, or abruptly truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-19T12:18:52.404369Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-19T14:02:33.431287Z",
+        "notes": "用户确认通过并提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-19T14:02:33.431287Z"
     }
   ]
 }

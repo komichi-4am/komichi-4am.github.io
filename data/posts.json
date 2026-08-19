@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T12:52:06.421339Z",
+  "generatedAt": "2026-08-19T14:02:33.431287Z",
   "posts": [
+    {
+      "id": "bili-1237850346844323846",
+      "image": "assets/generated/bili-1237850346844323846-v1.png",
+      "imageRevision": 1,
+      "bilibiliDynamicId": "1237850346844323846",
+      "bilibiliDynamicUrl": "https://www.bilibili.com/opus/1237850346844323846",
+      "bilibiliSummary": "四时小路也是好起来啦，冰火歌会办了这么多次了还是第一次这么正式地观看！周日来同步试听19-21点场的冰火歌会~ 当天会稍微提前30分钟左右开播先和大家聊聊天，再接着和小路泥一起看节目，好像也很惬意，准备一些零食点心一起欣赏吧（小路要去买咖啡果冻）＋",
+      "publishedAtBeijing": "2026-08-18T18:11:33+08:00",
+      "location": "Santiago Atitlán, Guatemala",
+      "localTime": "2026-08-18T04:11:33-06:00",
+      "timezone": "America/Guatemala",
+      "latitude": 14.734574,
+      "longitude": -91.158074,
+      "coordinatesOmitted": false,
+      "streetProvider": "Panoramax Federated Catalog",
+      "streetCreator": "p4n-pics",
+      "streetSourceUrl": "https://api.panoramax.xyz/api/collections/e1c6eee8-3ce9-405c-b090-b02626a99e8c/items/6ce05fde-b424-431f-9ee1-9e4aac781a86",
+      "streetLicense": "CC-BY-SA-4.0",
+      "streetLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "shotScale": "knee_up",
+      "poseFamily": "lean_around_signpost",
+      "neckAccessory": "red_scarf",
+      "approvedAt": "2026-08-19T14:02:33.431287Z"
+    },
     {
       "id": "bili-1237806667060477957",
       "image": "assets/generated/bili-1237806667060477957-v1.png",

@@ -2,14 +2,6 @@
   "schemaVersion": 2,
   "recent": [
     {
-      "jobId": "bili-1234722794642604036",
-      "shotScale": "waist_up",
-      "poseFamily": "sleepy_wave",
-      "placementSide": "left",
-      "neckAccessory": "red_scarf",
-      "acceptedAt": "2026-08-10T05:27:21.065935Z"
-    },
-    {
       "jobId": "bili-1234902895508324354",
       "shotScale": "full_body",
       "poseFamily": "playful_balanced_step",
@@ -160,6 +152,14 @@
       "placementSide": "right",
       "neckAccessory": "red_scarf",
       "acceptedAt": "2026-08-18T12:52:06.351745Z"
+    },
+    {
+      "jobId": "bili-1237850346844323846",
+      "shotScale": "knee_up",
+      "poseFamily": "lean_around_signpost",
+      "placementSide": "right",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-19T14:02:33.431287Z"
     }
   ]
 }
