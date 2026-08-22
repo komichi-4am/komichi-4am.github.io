@@ -3280,6 +3280,267 @@
       },
       "history": [],
       "updatedAt": "2026-08-19T14:02:33.431287Z"
+    },
+    {
+      "id": "bili-1237865263296151553",
+      "status": "approved",
+      "createdAt": "2026-08-18T12:03:31.610824Z",
+      "source": {
+        "dynamicId": "1237865263296151553",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1237865263296151553",
+        "publishedTimestamp": 1787051366,
+        "publishedAtUtc": "2026-08-18T11:09:26Z",
+        "publishedAtBeijing": "2026-08-18T19:09:26+08:00",
+        "summary": "四时小路现在有4.4w关注的同时…… ……羊叫视频也4.4w播放了！（喂）＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "flagstaff-us-5294810",
+        "label": "Flagstaff, United States",
+        "timezone": "America/Phoenix",
+        "latitude": 35.19807,
+        "longitude": -111.65127,
+        "bbox": [
+          -111.78357,
+          35.08996,
+          -111.51897,
+          35.30618
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-18T04:09:26-07:00"
+      },
+      "background": {
+        "id": "panoramax-meta-fb8f5a9b-9c41-4579-88c8-9de8a0af363d",
+        "file": "assets/backgrounds/bili-1237865263296151553-fb8f5a9b.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "fb8f5a9b-9c41-4579-88c8-9de8a0af363d",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/e03f61eb-bd00-47d3-acc8-dc81d3e273e8/items/fb8f5a9b-9c41-4579-88c8-9de8a0af363d",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/fb/8f/5a/9b/9c41-4579-88c8-9de8a0af363d/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Flagstaff, United States",
+        "timezone": "America/Phoenix",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2024-12-20T19:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 35.19639,
+        "longitude": -111.618
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "tiptoe_read_sign",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1237865263296151553-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1237865263296151553-v1.png",
+        "generatedAt": "2026-08-21T12:09:08.151257Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real Flagstaff RV photograph remains photographic and readable under restrained 04:09 blue-hour grading; RV geometry, wheels, windows, awning, stripe graphics, asphalt, and existing CONQUEST lettering remain visible and unobstructed, with no invented sign. Full-body 2D Komichi at image-right has correct hair clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, canonical waist ornament, and a pleated skirt reaching below both knees to upper calf. The selected traffic-light pendant is physically and plausibly hidden by the genuine back-facing three-quarter pose, hair, neck and collar; no scarf or substitute neck accessory appears. Exactly two continuous arms and two attached hands show plausible five-digit structures; exactly two continuous legs and two complete shoes form a stable tiptoe with coherent ground contact. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-21T12:09:08.151257Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-22T07:09:12.961762Z",
+        "notes": "用户明确确认通过并提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-22T07:09:12.961762Z"
+    },
+    {
+      "id": "bili-1238701128361705478",
+      "status": "approved",
+      "createdAt": "2026-08-21T12:03:00.212316Z",
+      "source": {
+        "dynamicId": "1238701128361705478",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1238701128361705478",
+        "publishedTimestamp": 1787245981,
+        "publishedAtUtc": "2026-08-20T17:13:01Z",
+        "publishedAtBeijing": "2026-08-21T01:13:01+08:00",
+        "summary": "小路还在和朋友们测试致命公司。 半夜好饿！ 明天午休估计必须得补觉啦＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "sixieme-kilometre-nc-11956194",
+        "label": "Sixième Kilomètre, New Caledonia",
+        "timezone": "Pacific/Noumea",
+        "latitude": -22.24626,
+        "longitude": 166.47204,
+        "bbox": [
+          166.35524,
+          -22.35437,
+          166.58884,
+          -22.13815
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-21T04:13:01+11:00"
+      },
+      "background": {
+        "id": "panoramax-meta-58ee7fe9-6505-44a6-8cdf-8c3d21057c43",
+        "file": "assets/backgrounds/bili-1238701128361705478-58ee7fe9.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "58ee7fe9-6505-44a6-8cdf-8c3d21057c43",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/1ad18314-a0b6-4957-a4c9-de1b1fc5d4b9/items/58ee7fe9-6505-44a6-8cdf-8c3d21057c43",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/58/ee/7f/e9/6505-44a6-8cdf-8c3d21057c43/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "MONT DORE",
+        "location": "Sixième Kilomètre, New Caledonia",
+        "timezone": "Pacific/Noumea",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2026-08-13T03:11:59.955000+00:00",
+        "trafficSignDetections": 3,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": 360,
+        "viewSource": "provider_perspective_thumbnail",
+        "latitude": -22.2462239,
+        "longitude": 166.4725908
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "walking_look_back",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1238701128361705478-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1238701128361705478-v1.png",
+        "generatedAt": "2026-08-21T12:16:43.901243Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the selected real Sixieme Kilometre, New Caledonia road photograph remains photographic and readable under restrained 04:13 blue-hour grading; road, sidewalk, curb, poles, buildings, vehicles, hill, vegetation, and the two principal circular traffic signs remain visible and unobstructed. Full-body 2D Komichi at image-left has perspective-consistent pedestrian scale, correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, red scarf as the only neck accessory, canonical waist ornament, and a pleated skirt reaching below both knees to upper calf. Exactly two continuous arms and two attached hands have plausible visible thumb-and-finger structures; exactly two continuous legs and two complete shoes form a balanced walking stride with coherent ground contact. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-21T12:16:43.901243Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-22T07:09:13.086093Z",
+        "notes": "用户明确确认通过并提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-22T07:09:13.086093Z"
+    },
+    {
+      "id": "bili-1238875851934662661",
+      "status": "approved",
+      "createdAt": "2026-08-21T12:03:00.219571Z",
+      "source": {
+        "dynamicId": "1238875851934662661",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1238875851934662661",
+        "publishedTimestamp": 1787286662,
+        "publishedAtUtc": "2026-08-21T04:31:02Z",
+        "publishedAtBeijing": "2026-08-21T12:31:02+08:00",
+        "summary": "小路泥午安，现在是毛里塔尼亚的凌晨四点＋ 终于要和前辈们联动啦，辛苦前辈组织活动、帮忙测试和做海报！今晚8点见＋"
+      },
+      "mentionedLocation": {
+        "text": "毛里塔尼亚",
+        "resolution": "manual_catalog",
+        "locationId": "nouakchott-mauritania",
+        "matchedAlias": "nouakchott-mauritania"
+      },
+      "location": {
+        "id": "nouakchott-mauritania",
+        "label": "Nouakchott, Mauritania",
+        "timezone": "Africa/Nouakchott",
+        "latitude": 18.08581,
+        "longitude": -15.9785,
+        "bbox": [
+          -16.09223,
+          17.9777,
+          -15.86477,
+          18.19392
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-21T04:31:02+00:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-meta-5f634738-d1be-4992-81b9-16660fa634e7",
+        "file": "assets/backgrounds/bili-1238875851934662661-5f634738.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "5f634738-d1be-4992-81b9-16660fa634e7",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/6f810ae5-4283-4620-91e7-e56124c2293d/items/5f634738-d1be-4992-81b9-16660fa634e7",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/5f/63/47/38/d1be-4992-81b9-16660fa634e7/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Nouakchott, Mauritania",
+        "timezone": "Africa/Nouakchott",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2023-03-19T12:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 18.113015,
+        "longitude": -16.023489
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "crossing_at_dawn",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1238875851934662661-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1238875851934662661-v1.png",
+        "generatedAt": "2026-08-21T12:20:01.339581Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the dynamic's authoritative 毛里塔尼亚 place was resolved to Nouakchott, Mauritania using GeoNames ID 2377450 coordinates (18.08581, -15.97850), IANA Africa/Nouakchott, and verified 04:31 local time; it was not relocated. The selected real same-city signless outdoor photograph remains photographic and readable under restrained blue-hour grading; sandy tracks, scrub, dunes, distant low structures, vehicle, and haze remain visible and unobstructed, with truthful sign-preference fallback and no invented sign. Environmental-wide full-body 2D Komichi at image-right has correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, traffic-light pendant as the only neck accessory, canonical waist ornament, and a pleated skirt reaching below both knees to upper calf. Exactly two continuous arms and two attached hands have plausible visible five-digit structures; exactly two continuous legs and two complete shoes form a balanced crossing stride with coherent sand contact. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-21T12:20:01.339581Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-22T07:09:13.214440Z",
+        "notes": "用户明确确认通过并提交"
+      },
+      "history": [],
+      "updatedAt": "2026-08-22T07:09:13.214440Z"
     }
   ]
 }
