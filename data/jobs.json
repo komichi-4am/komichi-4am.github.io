@@ -3541,6 +3541,350 @@
       },
       "history": [],
       "updatedAt": "2026-08-22T07:09:13.214440Z"
+    },
+    {
+      "id": "bili-1239285011985727494",
+      "status": "approved",
+      "createdAt": "2026-08-22T12:02:49.395661Z",
+      "source": {
+        "dynamicId": "1239285011985727494",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1239285011985727494",
+        "publishedTimestamp": 1787381927,
+        "publishedAtUtc": "2026-08-22T06:58:47Z",
+        "publishedAtBeijing": "2026-08-22T14:58:47+08:00",
+        "summary": "发现没有水了，小路去接个水就来哦+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "fernando-noronha",
+        "label": "Fernando de Noronha, Brazil",
+        "timezone": "America/Noronha",
+        "latitude": -3.8547,
+        "longitude": -32.4233,
+        "bbox": [
+          -32.46,
+          -3.88,
+          -32.39,
+          -3.82
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-fernando-de-noronha-sancho",
+          "static-fernando-de-noronha-forte",
+          "static-fernando-de-noronha-porto",
+          "static-fernando-de-noronha-capela",
+          "static-fernando-de-noronha-vista-porto"
+        ],
+        "localTimeAtDynamic": "2026-08-22T04:58:47-02:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-fernando-de-noronha-forte",
+        "file": "assets/backgrounds/bili-1239285011985727494-static-f.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-fernando-de-noronha-forte",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BRUNO_LIMA_FORTE_DOS_REMEDIOS_FERNANDO_DE_NORONHA_PE_(27105015778).jpg",
+        "imageUrl": null,
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "creator": "Bruno Lima / MTur Destinos",
+        "location": "Fernando de Noronha, Brazil",
+        "timezone": "America/Noronha",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2018-03-13",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "small_wave_by_sign",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1239285011985727494-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1239285011985727494-v1.png",
+        "generatedAt": "2026-08-23T12:12:55.724516Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the checked-in Forte dos Remedios, Fernando de Noronha real-photo fallback was selected deterministically and Panoramax was skipped; coordinates remain omitted and no sign was invented. The stone fort, trees, trunks, sea wall, cannons, distant people, horizon, and ground remain photographic and readable under restrained 04:58 blue-hour grading. Environmental-wide full-body 2D Komichi at image-right has correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, traffic-light pendant as the only neck accessory, canonical waist ornament, and a pleated skirt covering both kneecaps and ending at upper calf. Exactly two continuous arms and two attached hands show plausible five-digit structures; exactly two continuous legs and two complete shoes form a balanced grounded stance. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or truncated anatomy; no extra generated character, caption, frame, logo, sign, or new watermark.",
+        "checkedAt": "2026-08-23T12:12:55.724516Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-23T22:09:44.198886Z",
+        "notes": "用户确认通过并发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-23T22:09:44.198886Z"
+    },
+    {
+      "id": "bili-1239394769872879619",
+      "status": "approved",
+      "createdAt": "2026-08-23T12:02:24.145597Z",
+      "source": {
+        "dynamicId": "1239394769872879619",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1239394769872879619",
+        "publishedTimestamp": 1787407482,
+        "publishedAtUtc": "2026-08-22T14:04:42Z",
+        "publishedAtBeijing": "2026-08-22T22:04:42+08:00",
+        "summary": "最终还是事故了，但还是希望大家看得开心！ 这下可以安心去吃饭了+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "wahiawa-whitmore-us-13645943",
+        "label": "Wahiawā-Whitmore, United States",
+        "timezone": "Pacific/Honolulu",
+        "latitude": 21.50565,
+        "longitude": -158.03353,
+        "bbox": [
+          -158.14973,
+          21.39754,
+          -157.91733,
+          21.61376
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-22T04:04:42-10:00"
+      },
+      "background": {
+        "id": "panoramax-meta-3f9da858-26aa-49a5-8049-eedf76fbaaef",
+        "file": "assets/backgrounds/bili-1239394769872879619-3f9da858.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "3f9da858-26aa-49a5-8049-eedf76fbaaef",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/9d936b1d-3c35-4f7d-b824-3669029733d1/items/3f9da858-26aa-49a5-8049-eedf76fbaaef",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/3f/9d/a8/58/26aa-49a5-8049-eedf76fbaaef/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Wahiawā-Whitmore, United States",
+        "timezone": "Pacific/Honolulu",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-09-01T22:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 21.58798,
+        "longitude": -158.1168
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "peek_into_frame",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1239394769872879619-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1239394769872879619-v1.png",
+        "generatedAt": "2026-08-23T12:14:44.592100Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the selected real Wahiawa-Whitmore coastal photo remains photographic and readable under restrained 04:04 blue-hour grading; ocean, island silhouette, horizon, clouds, sun position, waves, rocks, and vegetation remain visible and unobstructed, with truthful sign-preference fallback and no invented sign. Close-up 2D Komichi peeks from image-left with correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, and red scarf as the only neck accessory. Both shoulders and two continuous upper arms are present, and both forearms/hands continue naturally outside the lower close-up crop; no malformed partial hand appears. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or abrupt anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-23T12:14:44.592100Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-23T22:09:44.267084Z",
+        "notes": "用户确认通过并发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-23T22:09:44.267084Z"
+    },
+    {
+      "id": "bili-1239640291693035524",
+      "status": "approved",
+      "createdAt": "2026-08-23T12:02:24.148952Z",
+      "source": {
+        "dynamicId": "1239640291693035524",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1239640291693035524",
+        "publishedTimestamp": 1787464647,
+        "publishedAtUtc": "2026-08-23T05:57:27Z",
+        "publishedAtBeijing": "2026-08-23T13:57:27+08:00",
+        "summary": "马上就要从佛得角离开了！抓紧时间来发个动态！ 晚上会提前半小时开播，晚上见哦+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "chao-bom-cv-13307047",
+        "label": "Chão Bom, Cabo Verde",
+        "timezone": "Atlantic/Cape_Verde",
+        "latitude": 15.25554,
+        "longitude": -23.73948,
+        "bbox": [
+          -23.85154,
+          15.14743,
+          -23.62742,
+          15.36365
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-23T04:57:27-01:00"
+      },
+      "background": {
+        "id": "panoramax-meta-624ed5d7-30da-4ac8-a685-00e722ec5bc5",
+        "file": "assets/backgrounds/bili-1239640291693035524-624ed5d7.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "624ed5d7-30da-4ac8-a685-00e722ec5bc5",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/a116075b-60f0-4b12-b5a5-1c5e7878f8c8/items/624ed5d7-30da-4ac8-a685-00e722ec5bc5",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/62/4e/d5/d7/30da-4ac8-a685-00e722ec5bc5/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Pfabing",
+        "location": "Chão Bom, Cabo Verde",
+        "timezone": "Atlantic/Cape_Verde",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-01-27T18:48:41.833000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 72,
+        "viewSource": "provider_image_asset",
+        "latitude": 15.280166667,
+        "longitude": -23.753205556
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "peek_into_frame",
+        "expression": "curious bright smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1239640291693035524-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1239640291693035524-v1.png",
+        "generatedAt": "2026-08-23T12:17:54.666472Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the selected real Chao Bom, Cabo Verde fishing-beach photo remains photographic and readable under restrained 04:57 blue-hour grading; building, beach, palm, boats, people, breakwater, sea, sky, and the original painted boat names LIÇÃO DE VIDA and Santa Mónica remain visible, legible, and unobstructed, with truthful sign-preference fallback and no invented sign. Close-up 2D Komichi peeks from image-left with correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, and red scarf as the only neck accessory. Both shoulders and two continuous upper arms are present, and both forearms/hands continue naturally outside the lower close-up crop; no malformed partial hand appears. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or abrupt anatomy; no extra character, caption, frame, logo, altered text, or new watermark.",
+        "checkedAt": "2026-08-23T12:17:54.666472Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-23T22:09:44.332527Z",
+        "notes": "用户确认通过并发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-23T22:09:44.332527Z"
+    },
+    {
+      "id": "bili-1239692260793122836",
+      "status": "approved",
+      "createdAt": "2026-08-23T12:02:24.152254Z",
+      "source": {
+        "dynamicId": "1239692260793122836",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1239692260793122836",
+        "publishedTimestamp": 1787476747,
+        "publishedAtUtc": "2026-08-23T09:19:07Z",
+        "publishedAtBeijing": "2026-08-23T17:19:07+08:00",
+        "summary": "​小路泥想先看哪个（没被选上的会择日再玩）下周玩哪个恐怖游戏+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "abancay-pe-3948642",
+        "label": "Abancay, Peru",
+        "timezone": "America/Lima",
+        "latitude": -13.63426,
+        "longitude": -72.8838,
+        "bbox": [
+          -72.99504,
+          -13.74237,
+          -72.77256,
+          -13.52615
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-23T04:19:07-05:00"
+      },
+      "background": {
+        "id": "panoramax-meta-6cd1c1fb-b33c-4ab2-8ee2-dd296fcf60ca",
+        "file": "assets/backgrounds/bili-1239692260793122836-6cd1c1fb.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "6cd1c1fb-b33c-4ab2-8ee2-dd296fcf60ca",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/ea416d6a-3b53-406b-9c64-e38e9f982dfc/items/6cd1c1fb-b33c-4ab2-8ee2-dd296fcf60ca",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/6c/d1/c1/fb/b33c-4ab2-8ee2-dd296fcf60ca/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "motocultrice, derfred",
+        "location": "Abancay, Peru",
+        "timezone": "America/Lima",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2015-07-12T14:10:41.614000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": -13.615843333,
+        "longitude": -72.859648333
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "hold_warm_drink",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1239692260793122836-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1239692260793122836-v1.png",
+        "generatedAt": "2026-08-23T12:20:28.109887Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the selected real Abancay, Peru mountain-road photo remains photographic and readable under restrained 04:19 blue-hour grading; road, mountains, vegetation, poles, dashboard edge, vehicles, lane markings, black-white roadside marker, and real yellow chevron sign remain visible and unobstructed, with no invented sign. Knee-up 2D Komichi at image-right has correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, red scarf as the only neck accessory, canonical waist ornament, and a pleated skirt covering both kneecaps and reaching upper calf. Exactly two continuous arms and two attached hands naturally hold one cup with plausible thumb-and-finger structures and correct wrists; both legs leave naturally through the upper-calf crop. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or abrupt anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-23T12:20:28.109887Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-23T22:09:44.397504Z",
+        "notes": "用户确认通过并发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-23T22:09:44.397504Z"
     }
   ]
 }

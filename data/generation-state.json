@@ -2,38 +2,6 @@
   "schemaVersion": 2,
   "recent": [
     {
-      "jobId": "bili-1235202082934358025",
-      "shotScale": "waist_up",
-      "poseFamily": "curious_turn",
-      "placementSide": "right",
-      "neckAccessory": "red_scarf",
-      "acceptedAt": "2026-08-14T06:01:39.936284Z"
-    },
-    {
-      "jobId": "bili-1235581414397706249",
-      "shotScale": "full_body",
-      "poseFamily": "tiptoe_read_sign",
-      "placementSide": "left",
-      "neckAccessory": "red_scarf",
-      "acceptedAt": "2026-08-14T06:01:40.046664Z"
-    },
-    {
-      "jobId": "bili-1235651164699099160",
-      "shotScale": "waist_up",
-      "poseFamily": "hold_scarf_in_breeze",
-      "placementSide": "right",
-      "neckAccessory": "red_scarf",
-      "acceptedAt": "2026-08-14T06:01:40.140264Z"
-    },
-    {
-      "jobId": "bili-1235947251160842273",
-      "shotScale": "full_body",
-      "poseFamily": "tiptoe_read_sign",
-      "placementSide": "left",
-      "neckAccessory": "traffic_light_pendant",
-      "acceptedAt": "2026-08-14T06:01:40.233002Z"
-    },
-    {
       "jobId": "bili-1236036749648461825",
       "shotScale": "knee_up",
       "poseFamily": "hold_warm_drink",
@@ -160,6 +128,38 @@
       "placementSide": "right",
       "neckAccessory": "traffic_light_pendant",
       "acceptedAt": "2026-08-22T07:09:13.214440Z"
+    },
+    {
+      "jobId": "bili-1239285011985727494",
+      "shotScale": "environmental_wide",
+      "poseFamily": "small_wave_by_sign",
+      "placementSide": "right",
+      "neckAccessory": "traffic_light_pendant",
+      "acceptedAt": "2026-08-23T22:09:44.198886Z"
+    },
+    {
+      "jobId": "bili-1239394769872879619",
+      "shotScale": "close_up",
+      "poseFamily": "peek_into_frame",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-23T22:09:44.267084Z"
+    },
+    {
+      "jobId": "bili-1239640291693035524",
+      "shotScale": "close_up",
+      "poseFamily": "peek_into_frame",
+      "placementSide": "left",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-23T22:09:44.332527Z"
+    },
+    {
+      "jobId": "bili-1239692260793122836",
+      "shotScale": "knee_up",
+      "poseFamily": "hold_warm_drink",
+      "placementSide": "right",
+      "neckAccessory": "red_scarf",
+      "acceptedAt": "2026-08-23T22:09:44.397504Z"
     }
   ]
 }
