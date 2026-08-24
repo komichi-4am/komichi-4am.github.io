@@ -3885,6 +3885,356 @@
       },
       "history": [],
       "updatedAt": "2026-08-23T22:09:44.397504Z"
+    },
+    {
+      "id": "bili-1239060939232247816",
+      "status": "approved",
+      "createdAt": "2026-08-22T12:02:49.384357Z",
+      "source": {
+        "dynamicId": "1239060939232247816",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1239060939232247816",
+        "publishedTimestamp": 1787329756,
+        "publishedAtUtc": "2026-08-21T16:29:16Z",
+        "publishedAtBeijing": "2026-08-22T00:29:16+08:00",
+        "summary": "正在努力检查明天的场地不出问题，好希望明天不要再出任何事故了！ 不过今天玩得还是很开心，多谢款待+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "suva",
+        "label": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "latitude": -18.1248,
+        "longitude": 178.4501,
+        "bbox": [
+          178.39,
+          -18.18,
+          178.51,
+          -18.07
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-suva-street-2017",
+          "static-suva-renwick-road",
+          "static-suva-cumming-street",
+          "static-suva-street-12",
+          "static-suva-street-46"
+        ],
+        "localTimeAtDynamic": "2026-08-22T04:29:16+12:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-suva-street-12",
+        "file": "assets/backgrounds/bili-1239060939232247816-static-s.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-suva-street-12",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suva,_Fiji_12.jpg",
+        "imageUrl": null,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Maksym Kozlenko",
+        "location": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2014-05-06T00:37:15",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "hold_warm_drink",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1239060939232247816-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1239060939232247816-v1.png",
+        "generatedAt": "2026-08-24T12:06:16.214299Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: checked-in Suva, Fiji real-photo fallback remains photographic under readable restrained 04:29 blue-hour grading; original storefronts, readable signs/text, vehicles, road, columns, and photographed people remain present and unobstructed, with no invented sign. Knee-up/three-quarter 2D Komichi at image-right has correct hair clips, exactly two separate small dark tear moles vertically stacked on the viewer-right cheek, traffic-light pendant as the only neck accessory with no scarf, canonical waist ornament, and a black pleated skirt whose full hem clearly covers both kneecaps and ends in the upper-calf area. Exactly two continuous arms and two attached hands hold one cup with plausible visible thumb-and-finger structures; exactly two continuous legs leave naturally through the upper-calf crop. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra generated character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-24T12:06:16.214299Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-24T12:28:40.052482Z",
+        "notes": "用户确认四个 awaiting_review 全部通过并发布"
+      },
+      "history": [],
+      "updatedAt": "2026-08-24T12:28:40.052482Z"
+    },
+    {
+      "id": "bili-1239959953215586320",
+      "status": "approved",
+      "createdAt": "2026-08-24T12:03:38.743337Z",
+      "source": {
+        "dynamicId": "1239959953215586320",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1239959953215586320",
+        "publishedTimestamp": 1787539074,
+        "publishedAtUtc": "2026-08-24T02:37:54Z",
+        "publishedAtBeijing": "2026-08-24T10:37:54+08:00",
+        "summary": "虽然现在不是那么早了，总之现在是列支敦士登的凌晨四点多。 当你看到这条动态的时候，小路已经出发去发传单了。 今天推荐的专辑是江上青山JasonYama 的《月上伊甸 月のエデン(Moonlight Eden) 》。 补充曲目是：《云中加冕·序章》2.0纯享 江上青山老师在B站有发视频，喜欢他的小路泥们也可以去关注一下（但是注意不要ky哦）+"
+      },
+      "mentionedLocation": {
+        "text": "列支敦士登",
+        "resolution": "manual_catalog",
+        "locationId": "vaduz-liechtenstein",
+        "matchedAlias": "vaduz-liechtenstein"
+      },
+      "location": {
+        "id": "vaduz-liechtenstein",
+        "label": "Vaduz, Liechtenstein",
+        "timezone": "Europe/Vaduz",
+        "latitude": 47.14151,
+        "longitude": 9.52154,
+        "bbox": [
+          9.51,
+          47.11,
+          9.58,
+          47.17
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-24T04:37:54+02:00",
+        "selectionReason": "dynamic_mentioned_place"
+      },
+      "background": {
+        "id": "panoramax-meta-53b16e9e-f2da-4f4d-a49d-b3c49f136610",
+        "file": "assets/backgrounds/bili-1239959953215586320-53b16e9e.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "53b16e9e-f2da-4f4d-a49d-b3c49f136610",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/b1e202f5-2c83-4d16-a820-6074cccd5d55/items/53b16e9e-f2da-4f4d-a49d-b3c49f136610",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/53/b1/6e/9e/f2da-4f4d-a49d-b3c49f136610/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Vaduz, Liechtenstein",
+        "timezone": "Europe/Vaduz",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2019-08-04T10:00:00+00:00",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 47.139399,
+        "longitude": 9.520906
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "playful_balanced_step",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1239959953215586320-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1239959953215586320-v1.png",
+        "generatedAt": "2026-08-24T12:17:06.634809Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass after one targeted skirt-length correction: the dynamic's authoritative 列支敦士登 place is resolved to Vaduz, Liechtenstein using GeoNames 3042030 coordinates 47.14151, 9.52154, IANA Europe/Vaduz, and verified 04:37 local time; no relocation occurred. The real wet Vaduz parking-lot photograph remains readable under restrained blue hour; camper, truck, cars, bicycles, buildings, parking lines/arrows, original vehicle text, and the visually confirmed real no-entry sign at far image-left remain present and unobstructed. Full-body 2D Komichi at image-right has correct clips, exactly two separate vertically stacked viewer-right tear moles, red scarf as the only neck accessory, canonical waist ornament, and a black pleated skirt clearly covering both kneecaps to upper calf. Exactly two continuous arms and two attached hands are plausible: open greeting hand has one thumb plus four fingers and the other hand naturally holds the scarf. Exactly two continuous legs and two complete shoes form a balanced step with one grounded support foot and one naturally lifted foot. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or truncated anatomy; no extra character, invented sign, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-24T12:17:06.634809Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-24T12:28:40.122879Z",
+        "notes": "用户确认四个 awaiting_review 全部通过并发布"
+      },
+      "history": [],
+      "updatedAt": "2026-08-24T12:28:40.122879Z"
+    },
+    {
+      "id": "bili-1240083845852692484",
+      "status": "approved",
+      "createdAt": "2026-08-24T12:03:38.746664Z",
+      "source": {
+        "dynamicId": "1240083845852692484",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1240083845852692484",
+        "publishedTimestamp": 1787567920,
+        "publishedAtUtc": "2026-08-24T10:38:40Z",
+        "publishedAtBeijing": "2026-08-24T18:38:40+08:00",
+        "summary": "小路开始收集舰长信息啦！小路泥一定要记得填写哦+ 获得礼物的上舰时间：8月31日24：00之前。 收集问卷截止时间是：9月2日24：00之前。 当月上过几次舰长就可以申请对应份数舰礼。小路泥如果有特殊情况超过截止时间、要咨询余量或舰长礼物售后问题请私信@VirtuaReal零号机 舰长发货时间在（26年10月），提督礼物因to签可能会迟一些，请别担心，小路会在动态更新相关进度。 表格地址： https://docs.qq.com/form/page/DSGhPR1F5ZkR4c01S"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "santiago-sacatepequez-gt-3589101",
+        "label": "Santiago Sacatepéquez, Guatemala",
+        "timezone": "America/Guatemala",
+        "latitude": 14.6351,
+        "longitude": -90.67654,
+        "bbox": [
+          -90.78827,
+          14.52699,
+          -90.56481,
+          14.74321
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-24T04:38:40-06:00"
+      },
+      "background": {
+        "id": "panoramax-meta-1ef71ab8-9d7e-45dd-90d5-28023f845c1d",
+        "file": "assets/backgrounds/bili-1240083845852692484-1ef71ab8.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "1ef71ab8-9d7e-45dd-90d5-28023f845c1d",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/607c9daf-23d9-47e5-a8d3-5a7797741421/items/1ef71ab8-9d7e-45dd-90d5-28023f845c1d",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/1e/f7/1a/b8/9d7e-45dd-90d5-28023f845c1d/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Santiago Sacatepéquez, Guatemala",
+        "timezone": "America/Guatemala",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2023-03-30T18:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 14.546,
+        "longitude": -90.72871
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "sleepy_grin",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1240083845852692484-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1240083845852692484-v1.png",
+        "generatedAt": "2026-08-24T12:19:39.196200Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the selected real Santiago Sacatepequez, Guatemala outdoor photograph remains photographic and readable under restrained 04:38 blue-hour grading; volcano, clouds, trees, trunk, lamp, wooden structures, fence, vehicles, boat, pool, lawn, tires, and planters remain present and unobstructed enough to preserve place context. The source is a truthful signless local-photo fallback and no sign was invented. Close-up 2D Komichi at image-right has correct hair clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, and a complete traffic-light pendant as the only neck accessory with no scarf. Both shoulders and two continuous upper arms are present and continue naturally outside the lower close-up crop; no partial or malformed hand/finger appears. No missing, fused, duplicated, floating, same-sided, hidden-without-cause, or abrupt anatomy; no extra generated character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-24T12:19:39.196200Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-24T12:28:40.194529Z",
+        "notes": "用户确认四个 awaiting_review 全部通过并发布"
+      },
+      "history": [],
+      "updatedAt": "2026-08-24T12:28:40.194529Z"
+    },
+    {
+      "id": "bili-1240103405127467027",
+      "status": "approved",
+      "createdAt": "2026-08-24T12:03:38.749935Z",
+      "source": {
+        "dynamicId": "1240103405127467027",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1240103405127467027",
+        "publishedTimestamp": 1787572474,
+        "publishedAtUtc": "2026-08-24T11:54:34Z",
+        "publishedAtBeijing": "2026-08-24T19:54:34+08:00",
+        "summary": "大家不用担心uid冒领问题，如果有的话，零号机会来确认冲突uid的地址信息，确保填写了的大家不会被冒领。小路也会尽自己所能多多核对相关信息，让小路泥拿到属于自己的礼物。如有特殊情况，小路需要发私信联系小路泥，也会在动态提醒大家记得查看，所以大家可以关注相关动态。 因为第一个月无法覆盖到所有舰长，所以没能用上航海回馈的方式收集信息，下个月开始会使用更好的方式＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "santa-ana-us-5392900",
+        "label": "Santa Ana, United States",
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.74557,
+        "longitude": -117.86783,
+        "bbox": [
+          -117.99784,
+          33.63746,
+          -117.73782,
+          33.85368
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-24T04:54:34-07:00"
+      },
+      "background": {
+        "id": "panoramax-meta-acca8e00-fe65-4189-a663-c2f02583a4cd",
+        "file": "assets/backgrounds/bili-1240103405127467027-acca8e00.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "acca8e00-fe65-4189-a663-c2f02583a4cd",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/14ea2dff-2d5f-4134-9a9c-0b7ff34d87aa/items/acca8e00-fe65-4189-a663-c2f02583a4cd",
+        "imageUrl": "https://panoramax.mapcomplete.org/derivatives/ac/ca/8e/00/fe65-4189-a663-c2f02583a4cd/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "mapcomplete, KelsonV",
+        "location": "Santa Ana, United States",
+        "timezone": "America/Los_Angeles",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-05-23T05:29:55+00:00",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": 97,
+        "viewSource": "provider_image_asset",
+        "latitude": 33.747002778,
+        "longitude": -117.814227778
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "close_up",
+        "poseFamily": "sleepy_grin",
+        "expression": "playful sleepy smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1240103405127467027-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1240103405127467027-v1.png",
+        "generatedAt": "2026-08-24T12:23:12.293975Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass after one targeted storefront-text restoration: the selected real Santa Ana, California storefront photograph remains photographic and readable under restrained 04:54 blue-hour grading; building, facade, palms, plants, lights, parking lines, and the original central storefront sign are visible and unobstructed. The sign now preserves the photographed lettering Rodrigo's and Mexican Grill without added or invented text; no road sign was falsely claimed or invented. Close-up 2D Komichi peeks from image-left with correct hair clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, and red scarf as the only neck accessory with no pendant. Both shoulders and two continuous upper arms are present and continue naturally outside the lower close-up crop; no partial or malformed hand/finger appears. No missing, fused, duplicated, floating, same-sided, hidden-without-cause, or abrupt anatomy; no extra generated character, caption, frame, logo overlay, or new watermark.",
+        "checkedAt": "2026-08-24T12:23:12.293975Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-24T12:28:40.266171Z",
+        "notes": "用户确认四个 awaiting_review 全部通过并发布"
+      },
+      "history": [],
+      "updatedAt": "2026-08-24T12:28:40.266171Z"
     }
   ]
 }
