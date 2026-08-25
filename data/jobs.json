@@ -4235,6 +4235,176 @@
       },
       "history": [],
       "updatedAt": "2026-08-24T12:28:40.266171Z"
+    },
+    {
+      "id": "bili-1239712137882894337",
+      "status": "approved",
+      "createdAt": "2026-08-23T12:02:24.155381Z",
+      "source": {
+        "dynamicId": "1239712137882894337",
+        "type": "DYNAMIC_TYPE_LIVE_RCMD",
+        "url": "https://www.bilibili.com/opus/1239712137882894337",
+        "publishedTimestamp": 1787481375,
+        "publishedAtUtc": "2026-08-23T10:36:15Z",
+        "publishedAtBeijing": "2026-08-23T18:36:15+08:00",
+        "summary": ""
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "san-lucas-sacatepequez-gt-3589852",
+        "label": "San Lucas Sacatepéquez, Guatemala",
+        "timezone": "America/Guatemala",
+        "latitude": 14.61075,
+        "longitude": -90.65681,
+        "bbox": [
+          -90.76853,
+          14.50264,
+          -90.54509,
+          14.71886
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-23T04:36:15-06:00"
+      },
+      "background": {
+        "id": "panoramax-meta-a440c026-c418-409c-bec7-f6c9d9b982dc",
+        "file": "assets/backgrounds/bili-1239712137882894337-a440c026.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "a440c026-c418-409c-bec7-f6c9d9b982dc",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/607c9daf-23d9-47e5-a8d3-5a7797741421/items/a440c026-c418-409c-bec7-f6c9d9b982dc",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/a4/40/c0/26/c418-409c-bec7-f6c9d9b982dc/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "San Lucas Sacatepéquez, Guatemala",
+        "timezone": "America/Guatemala",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2023-03-30T18:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": 14.546,
+        "longitude": -90.72871
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "lean_around_signpost",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1239712137882894337-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1239712137882894337-v1.png",
+        "generatedAt": "2026-08-25T13:25:48.718841Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass after one targeted tear-mole correction: the selected real signless San Lucas Sacatepequez vehicle-yard photograph remains photographic and readable under restrained 04:36 blue-hour grading; trucks, huts, grass, trees, mountain, sky, and the original small blue sign remain present and unobstructed, with no invented traffic sign. Knee-up/three-quarter 2D Komichi at image-right has correct hair clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, red scarf as the only neck accessory, canonical waist ornament, and a black pleated skirt clearly covering both kneecaps to upper calf. Exactly two continuous arms and two attached hands are plausible: the raised hand contacts the existing hut edge with post-caused natural digit overlap, and the lowered open hand has plausible thumb-and-finger structure; both wrists are continuous. Both legs continue naturally below the upper-calf crop. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-25T13:25:48.718841Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-25T18:46:54.971150Z",
+        "notes": "用户明确批准并要求提交。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-25T18:46:54.971150Z"
+    },
+    {
+      "id": "bili-1240410933334900742",
+      "status": "approved",
+      "createdAt": "2026-08-25T13:19:57.711458Z",
+      "source": {
+        "dynamicId": "1240410933334900742",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1240410933334900742",
+        "publishedTimestamp": 1787644076,
+        "publishedAtUtc": "2026-08-25T07:47:56Z",
+        "publishedAtBeijing": "2026-08-25T15:47:56+08:00",
+        "summary": "这条动态再说明一下，就这样，四时小路成功在一天内发了三条动态，可喜可贺可喜可贺＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "sinnamary-gf-3380290",
+        "label": "Sinnamary, French Guiana",
+        "timezone": "America/Cayenne",
+        "latitude": 5.37676,
+        "longitude": -52.95679,
+        "bbox": [
+          -53.06538,
+          5.26865,
+          -52.8482,
+          5.48487
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-25T04:47:56-03:00"
+      },
+      "background": {
+        "id": "panoramax-meta-3f130c62-3f76-49d2-a5b3-9a317e2bf1f0",
+        "file": "assets/backgrounds/bili-1240410933334900742-3f130c62.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "3f130c62-3f76-49d2-a5b3-9a317e2bf1f0",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/eaf2f274-c778-424d-9860-82465312ecb3/items/3f130c62-3f76-49d2-a5b3-9a317e2bf1f0",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/3f/13/0c/62/3f76-49d2-a5b3-9a317e2bf1f0/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Thomas IdGeo",
+        "location": "Sinnamary, French Guiana",
+        "timezone": "America/Cayenne",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2026-06-07T12:42:51.397000+00:00",
+        "trafficSignDetections": 1,
+        "signVisuallyConfirmed": true,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": 69,
+        "viewSource": "provider_image_asset",
+        "latitude": 5.3774034,
+        "longitude": -52.9559389
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "hold_warm_drink",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1240410933334900742-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1240410933334900742-v1.png",
+        "generatedAt": "2026-08-25T13:38:22.836715Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the selected real Sinnamary, French Guiana street photograph remains photographic and readable under restrained 04:47 blue-hour grading; road, houses, vehicles, trees, wires, poles, clouds, dashboard edge, and the visually confirmed real red STOP sign at image-right remain present, legible, unchanged, and unobstructed. Knee-up/three-quarter 2D Komichi at image-right has correct hair clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek, red scarf as the only neck accessory, canonical waist ornament, and a black pleated skirt clearly covering both kneecaps to upper calf. Exactly two continuous arms and two attached hands plausibly hold one cup with correct wrists and natural thumb-and-four-finger overlap; both legs continue naturally below the upper-calf crop. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no invented sign, extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-25T13:38:22.836715Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-25T18:47:03.469670Z",
+        "notes": "用户明确批准并要求提交。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-25T18:47:03.469670Z"
     }
   ]
 }
