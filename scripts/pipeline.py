@@ -44,6 +44,16 @@ AUTH_RECOVERY_CODES = frozenset(
 )
 AUTH_RECOVERY_TIMEOUT_SECONDS = 180
 AUTH_RECOVERY_POLL_INTERVAL_SECONDS = 2.0
+ACTIONABLE_JOB_STATUSES = frozenset(
+    {
+        "needs_location_resolution",
+        "pending_background",
+        "needs_background_review",
+        "pending_generation",
+    }
+)
+STALE_ACTIONABLE_AFTER_DAYS = 5
+STALE_ACTIONABLE_AFTER_SECONDS = STALE_ACTIONABLE_AFTER_DAYS * 24 * 60 * 60
 
 
 class PipelineError(RuntimeError):
@@ -1136,28 +1146,51 @@ def command_record_failure(args: argparse.Namespace) -> None:
     print(json.dumps({"jobId": job["id"], "status": job["status"], "qa": args.qa}, ensure_ascii=False, indent=2))
 
 
-def status_payload(jobs_doc: dict[str, Any]) -> dict[str, Any]:
-    counts = Counter(job.get("status", "unknown") for job in jobs_doc.get("jobs", []))
+def runtime_job_status(job: dict[str, Any], now: datetime) -> str:
+    stored_status = str(job.get("status") or "unknown")
+    if stored_status not in ACTIONABLE_JOB_STATUSES:
+        return stored_status
+    try:
+        published_timestamp = int(job.get("source", {}).get("publishedTimestamp"))
+    except (TypeError, ValueError):
+        return stored_status
+    if now.timestamp() - published_timestamp > STALE_ACTIONABLE_AFTER_SECONDS:
+        return "ignored_stale"
+    return stored_status
+
+
+def status_payload(
+    jobs_doc: dict[str, Any], *, now: datetime | None = None
+) -> dict[str, Any]:
+    effective_now = now or datetime.now(timezone.utc)
+    counts: Counter[str] = Counter()
     jobs: list[dict[str, Any]] = []
     for job in jobs_doc.get("jobs", []):
         output = job.get("output") or {}
         background = job.get("background") or {}
-        jobs.append(
-            {
-                "id": job["id"],
-                "status": job.get("status"),
-                "dynamicId": job.get("source", {}).get("dynamicId"),
-                "publishedAtBeijing": job.get("source", {}).get("publishedAtBeijing"),
-                "location": job.get("location", {}).get("label"),
-                "localTime": job.get("location", {}).get("localTimeAtDynamic"),
-                "mentionedLocation": job.get("mentionedLocation"),
-                "backgroundPath": str((REPO_ROOT / background["file"]).resolve()) if background.get("file") else None,
-                "candidateManifest": str((REPO_ROOT / job["candidateManifest"]).resolve()) if job.get("candidateManifest") else None,
-                "outputPath": output.get("absolutePath"),
-                "generation": job.get("generation"),
-                "agentQa": job.get("agentQa"),
-            }
-        )
+        stored_status = str(job.get("status") or "unknown")
+        effective_status = runtime_job_status(job, effective_now)
+        counts[effective_status] += 1
+        item = {
+            "id": job["id"],
+            "status": effective_status,
+            "dynamicId": job.get("source", {}).get("dynamicId"),
+            "publishedAtBeijing": job.get("source", {}).get("publishedAtBeijing"),
+            "location": job.get("location", {}).get("label"),
+            "localTime": job.get("location", {}).get("localTimeAtDynamic"),
+            "mentionedLocation": job.get("mentionedLocation"),
+            "backgroundPath": str((REPO_ROOT / background["file"]).resolve()) if background.get("file") else None,
+            "candidateManifest": str((REPO_ROOT / job["candidateManifest"]).resolve()) if job.get("candidateManifest") else None,
+            "outputPath": output.get("absolutePath"),
+            "generation": job.get("generation"),
+            "agentQa": job.get("agentQa"),
+        }
+        if effective_status == "ignored_stale":
+            item["storedStatus"] = stored_status
+            item["ignoredReason"] = (
+                f"dynamic_older_than_{STALE_ACTIONABLE_AFTER_DAYS}_days_without_output"
+            )
+        jobs.append(item)
     return {"counts": dict(counts), "jobs": jobs, "metadataPath": str(JOBS_PATH.resolve())}
 
 

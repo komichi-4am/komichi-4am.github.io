@@ -482,6 +482,50 @@ class PipelineTests(unittest.TestCase):
                 pipeline.command_sync(args)
             self.assertEqual(len(pipeline.read_json(jobs_path)["jobs"]), 2)
 
+    def test_status_ignores_actionable_job_only_after_five_days(self) -> None:
+        now = datetime(2026, 8, 25, 12, 0, tzinfo=timezone.utc)
+        exactly_five_days_old = int(now.timestamp()) - 5 * 24 * 60 * 60
+        older_than_five_days = exactly_five_days_old - 1
+        jobs_doc = {
+            "jobs": [
+                {
+                    "id": "still-actionable",
+                    "status": "pending_generation",
+                    "source": {"publishedTimestamp": exactly_five_days_old},
+                },
+                {
+                    "id": "ignored-old-job",
+                    "status": "pending_background",
+                    "source": {"publishedTimestamp": older_than_five_days},
+                },
+                {
+                    "id": "generated-old-job",
+                    "status": "awaiting_review",
+                    "source": {"publishedTimestamp": older_than_five_days},
+                },
+            ]
+        }
+
+        payload = pipeline.status_payload(jobs_doc, now=now)
+        by_id = {job["id"]: job for job in payload["jobs"]}
+
+        self.assertEqual(by_id["still-actionable"]["status"], "pending_generation")
+        self.assertEqual(by_id["ignored-old-job"]["status"], "ignored_stale")
+        self.assertEqual(by_id["ignored-old-job"]["storedStatus"], "pending_background")
+        self.assertEqual(
+            by_id["ignored-old-job"]["ignoredReason"],
+            "dynamic_older_than_5_days_without_output",
+        )
+        self.assertEqual(by_id["generated-old-job"]["status"], "awaiting_review")
+        self.assertEqual(
+            payload["counts"],
+            {
+                "pending_generation": 1,
+                "ignored_stale": 1,
+                "awaiting_review": 1,
+            },
+        )
+
     def test_backfill_missing_creates_seen_history_without_changing_cursor(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             temp = Path(directory)
