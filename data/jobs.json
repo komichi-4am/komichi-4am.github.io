@@ -4405,6 +4405,178 @@
       },
       "history": [],
       "updatedAt": "2026-08-25T18:47:03.469670Z"
+    },
+    {
+      "id": "bili-1240404374950248448",
+      "status": "approved",
+      "createdAt": "2026-08-25T13:19:57.706620Z",
+      "source": {
+        "dynamicId": "1240404374950248448",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1240404374950248448",
+        "publishedTimestamp": 1787642549,
+        "publishedAtUtc": "2026-08-25T07:22:29Z",
+        "publishedAtBeijing": "2026-08-25T15:22:29+08:00",
+        "summary": "昨天遇到一个占卜师和小路说在法属圭亚那的凌晨四点多发动态会有好事发生。 所以小路来和小路泥打招呼了~ 一边听着小路泥推荐的歌一边发放传单中，大家推荐了好多好安心，慢慢收听，快快工作＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "barra-da-tijuca-br-7290718",
+        "label": "Barra da Tijuca, Brazil",
+        "timezone": "America/Sao_Paulo",
+        "latitude": -22.99835,
+        "longitude": -43.36545,
+        "bbox": [
+          -43.48289,
+          -23.10646,
+          -43.24801,
+          -22.89024
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-25T04:22:29-03:00"
+      },
+      "background": {
+        "id": "panoramax-meta-a9ad8869-12b9-4260-81ea-30ed62fd577d",
+        "file": "assets/backgrounds/bili-1240404374950248448-a9ad8869.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "a9ad8869-12b9-4260-81ea-30ed62fd577d",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/14ea2dff-2d5f-4134-9a9c-0b7ff34d87aa/items/a9ad8869-12b9-4260-81ea-30ed62fd577d",
+        "imageUrl": "https://panoramax.mapcomplete.org/derivatives/a9/ad/88/69/12b9-4260-81ea-30ed62fd577d/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "mapcomplete, Raquel Dezidério Souto",
+        "location": "Barra da Tijuca, Brazil",
+        "timezone": "America/Sao_Paulo",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-04-18T15:28:22.970000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": true,
+        "signRequirementWaived": false,
+        "signRequirementWaivedReason": null,
+        "fieldOfView": 69,
+        "viewSource": "provider_image_asset",
+        "latitude": -23.03210095,
+        "longitude": -43.4711264
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "small_wave_by_sign",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1240404374950248448-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1240404374950248448-v1.png",
+        "generatedAt": "2026-08-26T12:06:42.095668Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the selected real Barra da Tijuca fish-shop photograph remains photographic and readable under restrained blue-hour grading; building, mountain, palms, people, motorcycles, pole, original storefront/menu lettering, and the visually confirmed circular E parking-regulation sign at far image-right remain visible, unchanged, and unobstructed. Environmental-wide full-body 2D Komichi at image-right has correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek and readable in the original-resolution face crop, red scarf as the only neck accessory, canonical waist ornament, and a black pleated skirt covering both kneecaps to upper calf. Exactly two continuous arms and two attached hands are plausible: the raised waving hand has one thumb plus four fingers and a continuous wrist; the lowered relaxed hand has plausible naturally grouped fingers with no fusion or duplication. Exactly two continuous legs and two complete grounded shoes support a balanced stance. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no invented sign, extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-26T12:06:42.095668Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-26T12:16:26.608478Z",
+        "notes": "用户确认两个当前候选全部通过并要求全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-26T12:16:26.608478Z"
+    },
+    {
+      "id": "bili-1240496368821207048",
+      "status": "approved",
+      "createdAt": "2026-08-25T13:19:57.715986Z",
+      "source": {
+        "dynamicId": "1240496368821207048",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1240496368821207048",
+        "publishedTimestamp": 1787663968,
+        "publishedAtUtc": "2026-08-25T13:19:28Z",
+        "publishedAtBeijing": "2026-08-25T21:19:28+08:00",
+        "summary": "听说人类十点钟之前睡觉是最健康的。 但是小路还要录音，所以提前和小路泥说晚安＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "adak",
+        "label": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "latitude": 51.9032,
+        "longitude": -176.6222,
+        "bbox": [
+          -176.7,
+          51.84,
+          -176.54,
+          51.96
+        ],
+        "providers": [],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-adak-national-forest",
+          "static-adak-residences",
+          "static-adak-abandoned-homes",
+          "static-adak-playground",
+          "static-adak-city-panorama"
+        ],
+        "localTimeAtDynamic": "2026-08-25T04:19:28-09:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-adak-abandoned-homes",
+        "file": "assets/backgrounds/bili-1240496368821207048-static-a.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-adak-abandoned-homes",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abandoned_homes_on_Adak_Island,_Alaska_(16665815472).jpg",
+        "imageUrl": null,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "creator": "Paxson Woelber",
+        "location": "Adak Island, Alaska, USA",
+        "timezone": "America/Adak",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2015-01-04T13:13:00-10:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "environmental_wide",
+        "poseFamily": "crossing_at_dawn",
+        "expression": "playful sleepy smile",
+        "placementSide": "right",
+        "neckAccessory": "traffic_light_pendant"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1240496368821207048-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1240496368821207048-v1.png",
+        "generatedAt": "2026-08-26T12:08:26.298478Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the checked-in real Adak abandoned-homes photograph remains photographic and readable under restrained 04:19 blue-hour grading; every house, roof, window, lamp post, grass patch, terrain contour, and sky remains present, with no invented sign. Environmental-wide full-body 2D Komichi at image-right has correct clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek and readable in the original-resolution face crop, a clearly present traffic-light pendant as the only neck accessory with no scarf, canonical waist ornament, and a black pleated skirt covering both kneecaps to upper calf. Exactly two continuous arms and two attached relaxed hands have plausible thumb-and-four-finger groupings and continuous wrists. Exactly two continuous legs and two complete shoes form a physically natural walking stride with one grounded support foot and one naturally lifted step. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-26T12:08:26.298478Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-26T12:16:26.691146Z",
+        "notes": "用户确认两个当前候选全部通过并要求全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-26T12:16:26.691146Z"
     }
   ]
 }
