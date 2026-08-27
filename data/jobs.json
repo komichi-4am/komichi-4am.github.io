@@ -4577,6 +4577,176 @@
       },
       "history": [],
       "updatedAt": "2026-08-26T12:16:26.691146Z"
+    },
+    {
+      "id": "bili-1240904764408987664",
+      "status": "approved",
+      "createdAt": "2026-08-27T12:02:43.184561Z",
+      "source": {
+        "dynamicId": "1240904764408987664",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1240904764408987664",
+        "publishedTimestamp": 1787759055,
+        "publishedAtUtc": "2026-08-26T15:44:15Z",
+        "publishedAtBeijing": "2026-08-26T23:44:15+08:00",
+        "summary": "小路泥，脑死了，直接睡了，拜拜+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "ha-atu-a-to-13527027",
+        "label": "Ha'atu'a, Tonga",
+        "timezone": "Pacific/Tongatapu",
+        "latitude": -21.37662,
+        "longitude": -174.95465,
+        "bbox": [
+          -175.07074,
+          -21.48473,
+          -174.83856,
+          -21.26851
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-27T04:44:15+13:00"
+      },
+      "background": {
+        "id": "panoramax-meta-40d967a0-e419-4980-80a3-5cc65233e686",
+        "file": "assets/backgrounds/bili-1240904764408987664-40d967a0.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "40d967a0-e419-4980-80a3-5cc65233e686",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/36f49cd7-a315-40c0-9bd3-e683a56c3639/items/40d967a0-e419-4980-80a3-5cc65233e686",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/40/d9/67/a0/e419-4980-80a3-5cc65233e686/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "p4n-pics",
+        "location": "Ha'atu'a, Tonga",
+        "timezone": "Pacific/Tongatapu",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-09-11T23:00:00+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": null,
+        "viewSource": "provider_image_asset",
+        "latitude": -21.33596,
+        "longitude": -174.9508
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "knee_up",
+        "poseFamily": "lean_around_signpost",
+        "expression": "mischievous four-o'clock grin",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1240904764408987664-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1240904764408987664-v1.png",
+        "generatedAt": "2026-08-27T12:15:34.808151Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real signless Ha'atu'a, Tonga grass, palms, fence, wall, red shed, sky, and photographic texture remain readable under restrained 04:44 blue-hour grading; no sign was invented. Knee-up 2D Komichi at image-left leans around an existing fence post with exactly two vertically stacked viewer-right tear moles, correct clips, red scarf as the sole neck accessory, canonical waist ornament, and skirt hem below both kneecaps to upper calf. The visible gripping hand has plausible thumb-and-four-finger structure and a continuous wrist; the other arm/hand and one leg are naturally occluded by the wide existing post with coherent body continuation, while the visible leg continues naturally below the upper-calf crop. No fused, duplicated, floating, reversed, same-sided, or abruptly truncated anatomy; no extra character, text, frame, or new watermark.",
+        "checkedAt": "2026-08-27T12:15:34.808151Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-27T15:30:18.219689Z",
+        "notes": "用户确认那两个 awaiting_review 全部通过并全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-27T15:30:18.219689Z"
+    },
+    {
+      "id": "bili-1241097114535067650",
+      "status": "approved",
+      "createdAt": "2026-08-27T12:02:43.199189Z",
+      "source": {
+        "dynamicId": "1241097114535067650",
+        "type": "DYNAMIC_TYPE_FORWARD",
+        "url": "https://www.bilibili.com/opus/1241097114535067650",
+        "publishedTimestamp": 1787803840,
+        "publishedAtUtc": "2026-08-27T04:10:40Z",
+        "publishedAtBeijing": "2026-08-27T12:10:40+08:00",
+        "summary": "周日的联动公开咯，谢谢吉吉带小路玩＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "nalerigu-gh-2297661",
+        "label": "Nalerigu, Ghana",
+        "timezone": "Africa/Accra",
+        "latitude": 10.52726,
+        "longitude": -0.36982,
+        "bbox": [
+          -0.47978,
+          10.41915,
+          -0.25986,
+          10.63537
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-27T04:10:40+00:00"
+      },
+      "background": {
+        "id": "panoramax-meta-1a063293-d4b3-43c0-9f6c-e1c0cb1c9375",
+        "file": "assets/backgrounds/bili-1241097114535067650-1a063293.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "1a063293-d4b3-43c0-9f6c-e1c0cb1c9375",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/66f70207-88f6-43ee-b909-304220f16572/items/1a063293-d4b3-43c0-9f6c-e1c0cb1c9375",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/1a/06/32/93/d4b3-43c0-9f6c-e1c0cb1c9375/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Nzau",
+        "location": "Nalerigu, Ghana",
+        "timezone": "Africa/Accra",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-02-15T16:25:04.852000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 360,
+        "viewSource": "provider_perspective_thumbnail",
+        "latitude": 10.497412,
+        "longitude": -0.340597
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "walking_look_back",
+        "expression": "playful sleepy smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1241097114535067650-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1241097114535067650-v1.png",
+        "generatedAt": "2026-08-27T12:15:34.968535Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real signless Nalerigu, Ghana path, grass, trees, fence, lamp pole, and photographic texture remain readable under restrained 04:10 blue-hour grading; no sign was invented. Full-body 2D Komichi at image-left has correct clips, exactly two separate vertically stacked viewer-right tear moles, red scarf as the sole neck accessory, canonical waist ornament, and a black pleated skirt covering both kneecaps to upper calf. Exactly two continuous arms and two attached open hands have plausible visible thumbs/fingers and continuous wrists; exactly two continuous legs and two complete shoes form a balanced walking step with one grounded and one naturally lifted foot. No missing, fused, duplicated, floating, reversed, same-sided, or truncated anatomy; no extra character, text, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-27T12:15:34.968535Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-27T15:30:18.288156Z",
+        "notes": "用户确认那两个 awaiting_review 全部通过并全部发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-27T15:30:18.288156Z"
     }
   ]
 }
