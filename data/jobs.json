@@ -4747,6 +4747,180 @@
       },
       "history": [],
       "updatedAt": "2026-08-27T15:30:18.288156Z"
+    },
+    {
+      "id": "bili-1241293334413049863",
+      "status": "approved",
+      "createdAt": "2026-08-28T12:03:23.347841Z",
+      "source": {
+        "dynamicId": "1241293334413049863",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1241293334413049863",
+        "publishedTimestamp": 1787849526,
+        "publishedAtUtc": "2026-08-27T16:52:06Z",
+        "publishedAtBeijing": "2026-08-28T00:52:06+08:00",
+        "summary": "谢谢大家陪我玩港诡，虽然晕3d要玩第二轮了。 也希望你们喜欢小路的故事，大家害怕滴不要，小路保护你们。​ 不过休息对小路来说很重要，已歇菜+"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "suva",
+        "label": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "latitude": -18.1248,
+        "longitude": 178.4501,
+        "bbox": [
+          178.39,
+          -18.18,
+          178.51,
+          -18.07
+        ],
+        "providers": [
+          "panoramax-osm"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [
+          "static-suva-street-2017",
+          "static-suva-renwick-road",
+          "static-suva-cumming-street",
+          "static-suva-street-12",
+          "static-suva-street-46"
+        ],
+        "localTimeAtDynamic": "2026-08-28T04:52:06+12:00"
+      },
+      "background": {
+        "id": "wikimedia-commons-static-suva-street-2017",
+        "file": "assets/backgrounds/bili-1241293334413049863-static-s.jpg",
+        "provider": "Wikimedia Commons",
+        "sourceId": "static-suva-street-2017",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suva_Fiji_Aug2017.jpg",
+        "imageUrl": null,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Ftaaffe",
+        "location": "Suva, Fiji",
+        "timezone": "Pacific/Fiji",
+        "coordinatesOmitted": true,
+        "staticFallback": true,
+        "capturedAt": "2017-08-02T11:52:20",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "no_covered_street_photo_timezone",
+        "fieldOfView": null,
+        "viewSource": "local_static_asset"
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "walking_look_back",
+        "expression": "curious bright smile",
+        "placementSide": "right",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1241293334413049863-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1241293334413049863-v1.png",
+        "generatedAt": "2026-08-28T12:10:03.951116Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the checked-in real Suva, Fiji street photograph remains photographic and readable under restrained 04:52 blue-hour grading; wet street, buildings, trees, poles, cables, buses, cars, pedestrians, original storefront elements, and the real blue P / PAY HERE parking sign remain visible and unobstructed, with no invented sign. Full-body 2D Komichi at image-right has correct hair clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek and readable in the original-resolution face crop, red scarf as the only neck accessory with no pendant, canonical waist ornament, and a black pleated skirt covering both kneecaps to upper calf. Exactly two continuous arms and two attached relaxed hands have plausible visible fingers and continuous wrists; exactly two continuous legs and two complete shoes form a balanced walking step with one grounded and one naturally lifted foot. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra generated character, caption, frame, logo, or new watermark.",
+        "checkedAt": "2026-08-28T12:10:03.951116Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-28T16:30:57.437307Z",
+        "notes": "用户明确确认两个新 awaiting_review 图片通过并要求发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-28T16:30:57.437307Z"
+    },
+    {
+      "id": "bili-1241487011664101399",
+      "status": "approved",
+      "createdAt": "2026-08-28T12:03:23.353422Z",
+      "source": {
+        "dynamicId": "1241487011664101399",
+        "type": "DYNAMIC_TYPE_DRAW",
+        "url": "https://www.bilibili.com/opus/1241487011664101399",
+        "publishedTimestamp": 1787894620,
+        "publishedAtUtc": "2026-08-28T05:23:40Z",
+        "publishedAtBeijing": "2026-08-28T13:23:40+08:00",
+        "summary": "又去佛得角了。 昨天玩得好开心，但是今天一觉醒来嗓子寄了，现在可以发出人生有史以来最低音的程度。希望明天歌回之前能好[保卫萝卜_哭哭] 以后大概如果要玩3d恐怖游戏的话控制在2h左右应该能不晕，然后2d和3d穿插着玩吧！另外以后还想再和大家讲恐怖故事！ 以及表情包用不了的bug大概是b站的问题，小路将去拷打阿b客服[FGO_跪][FGO_跪][FGO_跪]＋"
+      },
+      "mentionedLocation": null,
+      "location": {
+        "id": "tarrafal-cv-3374166",
+        "label": "Tarrafal, Cabo Verde",
+        "timezone": "Atlantic/Cape_Verde",
+        "latitude": 15.27881,
+        "longitude": -23.75192,
+        "bbox": [
+          -23.86399,
+          15.1707,
+          -23.63985,
+          15.38692
+        ],
+        "providers": [
+          "panoramax-meta"
+        ],
+        "staticCandidates": [],
+        "staticBackgroundIds": [],
+        "localTimeAtDynamic": "2026-08-28T04:23:40-01:00"
+      },
+      "background": {
+        "id": "panoramax-meta-057e4720-cda0-4f4d-a384-8b492414d824",
+        "file": "assets/backgrounds/bili-1241487011664101399-057e4720.jpg",
+        "provider": "Panoramax Federated Catalog",
+        "sourceId": "057e4720-cda0-4f4d-a384-8b492414d824",
+        "sourceUrl": "https://api.panoramax.xyz/api/collections/284f2f06-d58e-4c1c-949b-bc6e77172784/items/057e4720-cda0-4f4d-a384-8b492414d824",
+        "imageUrl": "https://panoramax.openstreetmap.fr/derivates/05/7e/47/20/cda0-4f4d-a384-8b492414d824/sd.jpg",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": "Pfabing",
+        "location": "Tarrafal, Cabo Verde",
+        "timezone": "Atlantic/Cape_Verde",
+        "coordinatesOmitted": false,
+        "staticFallback": false,
+        "capturedAt": "2025-01-28T17:00:25.385000+00:00",
+        "trafficSignDetections": 0,
+        "signVisuallyConfirmed": false,
+        "signRequirementWaived": true,
+        "signRequirementWaivedReason": "sign_preference_fallback",
+        "fieldOfView": 72,
+        "viewSource": "provider_image_asset",
+        "latitude": 15.278630556,
+        "longitude": -23.751852778
+      },
+      "generation": {
+        "promptVersion": "komichi-composite-v4-place-first",
+        "revision": 1,
+        "shotScale": "full_body",
+        "poseFamily": "walking_look_back",
+        "expression": "curious bright smile",
+        "placementSide": "left",
+        "neckAccessory": "red_scarf"
+      },
+      "output": {
+        "revision": 1,
+        "file": "assets/generated/bili-1241487011664101399-v1.png",
+        "absolutePath": "/Users/zhang-ge-hao/codex-project/video-making/komichi-4am.github.io/assets/generated/bili-1241487011664101399-v1.png",
+        "generatedAt": "2026-08-28T12:12:19.646680Z"
+      },
+      "agentQa": {
+        "status": "preflight_pass",
+        "notes": "Agent strict preflight pass: the real Tarrafal, Cabo Verde tourist-information photograph remains photographic and readable under restrained 04:23 blue-hour grading; kiosk, wood, windows, maps/posters, trees, flowers, mountain, cobblestones, building, hedge, seated real person, sponsor panel, and the large photographed INFORMAÇÃO TURÍSTICA lettering remain present and unobstructed. The source is a truthful signless local-photo fallback and no road/traffic sign was invented. Full-body 2D Komichi at image-left has correct hair clips, exactly two separate dark tear moles vertically stacked on the viewer-right cheek and readable in the original-resolution face crop, red scarf as the only neck accessory with no pendant, canonical waist ornament, and a black pleated skirt covering both kneecaps to upper calf. Exactly two continuous arms and two attached relaxed hands have plausible visible fingers and continuous wrists; exactly two continuous legs and two complete shoes form a balanced walking step with natural ground contact. No missing, fused, duplicated, floating, reversed, same-sided, hidden-without-cause, or unnaturally truncated anatomy; no extra generated character, caption, frame, logo overlay, or new watermark.",
+        "checkedAt": "2026-08-28T12:12:19.646680Z"
+      },
+      "humanReview": {
+        "decision": "approved",
+        "decidedAt": "2026-08-28T16:30:57.507578Z",
+        "notes": "用户明确确认两个新 awaiting_review 图片通过并要求发布。"
+      },
+      "history": [],
+      "updatedAt": "2026-08-28T16:30:57.507578Z"
     }
   ]
 }
